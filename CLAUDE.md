@@ -133,7 +133,7 @@ node scripts/strip-images.mjs # 剥离图片引用
 
 ## 当前状态
 
-- 47 prompts · 78 静态页面 · 121 图片（从 docx 提取，build 复制到 dist/）
+- 56 prompts · 87 静态页面 · 121 图片（从 docx 提取，build 复制到 dist/）
 - 21/21 测试通过 · 6/6 smoke 通过 · 0 build warnings
 - HEAD 在 main 上可推送部署
 

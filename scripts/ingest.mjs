@@ -25,8 +25,25 @@ export async function ingestOne({ relativePath, sourceDir, outDir, archiveDir })
     const result = await parseDocx(srcPath, slug);
     markdown = result.markdown;
   } else if (ext === 'xlsx') {
-    const result = await parseXlsx(relativePath);
-    markdown = result.markdown;
+    // parseXlsx returns one entry per non-empty row of the table;
+    // each row becomes its own .md file with its own slug.
+    const results = await parseXlsx(srcPath);
+    for (const r of results) {
+      await writePrompt({
+        slug: r.slug,
+        title: r.title,
+        category: r.category,
+        tags: r.tags,
+        source: ext,
+        date: stat.mtime,
+        markdown: r.markdown,
+        outDir,
+      });
+    }
+    // Copy archive for the source xlsx (named after the original file)
+    await fs.mkdir(archiveDir, { recursive: true });
+    await fs.copyFile(srcPath, path.join(archiveDir, `${slug}.${ext}`));
+    return;
   } else {
     throw new Error(`unsupported extension: ${ext}`);
   }

@@ -17,14 +17,6 @@ date: 2026-08-14
 
 lovart（作图工具）：https://www\.lovart\.ai/
 
-## 4.教程部分：
-
-视频教程：
-
-小红书链接：
-
-28 【为什么你的IP无法系列化？试试这套方法 \- 小黄的AI日记 | 小红书 \- 你的生活兴趣社区】 😆 Wsf2H7NP6FPwkCP 😆 https://www\.xiaohongshu\.com/discovery/item/6a4de909000000002200ba0b?source=webshare&xhsshare=pc\_web&xsec\_token=ABWoPswVu8MWFpjcgsnS9aoP\_xR99OOOVUtfdsHSlumMg=&xsec\_source=pc\_share
-
 ## 1.生成角色草图
 
 ![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/52dc46bd3a2d1bb6.png)

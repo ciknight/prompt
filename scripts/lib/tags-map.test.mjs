@@ -3,12 +3,14 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { TAGS_MAP, resolveTags } from './tags-map.mjs';
 
-test('TAGS_MAP covers all 47 files', async () => {
+test('TAGS_MAP covers all 46 source files', async () => {
   const { SLUG_MAP } = await import('./slug-map.mjs');
   for (const filename of Object.keys(SLUG_MAP)) {
     assert.ok(TAGS_MAP[filename], `${filename} has no tags mapping`);
   }
-  assert.ok(Object.keys(TAGS_MAP).length >= 47);
+  // 46 = 47 source files minus the xlsx table (which assigns tags
+  // per-row inside parseXlsx and no longer uses TAGS_MAP).
+  assert.ok(Object.keys(TAGS_MAP).length >= 46);
 });
 
 test('every file has 3-6 tags', () => {

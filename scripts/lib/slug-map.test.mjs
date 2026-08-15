@@ -2,8 +2,10 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { SLUG_MAP, resolveSlug } from './slug-map.mjs';
 
-test('SLUG_MAP contains all 47 source files', () => {
-  assert.ok(Object.keys(SLUG_MAP).length >= 47);
+test('SLUG_MAP contains all 46 source files', () => {
+  // 46 = 47 source files minus the xlsx table (which is split per row
+  // by parseXlsx and no longer goes through resolveSlug).
+  assert.ok(Object.keys(SLUG_MAP).length >= 46);
 });
 
 test('resolveSlug returns canonical slug for known file', () => {

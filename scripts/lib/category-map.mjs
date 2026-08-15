@@ -83,7 +83,6 @@ export const CATEGORY_MAP = {
   '实战/古风ai短剧提示词和教程.txt': '动画短片',
   '实战/好莱坞风格短剧提示词和教程.txt': '动画短片',
   '实战/10种热门AI修图玩法教程和提示词.docx': '动画短片',
-  '实战/提示词 实战 提示词持续更新表格.xlsx': '动画短片',
 };
 
 export function resolveCategory(filename) {

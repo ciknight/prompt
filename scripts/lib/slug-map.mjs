@@ -53,7 +53,6 @@ export const SLUG_MAP = {
   '实战/好莱坞风格短剧提示词和教程.txt': 'haolaiwu-fengge-duanju',
   '实战/字体材质1提示词和教程.docx': 'ziti-caizhi-1',
   '实战/布料拼接字体材质4提示词和教程.docx': 'buliao-pinjie-ziti-4',
-  '实战/提示词 实战 提示词持续更新表格.xlsx': 'shizhan-biaoge',
   '实战/角色微表情提示词.txt': 'juese-wei-biaoqing',
   '实战/角色微表情提示词3.txt': 'juese-wei-biaoqing-3',
   '实战/（烘焙）字体材质2提示词和教程.docx': 'hongbei-ziti-caizhi-2',
