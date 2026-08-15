@@ -6,7 +6,7 @@ slug: hero-fallback-comedy
 source: awesome-video-prompts
 date: 2026-08-15
 author: "RION WU"
-source_url: "https://twitter.com/rionaifantasy/status/2034249765215777003"
+source_url: "https://x.com/rionaifantasy/status/2034249765215777003"
 model: "seedance2"
 ---
 

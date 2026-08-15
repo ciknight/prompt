@@ -6,7 +6,7 @@ slug: boxing-match-seedance
 source: awesome-video-prompts
 date: 2026-08-15
 author: "MrLarus"
-source_url: "https://twitter.com/MrLarus/status/2050872313810198741"
+source_url: "https://x.com/MrLarus/status/2050872313810198741"
 model: "seedance2"
 ---
 

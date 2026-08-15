@@ -6,7 +6,7 @@ slug: seedance-chinese-immortal-calligraphy
 source: awesome-video-prompts
 date: 2026-08-15
 author: "John"
-source_url: "https://twitter.com/johnAGI168/status/2035341530827825477"
+source_url: "https://x.com/johnAGI168/status/2035341530827825477"
 model: "seedance2"
 ---
 

@@ -6,7 +6,7 @@ slug: seedance-lovart
 source: awesome-video-prompts
 date: 2026-08-15
 author: "MapleShaw"
-source_url: "https://twitter.com/msjiaozhu/status/2040738604188623155"
+source_url: "https://x.com/msjiaozhu/status/2040738604188623155"
 model: "seedance2"
 ---
 

@@ -6,7 +6,7 @@ slug: school-fight-sequence
 source: awesome-video-prompts
 date: 2026-08-15
 author: "John"
-source_url: "https://twitter.com/johnAGI168/status/2059620330499412415"
+source_url: "https://x.com/johnAGI168/status/2059620330499412415"
 model: "seedance2"
 ---
 
