@@ -28,3 +28,4 @@ test('scanSourceRepo finds all .md under content/prompts/', async () => {
   assert.equal(results.length, 1);
   assert.equal(results[0].slug, 'sample-volcanic');
 });
+
