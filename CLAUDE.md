@@ -55,7 +55,7 @@ docs/superpowers/
 - **所有 prompt 都收集自互联网，不是原创**（`src/pages/about.astro` 有完整声明）
 - **不要实现** "下载原文件" 功能（spec §1.3 禁止）
 - **不要实现** "复制 prompt" 按钮（user 主动取消过）
-- **不要**展示原作者的演示图片 → `parseDocx.mjs` 不提供 `convertImage` 回调，不写图片到磁盘
+- docx 内嵌图片会被提取并展示（`parseDocx.mjs` 提供 `convertImage` 回调，内容哈希命名，写到 `public/content/prompts/images/<slug>/images/`，build 时由 Astro 复制到 `dist/`）
 
 ### 2. URL 用拼音 slug，**不用中文**
 - category slug 在 `scripts/lib/category-map.mjs` 的 `CATEGORY_SLUGS` 映射
@@ -109,8 +109,6 @@ node scripts/strip-images.mjs # 剥离图片引用
 
 ## 不要做
 
-- ❌ 启用图像提取（`parseDocx.mjs` 不调用 `convertImage`）
-- ❌ 提取 docx 的图片到 `public/content/prompts/images/`
 - ❌ 用 `${encodeURIComponent(name)}` 生成 category URL（应用 `categorySlug(name)`）
 - ❌ 在 `.astro` 文件中硬编码路径（用 `baseUrl()`）
 - ❌ 把"Prompt 作品集"作为站点名（应用 "AI 提示词收藏"）
@@ -135,8 +133,8 @@ node scripts/strip-images.mjs # 剥离图片引用
 
 ## 当前状态
 
-- 47 prompts · 78 静态页面 · 121 图片已剥离（不部署）
-- 24/24 测试通过 · 6/6 smoke 通过 · 0 build warnings
+- 47 prompts · 78 静态页面 · 121 图片（从 docx 提取，build 复制到 dist/）
+- 21/21 测试通过 · 6/6 smoke 通过 · 0 build warnings
 - HEAD 在 main 上可推送部署
 
 ## 详细文档
