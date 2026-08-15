@@ -10,7 +10,7 @@ source_url: "https://x.com/ozuozuai99/status/2065679162124509465"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/anime-cooking-seedance/images/cover.jpg)
+![](/content/prompts/images/anime-cooking-seedance/images/cover.jpg)
 
 请根据提供的分镜参考图，制作一段15秒的高品质2D动漫料理视频。
 

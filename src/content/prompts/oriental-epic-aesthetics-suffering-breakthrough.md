@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2023039043227763096"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/oriental-epic-aesthetics-suffering-breakthrough/images/cover.jpg)
+![](/content/prompts/images/oriental-epic-aesthetics-suffering-breakthrough/images/cover.jpg)
 
 东方玄幻史诗美学(Oriental Epic Aesthetics)。8K电影级画质。核心叙事逻辑：苦行(Suffering) -> 破局(Breakthrough) -> 封神(Divinity)。利用“暴风雪”与“金顶日出”的极端光影反差，表现人物从渺小到伟大的瞬间升华。
 

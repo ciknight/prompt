@@ -10,7 +10,7 @@ source_url: "https://x.com/msjiaozhu/status/2040738604188623155"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/seedance-lovart/images/cover.jpg)
+![](/content/prompts/images/seedance-lovart/images/cover.jpg)
 
 ## 项目概述
 

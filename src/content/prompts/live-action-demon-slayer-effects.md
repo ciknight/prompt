@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2021786934536740871"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/live-action-demon-slayer-effects/images/cover.jpg)
+![](/content/prompts/images/live-action-demon-slayer-effects/images/cover.jpg)
 
 【风格】好莱坞真人特效大片(Hollywood Live-Action Blockbuster)，IMAX电影画质，8K超清，真实摄影(Photorealistic)，暗黑奇幻(Dark Fantasy)，虚幻引擎5写实渲染，无动漫感。
 

@@ -11,7 +11,7 @@ AI使用工具：lovart（需梯子）
 
 lovart（作图工具）：https://www\.lovart\.ai/
 
-![](/prompt/content/prompts/images/huang-genlab-pinpai/images/aba52e31746bc18f.png)
+![](/content/prompts/images/huang-genlab-pinpai/images/aba52e31746bc18f.png)
 
 ### 教程
 
@@ -19,7 +19,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 参考图logo
 
-![](/prompt/content/prompts/images/huang-genlab-pinpai/images/4e901c75db75fdb7.png)
+![](/content/prompts/images/huang-genlab-pinpai/images/4e901c75db75fdb7.png)
 
 先生成第一张图，图形logo是（参考logo）
 
@@ -127,5 +127,5 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 右侧使用完整但克制的3D品牌装置作为收尾视觉：蓝色圆润H形logo主体，右上角小圆点完整保留；搭配透明玻璃模块、亚克力卡片、蓝色科技球体、荧光绿几何体、橙色软胶模块、粉色玻璃片、毛绒球体、点阵面板、蓝色网格底座。整体构图稳重、干净、完整，有结束封面的感觉。右上角加入 **13 / 24**，底部加入 **Brand Visual Manual / 2026 Edition**。高清4K，文字清晰不乱码，不要水印，不要噪点。
 
-![](/prompt/content/prompts/images/huang-genlab-pinpai/images/aba52e31746bc18f.png)
+![](/content/prompts/images/huang-genlab-pinpai/images/aba52e31746bc18f.png)
 

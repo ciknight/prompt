@@ -10,7 +10,7 @@ source_url: "https://x.com/john87445528/status/2063236007751725565"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/iphone-handheld-night-cooking/images/cover.jpg)
+![](/content/prompts/images/iphone-handheld-night-cooking/images/cover.jpg)
 
 以未经处理的iPhone手持竖屏/横屏混合视频素材风格呈现，所有相机设置均为自动，无任何后期调色或特效。画面带有真实的操作者呼吸感、轻微不规则手持抖动、自动对焦搜索与短暂失焦、自动白平衡随厨房灯光自然漂移。图像整体平坦且略显泛白，保留真实的镜头光晕、轻微运动模糊、边缘压缩感等手机拍摄质感。仅使用画内自然环境音效（冰箱电机声、沸腾声、菜刀声、油溅声、蒸汽声、赤脚踩地板声、布料摩擦声、夜晚寂静），无BGM、无台词、无字幕、无文字。所有镜头均变换画角和角度，避免单调。采用真实生活碎片手持拍摄风格。 服装：成年女性
 穿着参考图中的银色闪亮链条流苏吊带连体衣

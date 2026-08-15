@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2029851048899178676"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/calico-cat-basketball-shot/images/cover.jpg)
+![](/content/prompts/images/calico-cat-basketball-shot/images/cover.jpg)
 
 /imagine
 

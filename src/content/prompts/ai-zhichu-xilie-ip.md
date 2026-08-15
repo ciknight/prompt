@@ -11,7 +11,7 @@ date: 2026-08-14
 
 （AI生成仅供参考）
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/db7c23c06c6b1013.png)
+![](/content/prompts/images/ai-zhichu-xilie-ip/images/db7c23c06c6b1013.png)
 
 ## 3.AI使用工具：lovart
 
@@ -19,7 +19,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 1.生成角色草图
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/52dc46bd3a2d1bb6.png)
+![](/content/prompts/images/ai-zhichu-xilie-ip/images/52dc46bd3a2d1bb6.png)
 
 ### 提示词
 
@@ -170,7 +170,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 2.提取单个角色
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/c449de18a6a561d6.png)
+![](/content/prompts/images/ai-zhichu-xilie-ip/images/c449de18a6a561d6.png)
 
 ### 提示词
 
@@ -178,7 +178,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 3.平面转3d
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/1563ba8d7e0a6053.png)
+![](/content/prompts/images/ai-zhichu-xilie-ip/images/1563ba8d7e0a6053.png)
 
 ### 提示词
 
@@ -358,7 +358,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 4.IP大透视延展
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/dd166ac079b4610b.png)
+![](/content/prompts/images/ai-zhichu-xilie-ip/images/dd166ac079b4610b.png)
 
 ### 提示词
 
@@ -366,7 +366,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 5.角色分别的小场景提示词
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/1e5f867667042667.jpg)
+![](/content/prompts/images/ai-zhichu-xilie-ip/images/1e5f867667042667.jpg)
 
 1）河马 ——「严肃维修值班室」
 

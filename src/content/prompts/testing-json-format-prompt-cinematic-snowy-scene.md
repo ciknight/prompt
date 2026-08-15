@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2025579362934767637"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/testing-json-format-prompt-cinematic-snowy-scene/images/cover.jpg)
+![](/content/prompts/images/testing-json-format-prompt-cinematic-snowy-scene/images/cover.jpg)
 
 {
 "visual_world": {

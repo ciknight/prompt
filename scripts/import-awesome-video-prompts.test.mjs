@@ -48,7 +48,7 @@ test('runImport copies cover.jpg and emits markdown', async () => {
     assert.match(md, /^source_url: "https:\/\/x\.com\/TestAuthor\/status\/123"/m);
     assert.match(md, /^model: "seedance2"/m);
     assert.match(md, /tags: \["电影感"\]/);
-    assert.match(md, /!\[\]\(\/prompt\/content\/prompts\/images\/sample-volcanic\/images\/cover\.jpg\)/);
+    assert.match(md, /!\[\]\(\/content\/prompts\/images\/sample-volcanic\/images\/cover\.jpg\)/);
     assert.match(md, /火山喷发的测试 prompt/);
 
     const cover = await fs.stat(path.join(tmpRoot, 'public/content/prompts/images/sample-volcanic/images/cover.jpg'));

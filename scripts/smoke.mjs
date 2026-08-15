@@ -78,7 +78,7 @@ async function run() {
         if (c.expectCategoryCount) {
           // Astro uses root-absolute paths with `base` prefix; base prefix gets
           // prepended at build time (we now use BASE_URL-aware links).
-          const matches = html.match(/href="\/prompt\/category\//g) || [];
+          const matches = html.match(/href="\/category\//g) || [];
           if (matches.length < c.expectCategoryCount) {
             throw new Error(`only ${matches.length} category links, want ≥${c.expectCategoryCount}`);
           }

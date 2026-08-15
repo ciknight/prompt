@@ -106,7 +106,7 @@ source_url: ${yamlEscape(c.source_url)}
 model: ${yamlEscape(c.model)}
 ---
 
-![](/prompt/content/prompts/images/${c.slug}/images/cover.jpg)
+![](/content/prompts/images/${c.slug}/images/cover.jpg)
 
 ${c.description}
 `;

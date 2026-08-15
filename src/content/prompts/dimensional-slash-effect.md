@@ -10,7 +10,7 @@ source_url: "https://x.com/TechTalkNAVI/status/2040740135860617499"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/dimensional-slash-effect/images/cover.jpg)
+![](/content/prompts/images/dimensional-slash-effect/images/cover.jpg)
 
 {
 "effect_analysis": {

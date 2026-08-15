@@ -10,7 +10,7 @@ source_url: "https://x.com/WolfRiccardo/status/2043108674118332783"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/90s-fantasy-orc-battle/images/cover.jpg)
+![](/content/prompts/images/90s-fantasy-orc-battle/images/cover.jpg)
 
 风格：90年代电影质感，胶片颗粒，史诗奇幻战争，强烈电影运镜，超真实，16:9，120fps，anamorphic lens，戏剧性光影，史诗级音画氛围。
 

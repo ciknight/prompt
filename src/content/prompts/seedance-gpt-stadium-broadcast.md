@@ -10,7 +10,7 @@ source_url: "https://x.com/berryxia/status/2054191679494824373"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/seedance-gpt-stadium-broadcast/images/cover.jpg)
+![](/content/prompts/images/seedance-gpt-stadium-broadcast/images/cover.jpg)
 
 超写实体育赛事转播画面抓拍：夜色下的足球赛场座无虚席，一位气质明艳的女性置身观众人群中。
 

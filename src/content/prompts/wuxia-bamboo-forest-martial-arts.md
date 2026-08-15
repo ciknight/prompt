@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2020336711381795058"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/wuxia-bamboo-forest-martial-arts/images/cover.jpg)
+![](/content/prompts/images/wuxia-bamboo-forest-martial-arts/images/cover.jpg)
 
 【导演风格】：胡金铨 (King Hu) 风格，武侠电影美学，70年代胶片质感，京剧身段，禅意，留白。
 【场景描述】：竹林深处，晨雾缭绕，一位武士静立于古桥之上，手持长剑，剑身反射着晨光。远处山峦叠翠，飞瀑如练。武士身着传统汉服，动作优雅而充满力量感，眼神坚定而深邃。

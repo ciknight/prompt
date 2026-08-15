@@ -11,7 +11,7 @@ date: 2026-08-14
 
 （AI生成仅供参考）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/e641fd03c5147c6f.png)
+![](/content/prompts/images/ai-zhichu-quantao-ip/images/e641fd03c5147c6f.png)
 
  
 
@@ -25,7 +25,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 1.生成角色四视图（使用工具：lovart）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/fcce58f976c6dc94.png)
+![](/content/prompts/images/ai-zhichu-quantao-ip/images/fcce58f976c6dc94.png)
 
 ### 提示词
 
@@ -33,7 +33,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 2.角色换装（使用工具：lovart）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/0b5494fdeaa3bb74.png)
+![](/content/prompts/images/ai-zhichu-quantao-ip/images/0b5494fdeaa3bb74.png)
 
 ### 提示词
 
@@ -41,7 +41,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 3.生成角色表情包（使用工具：lovart）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/8f7c3979ff3428f2.png)
+![](/content/prompts/images/ai-zhichu-quantao-ip/images/8f7c3979ff3428f2.png)
 
 ### 提示词
 
@@ -101,11 +101,11 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 4.IP大透视延展（使用工具：lovart）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/c44f83b049fc2ffc.png)
+![](/content/prompts/images/ai-zhichu-quantao-ip/images/c44f83b049fc2ffc.png)
 
 ## 5.生成角色周边（使用工具：lovart）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/4afc172f22eb8d8a.png)
+![](/content/prompts/images/ai-zhichu-quantao-ip/images/4afc172f22eb8d8a.png)
 
 ### 提示词
 
@@ -113,7 +113,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 6.生成周边展台效果（使用工具：lovart）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/8e071738ee946ba7.png)
+![](/content/prompts/images/ai-zhichu-quantao-ip/images/8e071738ee946ba7.png)
 
 ### 提示词
 

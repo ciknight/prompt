@@ -10,7 +10,7 @@ source_url: "https://x.com/MrLarus/status/2050872313810198741"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/boxing-match-seedance/images/cover.jpg)
+![](/content/prompts/images/boxing-match-seedance/images/cover.jpg)
 
 基于上传的分镜图，生成一段超写实、电影级的 15 秒横版 16:9 拳击对战视频。
 

@@ -10,7 +10,7 @@ source_url: "https://x.com/liyue_ai/status/2025766696532004876"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/seedance-2-0-beautiful-woman-outfit-change/images/cover.jpg)
+![](/content/prompts/images/seedance-2-0-beautiful-woman-outfit-change/images/cover.jpg)
 
 人物：清纯，可爱，美女，冷白皮，眼角有一颗痣，身形纤细，皮肤白皙，小清新
 

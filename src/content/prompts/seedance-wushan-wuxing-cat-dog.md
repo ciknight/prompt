@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2035295835840524547"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/seedance-wushan-wuxing-cat-dog/images/cover.jpg)
+![](/content/prompts/images/seedance-wushan-wuxing-cat-dog/images/cover.jpg)
 
 雾山五行正统国漫画风，锐利硬边水墨线条，高对比红黑与青金主色调，电影级光影，国风奇幻战斗美学，强打击感，强能量碰撞感，16:9，时长15秒，画面流畅丝滑，动作连贯清晰，动态张力拉满，整体质感高级，特效炸裂但画面不乱。
 

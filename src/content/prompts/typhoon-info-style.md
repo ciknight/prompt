@@ -10,7 +10,7 @@ source_url: "https://x.com/Mayz1169/status/2062815239004209244"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/typhoon-info-style/images/cover.jpg)
+![](/content/prompts/images/typhoon-info-style/images/cover.jpg)
 
 ### REFERENCE
 Use the provided image as Frame 01. Keep the same reporter design, pink outfit, blonde hair, pink eyes, stormy Kobe waterfront, TV graphics, weather radar, and live-news atmosphere.

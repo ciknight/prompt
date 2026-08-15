@@ -10,7 +10,7 @@ source_url: "https://x.com/GlitterPixely/status/2060749704476971477"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/sakura-intro-promo/images/cover.jpg)
+![](/content/prompts/images/sakura-intro-promo/images/cover.jpg)
 
 SAKURA：可爱赛博朋克武士，依据 @Image1。发型：齐耳短发，乌黑发色中挑染一缕铂金白色；红色护目镜推至头顶；粉色耳机挂脖；粉色面罩；主武器为粉色刀刃的武士刀；左腰另配一把武士刀。场景设定：赛博朋克霓虹虚空——黑到品红的渐变、青色网格地面、飘落的樱花瓣、漂浮的汉字字形（桜/刃/舞）、垂直的粉色光雨。格式：16:9，15秒，painterly风格化的3D cel-shaded、可爱赛博朋克东京霓虹、热粉-青-黑配色。
 ——— 镜头脚本 ———

@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2025860395886379391"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/hollywood-level-eastern-magic-action-epic/images/cover.jpg)
+![](/content/prompts/images/hollywood-level-eastern-magic-action-epic/images/cover.jpg)
 
 好莱坞级东方魔幻动作史诗。8K IMAX电影画质，高速摄影与慢镜头结合。强调人形态下的武术与法术对轰，以及变身后的巨物压迫感。视觉基调是金色的佛门至刚之力与青白色的妖族柔劲在暴雨中的死斗。
 

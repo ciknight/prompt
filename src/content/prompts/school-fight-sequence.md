@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2059620330499412415"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/school-fight-sequence/images/cover.jpg)
+![](/content/prompts/images/school-fight-sequence/images/cover.jpg)
 
 时长：15秒
 画幅比例：16:9

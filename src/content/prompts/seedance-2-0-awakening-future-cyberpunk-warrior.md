@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2021577731826213121"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/seedance-2-0-awakening-future-cyberpunk-warrior/images/cover.jpg)
+![](/content/prompts/images/seedance-2-0-awakening-future-cyberpunk-warrior/images/cover.jpg)
 
 【影片设定】电影级质感，IMAX画幅，ARRI Alexa 65mm，高对比度，赛博朋克美学，8K分辨率。
 

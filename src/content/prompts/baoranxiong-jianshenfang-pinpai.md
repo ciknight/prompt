@@ -11,19 +11,19 @@ AI使用工具：lovart（需梯子）
 
 lovart（作图工具）：https://www.lovart.ai/
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
+![](/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
 
 codex：https://chatgpt.com/
 
 转3d提示词（nano banana pro模型）：
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/0460864ed08d9c64.png)
+![](/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/0460864ed08d9c64.png)
 
   
 
 转3d前
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
+![](/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
 
 转3d后
 
@@ -209,7 +209,7 @@ codex：https://chatgpt.com/
 
 （上传IP）
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
+![](/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
 
 __ 完整生图提示词__
 
@@ -277,7 +277,7 @@ __ 完整生图提示词__
 
 开练，就现在
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
+![](/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
 
 ### codex转换psd提示词
 

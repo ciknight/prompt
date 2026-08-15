@@ -106,7 +106,7 @@ test('parseDocx extracts text', async () => {
     );
 
     // src must include base prefix from astro.config.mjs
-    assert.ok(result.images[0].src.startsWith('/prompt/'), `expected base-prefixed src, got: ${result.images[0].src}`);
+    assert.ok(result.images[0].src.startsWith('/content/'), `expected base-prefixed src, got: ${result.images[0].src}`);
     assert.ok(result.images[0].src.includes(expectedHash), 'src should include content hash');
   } finally {
     await rm(dir, { recursive: true, force: true });

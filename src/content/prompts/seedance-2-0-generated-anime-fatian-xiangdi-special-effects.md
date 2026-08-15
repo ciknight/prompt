@@ -10,7 +10,7 @@ source_url: "https://x.com/liyue_ai/status/2025408381016834408"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/seedance-2-0-generated-anime-fatian-xiangdi-special-effects/images/cover.jpg)
+![](/content/prompts/images/seedance-2-0-generated-anime-fatian-xiangdi-special-effects/images/cover.jpg)
 
 电影级CG, 神话史诗, 4K, 细节精致, 动态镜头。
 ### 0-3秒

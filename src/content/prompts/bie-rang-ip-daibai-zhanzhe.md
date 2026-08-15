@@ -13,7 +13,7 @@ date: 2026-08-14
 
  
 
-![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/638da0395a70cf7c.png)
+![](/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/638da0395a70cf7c.png)
 
 ## 3.AI使用工具：lovart、Ai studio
 
@@ -25,7 +25,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 1.插画角色转3d（使用工具：lovart）
 
-![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/5d7cd06c3eca4e7a.png)
+![](/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/5d7cd06c3eca4e7a.png)
 
 ### （直接复制粘贴即可）提示词
 
@@ -207,7 +207,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 2.生成角色四视图（使用工具：lovart）
 
-![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/83c29b11f74d1fbd.png)
+![](/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/83c29b11f74d1fbd.png)
 
 ### 提示词
 
@@ -215,7 +215,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 3.生成角色大透视视角（使用工具：lovart）
 
-![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/431ad5ffd5eacee9.png)
+![](/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/431ad5ffd5eacee9.png)
 
 ### 提示词
 

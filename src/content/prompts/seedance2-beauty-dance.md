@@ -10,7 +10,7 @@ source_url: "https://x.com/Adam38363368936/status/2023761464037924999"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/seedance2-beauty-dance/images/cover.jpg)
+![](/content/prompts/images/seedance2-beauty-dance/images/cover.jpg)
 
 ### 视觉风格
 

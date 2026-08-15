@@ -10,7 +10,7 @@ source_url: "https://x.com/ozuozuai99/status/2059515110591500639"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/anime-cooking-video/images/cover.jpg)
+![](/content/prompts/images/anime-cooking-video/images/cover.jpg)
 
 请为一段15秒的动漫料理视频，制作一份超高品质、细节详尽的分镜表。主题为「黄金炒饭」。形式为一张横版16:9的分镜图，按时间顺序排列多个分镜格。
 

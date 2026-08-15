@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2022969093784023087"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/eastern-fantasy-wuxia-epic/images/cover.jpg)
+![](/content/prompts/images/eastern-fantasy-wuxia-epic/images/cover.jpg)
 
 东方玄幻武侠大片(Eastern Fantasy Wuxia Epic)。顶级电影特效，快节奏剪辑，强调力量感的碰撞。视觉风格对比强烈：一方是金色的实体化狂龙，另一方是透明扭曲空气的巨大虚空手掌。
 

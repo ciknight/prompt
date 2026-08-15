@@ -10,7 +10,7 @@ source_url: "https://x.com/Michell81147285/status/2020298394175172870"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/dynamic-skiing-adventure/images/cover.jpg)
+![](/content/prompts/images/dynamic-skiing-adventure/images/cover.jpg)
 
 请基于提供的参考图生成一个滑雪视频，整体风格明亮、清爽、充满运动活力，画面流畅，镜头语言偏电影感。  时间轴与镜头设计如下： 
  0–3 秒 图片人物在雪地中微笑看向镜头。镜头轻微晃动，雪 花飘落。背景风声逐渐增强，画面中出现快速掠过的风雪流动感。  

@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2021919778667999639"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/90s-hk-tv-drama-style-vintage-film-grain/images/cover.jpg)
+![](/content/prompts/images/90s-hk-tv-drama-style-vintage-film-grain/images/cover.jpg)
 
 【风格】
   90年代香港电视剧风格(90s HK TV Drama Style)，复古胶片颗粒感(Vintage Film Grain)，高对比度暖黄色调(Warm Yellowish Tone)，广角镜头夸张透视，情绪极度歇斯底里，混乱、嘈杂、绝望。

@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2060008130688196617"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/seedance-fight-warehouse/images/cover.jpg)
+![](/content/prompts/images/seedance-fight-warehouse/images/cover.jpg)
 
 时长：10秒
 画幅比例：16:9

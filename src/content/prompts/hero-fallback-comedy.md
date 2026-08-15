@@ -10,7 +10,7 @@ source_url: "https://x.com/rionaifantasy/status/2034249765215777003"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/hero-fallback-comedy/images/cover.jpg)
+![](/content/prompts/images/hero-fallback-comedy/images/cover.jpg)
 
 帮我把参考视频向后延伸15秒，延伸的视频和参考视频衔接自然
 

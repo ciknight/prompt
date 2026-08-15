@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2020329496847569111"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/tang-bo-hu-esports-showdown/images/cover.jpg)
+![](/content/prompts/images/tang-bo-hu-esports-showdown/images/cover.jpg)
 
 prompt👇
 10 秒中国春晚风格舞台表演：《唐伯虎电竞对决》

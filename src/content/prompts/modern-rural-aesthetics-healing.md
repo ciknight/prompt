@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2021818021354848258"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/modern-rural-aesthetics-healing/images/cover.jpg)
+![](/content/prompts/images/modern-rural-aesthetics-healing/images/cover.jpg)
 
 【风格】
 现代田园美学(Modern Rural Aesthetics)，电影级广告大片质感(Cinematic Commercial)，索尼A7S3/电影机拍摄，4K/8K超清，极致微距(Extreme Macro)，自然通透光感，治愈系ASMR，无古装剧感。

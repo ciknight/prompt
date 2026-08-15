@@ -10,7 +10,7 @@ source_url: "https://x.com/johnAGI168/status/2022728085943046407"
 model: "seedance2"
 ---
 
-![](/prompt/content/prompts/images/high-end-fashion-brand-viral-ad/images/cover.jpg)
+![](/content/prompts/images/high-end-fashion-brand-viral-ad/images/cover.jpg)
 
 高端服装品牌广告📺
 
