@@ -98,6 +98,7 @@ test('parseDocx extracts text', async () => {
     assert.ok(result.markdown.includes('测试段落二'));
     assert.equal(result.images.length, 1);
     assert.match(result.images[0].path, /test-slug[\\/]+images[\\/]+/);
+    assert.ok(result.images[0].src.startsWith('/prompt/content/prompts/images/'), `expected base-prefixed path, got: ${result.images[0].src}`);
   } finally {
     await rm(dir, { recursive: true, force: true });
     await rm(imageDir, { recursive: true, force: true });

@@ -4,8 +4,16 @@ import path from 'node:path';
 import fs from 'node:fs/promises';
 import { randomUUID } from 'node:crypto';
 
-export async function parseDocx(srcPath, slug, imagesBaseDir = 'src/content/prompts/images') {
-  const imageDir = path.join(imagesBaseDir, slug, 'images');
+// Where extracted images are written. Lives under public/ so Astro copies them
+// to dist/ root automatically at build time.
+const PUBLIC_IMAGES_DIR = 'public/content/prompts/images';
+
+// Base URL prefix for image src in markdown. Must match `base` in astro.config.mjs.
+// Update this constant if you change the deployment base path.
+const BASE_PREFIX = '/prompt';
+
+export async function parseDocx(srcPath, slug) {
+  const imageDir = path.join(PUBLIC_IMAGES_DIR, slug, 'images');
   await fs.mkdir(imageDir, { recursive: true });
 
   const extractedImages = [];
@@ -19,7 +27,7 @@ export async function parseDocx(srcPath, slug, imagesBaseDir = 'src/content/prom
         const imgPath = path.join(imageDir, fileName);
         const buffer = await image.read('base64');
         await fs.writeFile(imgPath, Buffer.from(buffer, 'base64'));
-        const publicSrc = path.posix.join('/content/prompts/images', slug, 'images', fileName);
+        const publicSrc = `${BASE_PREFIX}/content/prompts/images/${slug}/images/${fileName}`;
         extractedImages.push({ path: imgPath, src: publicSrc });
         return { src: publicSrc };
       }),

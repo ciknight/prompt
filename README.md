@@ -36,6 +36,8 @@ site: 'https://YOUR-USERNAME.github.io',
 base: '/YOUR-REPO-NAME',
 ```
 
+同时修改 `scripts/lib/parseDocx.mjs` 中的 `BASE_PREFIX` 常量，与 `base` 一致。然后重新跑 `npm run ingest`。
+
 ## 目录
 
 ```

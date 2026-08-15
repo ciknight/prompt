@@ -13,7 +13,7 @@
     "preview": "astro preview",
     "check": "astro check",
     "ingest": "node scripts/ingest.mjs",
-    "test": "node --test scripts/ingest.test.mjs",
+    "test": "node --test \"scripts/**/*.test.mjs\"",
     "test:e2e": "playwright test"
   },
   "keywords": [],
