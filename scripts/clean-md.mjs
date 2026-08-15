@@ -82,6 +82,13 @@ function clean(md) {
     // meaningful as headings (e.g. `**视频教程：**`, `**提示词：**`,
     // `**小红书链接：**`). They become plain paragraphs.
     .replace(/^[ \t]*\*\*([^*\n]+)\*\*[ \t]*$/gm, '$1')
+    // Strip lines containing Feishu / Lark document URLs. These are
+    // typically private share links (often followed by passwords) that
+    // don't belong on a public static site. Matches feishu.cn / .com,
+    // larksuite.com / .cn, and lark.com / .cn, with or without a
+    // markdown link wrapper. The whole line is dropped so any trailing
+    // "密码：xxx" gets removed too.
+    .replace(/^.*(?:feishu\.(?:cn|com)|larksuite\.(?:com|cn)|lark\.(?:com|cn)).*\n?/gm, '')
     // Collapse 3+ consecutive blank lines down to 2 (one paragraph break)
     .replace(/\n{3,}/g, '\n\n')
     // UTF-8 replacement char (mammoth decode failure marker)
