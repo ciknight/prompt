@@ -16,8 +16,8 @@
     "test": "node --test \"scripts/**/*.test.mjs\" \"tests/**/*.test.mjs\"",
     "test:e2e": "node scripts/smoke.mjs",
     "smoke": "node scripts/smoke.mjs",
-    "select:avp": "node scripts/select-awesome-video-prompts.mjs F:\\code\\awesome-video-prompts",
-    "import:avp": "node scripts/import-awesome-video-prompts.mjs F:\\code\\awesome-video-prompts"
+    "select:avp": "node scripts/select-awesome-video-prompts.mjs",
+    "import:avp": "node scripts/import-awesome-video-prompts.mjs"
   },
   "keywords": [],
   "author": "",
