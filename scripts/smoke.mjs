@@ -12,7 +12,7 @@ import { setTimeout as sleep } from 'node:timers/promises';
 import { setTimeout as killTimer } from 'node:timers';
 
 const PORT = 4321;
-const BASE = `http://localhost:${PORT}/prompt`;
+const BASE = `http://localhost:${PORT}`;
 
 function log(msg) { console.log(`[smoke] ${msg}`); }
 
@@ -40,9 +40,19 @@ const checks = [
 
 async function run() {
   log('starting astro preview on port ' + PORT);
-  // Use the npm CLI directly to ensure PATH resolves correctly across platforms.
-  const npmCmd = process.platform === 'win32' ? 'npm.cmd' : 'npm';
-  const server = spawn(npmCmd, ['run', 'preview', '--', '--port', String(PORT)], {
+  // Use `npx astro preview` directly (not `npm run preview --`) so the
+  // --port arg survives shell parsing on Windows. The npm-cmd + shell
+  // path drops the trailing args because of DEP0190 escaping rules.
+  // On Windows, we pass the entire command as a single string because
+  // spawn with shell:true + array args has different escaping semantics.
+  const port = String(PORT);
+  const cmdLine = process.platform === 'win32'
+    ? `npx.cmd astro preview --port ${port}`
+    : 'npx';
+  const args = process.platform === 'win32'
+    ? []
+    : ['astro', 'preview', '--port', port];
+  const server = spawn(cmdLine, args, {
     stdio: ['ignore', 'pipe', 'pipe'],
     shell: process.platform === 'win32',
     detached: false,
