@@ -8,12 +8,7 @@ import { parseXlsx } from './lib/parseXlsx.mjs';
 import { writePrompt } from './lib/writePrompt.mjs';
 import { resolveSlug } from './lib/slug-map.mjs';
 import { resolveCategory } from './lib/category-map.mjs';
-
-const DEFAULT_TAGS = {
-  txt: [],
-  docx: [],
-  xlsx: [],
-};
+import { resolveTags } from './lib/tags-map.mjs';
 
 export async function ingestOne({ relativePath, sourceDir, outDir, archiveDir }) {
   const srcPath = path.join(sourceDir, relativePath);
@@ -21,6 +16,7 @@ export async function ingestOne({ relativePath, sourceDir, outDir, archiveDir })
   const ext = path.extname(srcPath).slice(1).toLowerCase();
   const slug = resolveSlug(relativePath);
   const category = resolveCategory(relativePath);
+  const tags = resolveTags(relativePath);
 
   let markdown;
   if (ext === 'txt') {
@@ -41,7 +37,7 @@ export async function ingestOne({ relativePath, sourceDir, outDir, archiveDir })
     slug,
     title,
     category,
-    tags: DEFAULT_TAGS[ext] || [],
+    tags,
     source: ext,
     date: stat.mtime,
     markdown,
