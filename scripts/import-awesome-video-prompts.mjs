@@ -53,7 +53,7 @@ export async function runImport({
     }
     usedSlugs.add(finalSlug);
 
-    const srcCover = path.join(sourceRoot, 'static/prompts', c.month, `${baseSlug}/cover.jpg`);
+    const srcCover = path.join(sourceRoot, 'static/prompts', c.month, `${path.basename(c.filePath ?? '', '.md')}/cover.jpg`);
     try {
       await fs.access(srcCover);
     } catch {
