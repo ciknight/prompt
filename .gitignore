@@ -6,11 +6,6 @@ node_modules/
 dist/
 .astro/
 
-# ingest output (generated, regenerable)
-src/content/prompts/
-src/content/prompts/images/
-archive/
-
 # logs
 npm-debug.log*
 *.log
