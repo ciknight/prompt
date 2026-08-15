@@ -1,0 +1,47 @@
+---
+// src/components/PromptCard.astro
+import TagBadge from './TagBadge.astro';
+import CategoryBadge from './CategoryBadge.astro';
+
+interface Props {
+  title: string;
+  category: string;
+  tags: string[];
+  slug: string;
+  excerpt?: string;
+  date?: Date;
+}
+const { title, category, tags, slug, excerpt, date } = Astro.props;
+---
+<article class="prompt-card">
+  <h3><a href={`/prompts/${slug}/`}>{title}</a></h3>
+  <div class="meta">
+    <CategoryBadge category={category} />
+    {date && <time datetime={date.toISOString()}>{date.toISOString().slice(0, 10)}</time>}
+  </div>
+  {excerpt && <p class="excerpt">{excerpt}</p>}
+  <div class="tags">
+    {tags.map(t => <TagBadge tag={t} />)}
+  </div>
+</article>
+
+<style>
+  .prompt-card {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--sl-color-gray-5);
+  }
+  .prompt-card h3 { margin: 0 0 0.5rem; font-size: 1.1rem; }
+  .prompt-card h3 a { color: var(--sl-color-text); text-decoration: none; }
+  .prompt-card h3 a:hover { color: var(--sl-color-accent); }
+  .meta {
+    display: flex; gap: 0.75rem; align-items: center;
+    margin: 0 0 0.5rem; font-size: 0.85rem; color: var(--sl-color-gray-3);
+  }
+  .excerpt {
+    margin: 0 0 0.5rem;
+    color: var(--sl-color-gray-2);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  .tags { margin-top: 0.25rem; }
+</style>
