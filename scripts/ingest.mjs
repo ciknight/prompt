@@ -1,6 +1,7 @@
 // scripts/ingest.mjs
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { parseTxt } from './lib/parseTxt.mjs';
 import { parseDocx } from './lib/parseDocx.mjs';
 import { parseXlsx } from './lib/parseXlsx.mjs';
@@ -76,6 +77,6 @@ async function main() {
   process.exit(fail > 0 ? 1 : 0);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   main();
 }
