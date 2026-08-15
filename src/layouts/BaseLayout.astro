@@ -1,0 +1,33 @@
+---
+// src/layouts/BaseLayout.astro
+// Shared HTML head, header, footer, and main wrapper for all pages.
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'AI 提示词合集：漫剧、视频、IP、字体、品牌设计' } = Astro.props;
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+</head>
+<body>
+  <SiteHeader />
+  <main>
+    <slot />
+  </main>
+  <SiteFooter />
+</body>
+</html>
+
+<style is:global>
+  main { max-width: 72ch; margin: 0 auto; padding: 0 1rem; }
+</style>

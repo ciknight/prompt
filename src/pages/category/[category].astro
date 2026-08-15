@@ -1,8 +1,7 @@
 ---
 // src/pages/category/[category].astro
 import { getCollection } from 'astro:content';
-import SiteHeader from '../../components/SiteHeader.astro';
-import SiteFooter from '../../components/SiteFooter.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import PromptCard from '../../components/PromptCard.astro';
 import { CATEGORIES } from '../../../scripts/lib/category-map.mjs';
 
@@ -15,31 +14,17 @@ const prompts = (await getCollection('prompts'))
   .filter(p => p.data.category === category)
   .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0));
 ---
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <title>{category} · Prompt 作品集</title>
-</head>
-<body>
-  <SiteHeader />
-  <main>
-    <h1>{category}</h1>
-    <p>{prompts.length} 个 prompt</p>
-    {prompts.map(p => (
-      <PromptCard
-        title={p.data.title}
-        category={p.data.category}
-        tags={p.data.tags}
-        slug={p.data.slug}
-        excerpt={p.body.slice(0, 120)}
-        date={p.data.date}
-      />
-    ))}
-  </main>
-  <SiteFooter />
-</body>
-</html>
-
-<style>
-  main { max-width: 72ch; margin: 0 auto; padding: 0 1rem; }
-</style>
+<BaseLayout title={`${category} · Prompt 作品集`}>
+  <h1>{category}</h1>
+  <p>{prompts.length} 个 prompt</p>
+  {prompts.map(p => (
+    <PromptCard
+      title={p.data.title}
+      category={p.data.category}
+      tags={p.data.tags}
+      slug={p.data.slug}
+      excerpt={p.body?.slice(0, 120) ?? ''}
+      date={p.data.date}
+    />
+  ))}
+</BaseLayout>

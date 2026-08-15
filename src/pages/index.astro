@@ -1,8 +1,7 @@
 ---
 // src/pages/index.astro
 import { getCollection } from 'astro:content';
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 import CategoryCard from '../components/CategoryCard.astro';
 
 const CATEGORY_DESCRIPTIONS = {
@@ -15,7 +14,7 @@ const CATEGORY_DESCRIPTIONS = {
 };
 
 const prompts = await getCollection('prompts');
-const counts = {};
+const counts: Record<string, number> = {};
 for (const p of prompts) {
   counts[p.data.category] = (counts[p.data.category] || 0) + 1;
 }
@@ -27,44 +26,32 @@ const recent = prompts
   .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0))
   .slice(0, 5);
 ---
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Prompt 作品集</title>
-</head>
-<body>
-  <SiteHeader />
-  <main>
-    <h1>Prompt 作品集</h1>
-    <p class="lede">{prompts.length} 个 AI 提示词 · 6 个分类 · 全文搜索</p>
+<BaseLayout title="Prompt 作品集">
+  <h1>Prompt 作品集</h1>
+  <p class="lede">{prompts.length} 个 AI 提示词 · 6 个分类 · 全文搜索</p>
 
-    <h2>分类</h2>
-    <div class="category-grid">
-      {CATEGORIES.map(c => (
-        <CategoryCard
-          name={c}
-          description={CATEGORY_DESCRIPTIONS[c]}
-          count={counts[c] || 0}
-        />
-      ))}
-    </div>
+  <h2>分类</h2>
+  <div class="category-grid">
+    {CATEGORIES.map((c: string) => (
+      <CategoryCard
+        name={c}
+        description={CATEGORY_DESCRIPTIONS[c as keyof typeof CATEGORY_DESCRIPTIONS]}
+        count={counts[c] || 0}
+      />
+    ))}
+  </div>
 
-    <h2>最近更新</h2>
-    <ul class="recent-list">
-      {recent.map(p => (
-        <li><a href={`/prompts/${p.data.slug}/`}>{p.data.title}</a>
-          <span class="recent-cat">{p.data.category}</span>
-        </li>
-      ))}
-    </ul>
-  </main>
-  <SiteFooter />
-</body>
-</html>
+  <h2>最近更新</h2>
+  <ul class="recent-list">
+    {recent.map(p => (
+      <li><a href={`/prompts/${p.data.slug}/`}>{p.data.title}</a>
+        <span class="recent-cat">{p.data.category}</span>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
 
 <style>
-  main { max-width: 72ch; margin: 0 auto; padding: 0 1rem; }
   h1 { font-size: 2rem; margin-bottom: 0.25rem; }
   .lede { color: var(--sl-color-gray-2); margin-bottom: 2rem; }
   .category-grid {

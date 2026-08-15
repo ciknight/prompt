@@ -1,38 +1,23 @@
 ---
 // src/pages/about.astro
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <title>关于 · Prompt 作品集</title>
-</head>
-<body>
-  <SiteHeader />
-  <main>
-    <h1>关于</h1>
-    <p>这是一个 AI 提示词作品集，包含漫剧、视频、IP、字体材质、品牌设计等方向的提示词。</p>
+<BaseLayout title="关于 · Prompt 作品集">
+  <h1>关于</h1>
+  <p>这是一个 AI 提示词作品集，包含漫剧、视频、IP、字体材质、品牌设计等方向的提示词。</p>
 
-    <h2>内容来源</h2>
-    <p>所有提示词来自个人积累的实战经验，包括从番茄小说、文案分幕、漫剧分镜等场景的提炼。</p>
+  <h2>内容来源</h2>
+  <p>所有提示词来自个人积累的实战经验，包括从番茄小说、文案分幕、漫剧分镜等场景的提炼。</p>
 
-    <h2>技术栈</h2>
-    <ul>
-      <li>Astro 5 + Starlight 主题</li>
-      <li>Content Collections（基于 Zod schema）</li>
-      <li>Pagefind 全文搜索</li>
-      <li>mammoth 解析 docx + 图片提取</li>
-      <li>GitHub Pages + GitHub Actions</li>
-    </ul>
+  <h2>技术栈</h2>
+  <ul>
+    <li>Astro 5 + Starlight 主题</li>
+    <li>Content Collections（基于 Zod schema）</li>
+    <li>Pagefind 全文搜索</li>
+    <li>mammoth 解析 docx + 图片提取</li>
+    <li>GitHub Pages + GitHub Actions</li>
+  </ul>
 
-    <h2>反馈</h2>
-    <p>欢迎在 GitHub 提 issue 或 PR。</p>
-  </main>
-  <SiteFooter />
-</body>
-</html>
-
-<style>
-  main { max-width: 72ch; margin: 0 auto; padding: 0 1rem; }
-</style>
+  <h2>反馈</h2>
+  <p>欢迎在 GitHub 提 issue 或 PR。</p>
+</BaseLayout>

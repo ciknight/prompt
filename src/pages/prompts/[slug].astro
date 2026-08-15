@@ -1,8 +1,7 @@
 ---
 // src/pages/prompts/[slug].astro
 import { getCollection, render } from 'astro:content';
-import SiteHeader from '../../components/SiteHeader.astro';
-import SiteFooter from '../../components/SiteFooter.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import CategoryBadge from '../../components/CategoryBadge.astro';
 import TagBadge from '../../components/TagBadge.astro';
 
@@ -14,40 +13,31 @@ export async function getStaticPaths() {
 const { prompt } = Astro.props;
 const { Content } = await render(prompt);
 ---
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <title>{prompt.data.title} · Prompt 作品集</title>
-</head>
-<body>
-  <SiteHeader />
-  <main>
-    <article>
-      <header class="prompt-header">
-        <h1>{prompt.data.title}</h1>
-        <div class="meta">
-          <CategoryBadge category={prompt.data.category} />
-          {prompt.data.date && (
-            <time datetime={prompt.data.date.toISOString()}>
-              {prompt.data.date.toISOString().slice(0, 10)}
-            </time>
-          )}
-          <span class="source">来源：{prompt.data.source}</span>
-        </div>
+<BaseLayout title={`${prompt.data.title} · Prompt 作品集`}>
+  <article>
+    <header class="prompt-header">
+      <h1>{prompt.data.title}</h1>
+      <div class="meta">
+        <CategoryBadge category={prompt.data.category} />
+        {prompt.data.date && (
+          <time datetime={prompt.data.date.toISOString()}>
+            {prompt.data.date.toISOString().slice(0, 10)}
+          </time>
+        )}
+        {prompt.data.source && <span class="source">来源：{prompt.data.source}</span>}
+      </div>
+      {prompt.data.tags.length > 0 && (
         <div class="tags">
           {prompt.data.tags.map(t => <TagBadge tag={t} />)}
         </div>
-      </header>
+      )}
+    </header>
 
-      <Content />
-    </article>
-  </main>
-  <SiteFooter />
-</body>
-</html>
+    <Content />
+  </article>
+</BaseLayout>
 
 <style>
-  main { max-width: 72ch; margin: 0 auto; padding: 0 1rem; }
   .prompt-header {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
