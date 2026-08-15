@@ -14,7 +14,8 @@
     "check": "astro check",
     "ingest": "node scripts/ingest.mjs",
     "test": "node --test \"scripts/**/*.test.mjs\"",
-    "test:e2e": "playwright test"
+    "test:e2e": "node scripts/smoke.mjs",
+    "smoke": "node scripts/smoke.mjs"
   },
   "keywords": [],
   "author": "",
