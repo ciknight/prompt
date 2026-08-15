@@ -1,7 +1,7 @@
 ---
 title: "实战 / 3D字体材质3提示词和教程"
 category: 场景视觉
-tags: []
+tags: ["字体", "材质", "3D"]
 slug: 3d-ziti-caizhi-3
 source: docx
 date: 2026-08-14
@@ -16,67 +16,67 @@ __3D字体材质3提示词和教程__
 
 <a id="heading_7"></a>__材质提示词（image2模型）：__
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/af2d4510-179b-4433-b024-6776eec94515.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/5b10a65904370403.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/ebf296f4-4c89-4fca-8d02-cbbf191331c5.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/6c96fbb5eee88333.png)
 
 <a id="heading_8"></a>__海绵质感__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/fc84d7f6-6b2c-4ef1-9e21-6d70a0cd1559.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/18d57dec0e400faa.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/c75e672a-4a85-47f6-8b90-9ec366afdd59.jpg)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/e9ea71d94b48d0f9.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/544c94ab-84ab-4749-ad76-8ddee13d54ee.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/2bd4e65bf1b9b44e.png)
 
 <a id="heading_9"></a>__木头质感__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/94afaec1-d213-4486-b477-3c418893901e.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/3a76febba63b282b.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/601fae2a-7ad0-4b67-a4a9-c297916a7dc8.jpg)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/db643220173cf15f.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/18ca854a-a92e-4a14-8bf8-b628ce858c8a.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/defca471a7962539.png)
 
 <a id="heading_10"></a>__布质拼接__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/0704ba97-7249-4bff-8115-cdff2632511d.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/cb8e56fe5585f588.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/ba81c570-5b42-49ed-ada8-e0a18859ecd2.jpg)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/5870c8146a48ba22.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/810c339c-1eab-47b5-a172-c6c393ee73f0.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/2cd7fc5d9d3585bc.png)
 
 <a id="heading_11"></a>__毛绒质感__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/86d232ef-1c0d-4510-b332-73874b9f2dc8.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/b83d62640565d2ac.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/ea2f1452-d5b4-4bcd-9ede-9c6425182c3e.jpg)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/ef93af5cadcc1de2.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/d61b6c36-3ef9-496f-958d-8116360584f7.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/c4d360c5c6c43555.png)
 
 <a id="heading_12"></a>__纸箱拼接__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/3044d4aa-4b9c-4ac9-9dbd-b2359a6650aa.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/9c5acd106af93511.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/206f752d-f30c-4ee9-bacd-ba0435654c82.jpg)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/70fa156c54c736a6.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/eb3b882d-a520-49c4-a249-29e67dc7716b.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/2345c0d6f0132690.png)
 
 <a id="heading_13"></a>__毛绒渐变__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/ce536315-169a-48c4-8f7d-07c0fbcf6c3f.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/5b0efd7baabbb98a.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/0c7f922e-d93e-4509-9f6c-9187250c81fb.png)
+![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/6ae3f8cb3cf6304d.png)
 
 <a id="heading_14"></a>__文字生长效果提示词（sd2模型）：__
 

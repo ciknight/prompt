@@ -1,7 +1,7 @@
 ---
 title: "仿真人提示词 / GPT故事制作"
 category: 剧本分镜
-tags: []
+tags: ["写实", "分镜", "电影感"]
 slug: gpt-gushi-zhizuo
 source: txt
 date: 2026-07-08

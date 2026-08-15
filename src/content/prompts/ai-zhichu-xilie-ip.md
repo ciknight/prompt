@@ -1,7 +1,7 @@
 ---
 title: "实战 / AI直出全套系列IP设计｜完整提示词"
 category: 角色与IP
-tags: []
+tags: ["IP", "写实", "人物"]
 slug: ai-zhichu-xilie-ip
 source: docx
 date: 2026-08-14
@@ -12,7 +12,7 @@ __AI直出全套系列IP设计｜完整提示词__
 
 （AI生成仅供参考）
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/c4152fa0-e4f7-4545-97b1-ee8dbd3a813d.png)
+![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/db7c23c06c6b1013.png)
 
 <a id="heading_2"></a>__3\.AI使用工具：lovart__
 
@@ -30,7 +30,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 <a id="heading_7"></a>__1\.生成角色草图__
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/61d3b1aa-8ec9-45c5-9d6c-859aaa7f751c.png)
+![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/52dc46bd3a2d1bb6.png)
 
 __提示词：__
 
@@ -181,7 +181,7 @@ __提示词：__
 
 <a id="heading_8"></a>__2\.提取单个角色__
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/5bc64dcd-f88e-4d05-8fdb-7375da42a533.png)
+![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/c449de18a6a561d6.png)
 
 __提示词：__
 
@@ -189,7 +189,7 @@ __提示词：__
 
 <a id="heading_9"></a>__3\.平面转3d__
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/de1a3dd0-ad88-4009-a35f-ef0b6d441a02.png)
+![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/1563ba8d7e0a6053.png)
 
 __提示词：__
 
@@ -369,7 +369,7 @@ __提示词：__
 
 <a id="heading_10"></a>__4\.IP大透视延展__
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/9d02a3be-ad90-482b-918e-d291946c4f54.png)
+![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/dd166ac079b4610b.png)
 
 __提示词：__
 
@@ -377,7 +377,7 @@ __提示词：__
 
 <a id="heading_11"></a>__5\.角色分别的小场景提示词__
 
-![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/cb0af37f-e636-40f4-8281-bbb5de5610b4.jpg)
+![](/prompt/content/prompts/images/ai-zhichu-xilie-ip/images/1e5f867667042667.jpg)
 
 <a id="heading_12"></a>__1）河马 ——「严肃维修值班室」__
 

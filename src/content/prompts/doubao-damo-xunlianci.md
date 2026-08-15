@@ -1,7 +1,7 @@
 ---
 title: "豆包大模型训练词"
 category: 视频生成
-tags: []
+tags: ["视频", "电影感", "写实"]
 slug: doubao-damo-xunlianci
 source: txt
 date: 2026-07-08

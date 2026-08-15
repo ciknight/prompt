@@ -1,7 +1,7 @@
 ---
 title: "其他 / 视频风格提示词"
 category: 视频生成
-tags: []
+tags: ["电影感", "写实", "运镜"]
 slug: shipin-fengge-tici
 source: txt
 date: 2026-07-08

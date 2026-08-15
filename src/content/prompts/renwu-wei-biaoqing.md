@@ -1,7 +1,7 @@
 ---
 title: "实战 / 《人物微表情》提示词和操作流程"
 category: 角色与IP
-tags: []
+tags: ["人物", "微表情", "写实"]
 slug: renwu-wei-biaoqing
 source: docx
 date: 2026-08-14
@@ -14,7 +14,7 @@ libtv（作图工具）：https://www\.liblib\.tv/
 
 <a id="heading_4"></a>__《人物微表情》提示词__
 
-![](/prompt/content/prompts/images/renwu-wei-biaoqing/images/76619309-93c2-4999-b03a-88e54d2bf367.png)
+![](/prompt/content/prompts/images/renwu-wei-biaoqing/images/3f612b17e3d3fc14.png)
 
 （上传人物）
 

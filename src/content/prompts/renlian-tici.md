@@ -1,7 +1,7 @@
 ---
 title: "仿真人提示词 / 人脸提示词"
 category: 角色与IP
-tags: []
+tags: ["人物", "写实", "真人"]
 slug: renlian-tici
 source: txt
 date: 2026-07-08

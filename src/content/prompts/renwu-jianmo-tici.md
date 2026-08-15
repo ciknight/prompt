@@ -1,7 +1,7 @@
 ---
 title: "其他 / 人物建模提示词"
 category: 角色与IP
-tags: []
+tags: ["人物", "3D", "IP"]
 slug: renwu-jianmo-tici
 source: txt
 date: 2026-07-08

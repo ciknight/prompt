@@ -1,7 +1,7 @@
 ---
 title: "其他 / 特效镜头提示词"
 category: 视频生成
-tags: []
+tags: ["特效", "运镜", "电影感"]
 slug: texiao-jingtou-tici
 source: txt
 date: 2026-07-08

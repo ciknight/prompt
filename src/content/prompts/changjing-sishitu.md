@@ -1,7 +1,7 @@
 ---
 title: "场景四视图"
 category: 剧本分镜
-tags: []
+tags: ["场景", "3D", "道具"]
 slug: changjing-sishitu
 source: txt
 date: 2026-07-08

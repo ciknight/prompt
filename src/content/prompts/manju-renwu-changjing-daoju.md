@@ -1,7 +1,7 @@
 ---
 title: "漫剧人物场景道具提取指令"
 category: 剧本分镜
-tags: []
+tags: ["人物", "场景", "道具"]
 slug: manju-renwu-changjing-daoju
 source: txt
 date: 2026-07-08

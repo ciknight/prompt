@@ -1,7 +1,7 @@
 ---
 title: "实战 / 《骨冠双猎》故事板提示词和操作流程"
 category: 动画短片
-tags: []
+tags: ["分镜", "特效", "电影感"]
 slug: guguan-shuanglie-gushiban
 source: docx
 date: 2026-08-14
@@ -35,7 +35,7 @@ gpt（作图工具）：https://chatgpt\.com/
 
  
 
-![](/prompt/content/prompts/images/guguan-shuanglie-gushiban/images/03ec1149-c120-4826-ab37-2e415c92bf8c.png)
+![](/prompt/content/prompts/images/guguan-shuanglie-gushiban/images/4b1a975024b997b8.png)
 
 <a id="heading_6"></a>__seedance2\.0视频提示词：__
 

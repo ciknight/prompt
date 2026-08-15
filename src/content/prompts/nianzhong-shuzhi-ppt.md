@@ -1,7 +1,7 @@
 ---
 title: "实战 / 《年中述职》可编辑ppt提示词和教程"
 category: 品牌与商业
-tags: []
+tags: ["PPT", "UI", "写实"]
 slug: nianzhong-shuzhi-ppt
 source: txt
 date: 2026-08-14

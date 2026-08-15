@@ -2,17 +2,31 @@
 import mammoth from 'mammoth';
 import path from 'node:path';
 import fs from 'node:fs/promises';
-import { randomUUID } from 'node:crypto';
+import { createHash } from 'node:crypto';
 
 // Where extracted images are written. Lives under public/ so Astro copies them
 // to dist/ root automatically at build time.
 const PUBLIC_IMAGES_DIR = 'public/content/prompts/images';
 
-// Base URL prefix for image src in markdown. Must match `base` in astro.config.mjs.
-// Update this constant if you change the deployment base path.
-const BASE_PREFIX = '/prompt';
+/**
+ * Read the `base` field from astro.config.mjs so it stays in sync with
+ * the deployment base path. Falls back to '' if parsing fails.
+ * @returns {string} base path with trailing slash, e.g. '/prompt/'
+ */
+async function readAstroBase() {
+  try {
+    const src = await fs.readFile('astro.config.mjs', 'utf8');
+    const m = src.match(/base:\s*['"]([^'"]*)['"]/);
+    if (!m) return '';
+    const base = m[1];
+    return base.endsWith('/') ? base : base + '/';
+  } catch {
+    return '';
+  }
+}
 
-export async function parseDocx(srcPath, slug) {
+export async function parseDocx(srcPath, slug, options = {}) {
+  const basePrefix = options.basePrefix ?? (await readAstroBase());
   const imageDir = path.join(PUBLIC_IMAGES_DIR, slug, 'images');
   await fs.mkdir(imageDir, { recursive: true });
 
@@ -23,11 +37,15 @@ export async function parseDocx(srcPath, slug) {
     {
       convertImage: mammoth.images.imgElement(async (image) => {
         const ext = (image.contentType.split('/')[1] || 'png').replace('jpeg', 'jpg');
-        const fileName = `${randomUUID()}.${ext}`;
+        const base64 = await image.read('base64');
+        const bytes = Buffer.from(base64, 'base64');
+        // Content-hashed filename: same image bytes → same name, regardless of
+        // when extracted. Makes re-ingest deterministic and dedupes across docx files.
+        const hash = createHash('sha256').update(bytes).digest('hex').slice(0, 16);
+        const fileName = `${hash}.${ext}`;
         const imgPath = path.join(imageDir, fileName);
-        const buffer = await image.read('base64');
-        await fs.writeFile(imgPath, Buffer.from(buffer, 'base64'));
-        const publicSrc = `${BASE_PREFIX}/content/prompts/images/${slug}/images/${fileName}`;
+        await fs.writeFile(imgPath, bytes);
+        const publicSrc = `${basePrefix}content/prompts/images/${slug}/images/${fileName}`;
         extractedImages.push({ path: imgPath, src: publicSrc });
         return { src: publicSrc };
       }),

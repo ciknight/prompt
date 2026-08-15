@@ -1,7 +1,7 @@
 ---
 title: "仿真人提示词 / 仿真人分镜衔接指令"
 category: 剧本分镜
-tags: []
+tags: ["分镜", "竖屏", "漫剧"]
 slug: fangzhengren-fenjing-jiehe
 source: txt
 date: 2026-07-08

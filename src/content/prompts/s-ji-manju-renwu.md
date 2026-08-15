@@ -1,7 +1,7 @@
 ---
 title: "仿真人提示词 / S级漫剧人物提示词"
 category: 角色与IP
-tags: []
+tags: ["人物", "IP", "漫剧"]
 slug: s-ji-manju-renwu
 source: txt
 date: 2026-07-08

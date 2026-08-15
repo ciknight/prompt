@@ -1,7 +1,7 @@
 ---
 title: "漫剧剧本分镜衔接指令(10秒)"
 category: 剧本分镜
-tags: []
+tags: ["分镜", "竖屏", "漫剧"]
 slug: manju-fenjing-jiehe-10s
 source: txt
 date: 2026-07-08

@@ -1,7 +1,7 @@
 ---
 title: "实战 / 字体材质1提示词和教程"
 category: 场景视觉
-tags: []
+tags: ["字体", "材质", "3D"]
 slug: ziti-caizhi-1
 source: docx
 date: 2026-08-14
@@ -16,18 +16,18 @@ __字体材质1提示词和教程__
 
 <a id="heading_7"></a>__8种材质提示词（image2模型）：__
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/e2fcfaa9-596f-4c04-a96d-bad7f7e29768.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/d0b3bc02bd1fbe68.png)
 
   
 
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/b6b1ca46-c634-465a-9475-b0f717105ab9.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/41956be6350da883.png)
 
 <a id="heading_8"></a>__海绵版本__
 
 3D写实logo设计，内容为参考图中的文字和图案，主体是一块不规则的黄色海绵底板，表面有自然密集的孔洞纹理、柔软粗糙的发泡结构与真实多孔细节；在海绵底板上镂刻出参考中的文字和图案，文字采用明显更深一层的内凹切割效果，字形边缘整齐清楚，切割轮廓明确，文字内部可见更深色阴影与海绵孔洞结构，使字体与底板形成明显高低层次和视觉分区，不能与整体海绵表面混成一片；整体带有轻微弹性和真实切割手工感；背景为纯净的白色背景，平视高清展示，无透视畸变，正面柔和的全光，超写实还原海绵材质的多孔结构、松软质感以及文字与底板之间明显区分的层次关系，无数字合成的违和感，比例为3:2。
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/0634a8f2-99b8-4d16-8be1-41f4fa46ece3.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/df80262118879186.png)
 
 <a id="heading_9"></a>__奶油面包版本__
 
@@ -35,37 +35,37 @@ __字体材质1提示词和教程__
 
 补充要求：字母整体偏甜面包或奶油餐包质感，表面光滑柔软、金黄油润，局部带乳白色奶油夹心或奶油裱花装饰，整体一眼看出是香甜松软的奶油面包字体。
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/f96a3b01-c2aa-4e05-beb0-53b09bcd608a.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/c2f6e1ab916c37fd.png)
 
 <a id="heading_10"></a>__毛线版本__
 
 3D写实logo设计，内容为参考图中的文字和图案，主体是一块不规则的深色毛线编织底板，表面有自然交织的编织纹理、毛线结节与细密绒感；在底板上构成参考中的文字和图案，文字由浅色毛线单独编织或缝制而成，字形厚实饱满，针织纹理清晰，文字与底板采用明显不同颜色与编织层次，边缘有明确缝线轮廓和轻微立体起伏，字体必须清晰独立地浮在底板之上，不能与底板混成同一片纹理；整体带有温暖、复古、针织手作的不规整感；背景为纯净的白色背景，平视高清展示，无透视畸变，正面柔和的全光，超写实还原毛线编织纹理、纤维细节以及文字与底板之间明显区分的手工层次，无数字合成的违和感，比例为3:2。
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/9cc60ee0-45d9-44be-beaf-638473ef7aef.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/8800ff50dfb2c195.png)
 
 <a id="heading_11"></a>__牛仔布版本__
 
 3D写实logo设计，内容为参考图中的文字和图案，主体是一块不规则的深蓝色牛仔布底板，表面有自然清晰的斜纹织物纹理、做旧磨损感、粗纺纤维细节与轻微毛边；在牛仔布底板上缝制或拼贴出参考中的文字和图案，文字由更浅色的牛仔布裁片或布贴单独构成，字形边缘有清晰缝线、描边和拼接轮廓，字体与底板形成明显颜色差、材质层差与立体分区，不能让文字融进底板纹理里；边缘可带轻微脱线和磨白处理，整体带有街头、复古、手工布贴感；背景为纯净的白色背景，平视高清展示，无透视畸变，正面柔和的全光，超写实还原牛仔布材质、缝线细节与字体和底板之间清晰可辨的独立关系，无数字合成的违和感，比例为3:2。
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/ba42354c-7488-4c38-b5bc-7da9790649eb.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/981b05a6a49082b1.png)
 
 <a id="heading_12"></a>__皮革版本__
 
 3D写实logo设计，内容为参考图中的文字和图案，主体是一块不规则的深棕色或焦糖色皮革底板，表面有真实细腻的皮革纹理、天然毛孔、轻微压痕与做旧磨损细节，边缘有自然裁切后的不规则感；在皮革底板上塑造出参考中的文字和图案，文字由更浅色的皮革贴片单独缝制或压印而成，字形饱满清晰，边缘有明确缝线、压边或压纹轮廓，字体与底板之间形成明显颜色差、材质差和立体层次，不能与底板皮纹融成一片；可搭配少量皮革小星星或压印装饰，整体呈现复古、高级、手工皮具徽章感强烈且轮廓明确的视觉效果，背景为纯净的白色背景，平视高清展示，无透视畸变，正面柔和的全光，超写实还原皮革纹理、缝线细节与字体清晰独立的结构关系，无数字合成的违和感，比例为3:2。
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/9216cf79-ddc6-4e7e-a62a-eebb038a5095.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/b0ed9874c035c2f8.png)
 
 <a id="heading_13"></a>__布丁版本__
 
 3D写实logo设计，内容为参考图中的文字和图案，主体是一块不规则的焦糖布丁底板，表面有柔软细腻的奶黄色布丁质感与微微颤动的光泽；在布丁底板上塑造出参考中的文字和图案，文字由更深色的焦糖酱或奶油布丁立体堆叠形成，字体边缘圆润饱满，表面有细腻反光和自然流动痕迹，文字与底板之间有明显颜色差、厚度差和轻微投影，不能与底板混成同一层；整体呈现香甜、柔软、顺滑且层次清楚的甜品质感，背景为纯净的白色背景，平视高清展示，无透视畸变，正面柔和的全光，超写实还原布丁、焦糖酱与立体字体之间的真实材质差异，无数字合成的违和感，比例为3:2。
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/a3d732cc-d35e-42d1-8904-b235c1e7e7db.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/8dab04ce3d5a5b84.png)
 
 <a id="heading_14"></a>__柠檬皮版本__
 
 3D写实logo设计，内容为参考图中的文字和图案，主体是一片不规则的柠檬皮，表皮有自然细密的柠檬皮颗粒纹理，表皮上刻出参考中的文字和图案，文字为手工刮刻后露出浅白偏淡黄色的内皮层纹理，边缘带有自然果皮纤维和轻微卷曲感，呈现粗糙、不规整、手作感明显的效果。背景为纯净的白色背景，平视高清展示，无透视畸变，正面柔和全光，超写实还原柠檬皮质感与手工刻写痕迹，无数字合成违和感，比例为3:2。
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/99ae903f-a54c-40fc-8dbe-ff5e493e9b4d.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/345993a9a8b4f7ad.png)
 
 <a id="heading_15"></a>__果酱版本__
 
@@ -73,7 +73,7 @@ __字体材质1提示词和教程__
 
 <a id="heading_16"></a>__8个字母不同材质版本__
 
-![](/prompt/content/prompts/images/ziti-caizhi-1/images/2842f590-7e0b-4540-8031-1585d1952aa2.png)
+![](/prompt/content/prompts/images/ziti-caizhi-1/images/d0b3bc02bd1fbe68.png)
 
 我想把“Material”的这8个字母，每个字母都是一个材质，白底
 

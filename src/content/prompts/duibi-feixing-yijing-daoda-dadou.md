@@ -1,7 +1,7 @@
 ---
 title: "其他 / 对比、飞行、一镜到底、打斗提示词"
 category: 视频生成
-tags: []
+tags: ["运镜", "一镜到底", "打斗"]
 slug: duibi-feixing-yijing-daoda-dadou
 source: txt
 date: 2026-07-08

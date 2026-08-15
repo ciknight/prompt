@@ -1,7 +1,7 @@
 ---
 title: "实战 / 别让你的IP【呆板】的站着｜完整提示词"
 category: 角色与IP
-tags: []
+tags: ["IP", "人物", "写实"]
 slug: bie-rang-ip-daibai-zhanzhe
 source: docx
 date: 2026-08-14
@@ -14,7 +14,7 @@ __别让你的IP【呆板】的站着｜完整提示词__
 
  
 
-![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/ea481e79-a46c-4b54-bcc8-2ceb1a489472.png)
+![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/638da0395a70cf7c.png)
 
 <a id="heading_2"></a>__3\.AI使用工具：lovart、Ai studio__
 
@@ -26,7 +26,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 <a id="heading_5"></a>__1\.插画角色转3d（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/f5f7d0df-2509-48dc-81df-28ab17561f3c.png)
+![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/5d7cd06c3eca4e7a.png)
 
 __（直接复制粘贴即可）提示词：__
 
@@ -208,7 +208,7 @@ __（直接复制粘贴即可）提示词：__
 
 <a id="heading_6"></a>__2\.生成角色四视图（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/78268980-3864-49f4-8572-c3909a2c4c34.png)
+![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/83c29b11f74d1fbd.png)
 
 __提示词：__
 
@@ -216,7 +216,7 @@ __提示词：__
 
 <a id="heading_7"></a>__3\.生成角色大透视视角（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/f834aede-7a35-4193-acb3-42e8b0ca43a0.png)
+![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/431ad5ffd5eacee9.png)
 
 __提示词：__
 

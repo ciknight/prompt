@@ -1,7 +1,7 @@
 ---
 title: "仿真人提示词 / S级漫剧场景"
 category: 场景视觉
-tags: []
+tags: ["场景", "漫剧", "写实"]
 slug: s-ji-manju-changjing
 source: txt
 date: 2026-07-08

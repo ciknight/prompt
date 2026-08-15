@@ -1,7 +1,7 @@
 ---
 title: "其他 / 炫酷打斗视频提示词"
 category: 视频生成
-tags: []
+tags: ["打斗", "特效", "电影感"]
 slug: xuanku-dadou-shipin
 source: txt
 date: 2026-07-08

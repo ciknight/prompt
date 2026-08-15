@@ -1,7 +1,7 @@
 ---
 title: "仿真人提示词 / 三视图"
 category: 场景视觉
-tags: []
+tags: ["人物", "3D", "写实"]
 slug: sanshitu
 source: txt
 date: 2026-07-08

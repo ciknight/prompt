@@ -1,7 +1,7 @@
 ---
 title: "文案分幕"
 category: 剧本分镜
-tags: []
+tags: ["漫剧", "竖屏", "分镜"]
 slug: wenan-fenmu
 source: txt
 date: 2026-07-08

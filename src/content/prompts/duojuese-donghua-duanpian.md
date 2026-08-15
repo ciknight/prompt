@@ -1,7 +1,7 @@
 ---
 title: "实战 / 《多角色动画短片》提示词和操作流程"
 category: 动画短片
-tags: []
+tags: ["人物", "分镜", "漫剧"]
 slug: duojuese-donghua-duanpian
 source: txt
 date: 2026-08-14

@@ -3,12 +3,12 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { parseDocx } from './parseDocx.mjs';
 import AdmZip from 'adm-zip';
-import { mkdtemp, writeFile, rm } from 'node:fs/promises';
+import { mkdtemp, writeFile, rm, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 
 async function makeMinimalDocx() {
-  // Build a minimal valid .docx (zip with required parts)
   const dir = await mkdtemp(join(tmpdir(), 'docx-'));
   const zip = new AdmZip();
 
@@ -79,18 +79,17 @@ async function makeMinimalDocx() {
        </w:body>
      </w:document>`);
 
-  // 1x1 transparent PNG
-  zip.addFile('word/media/image1.png',
-    Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64'));
+  const imgBytes = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64');
+  zip.addFile('word/media/image1.png', imgBytes);
 
   const path = join(dir, 'test.docx');
   zip.writeZip(path);
-  return { path, dir };
+  return { path, dir, imgBytes };
 }
 
 test('parseDocx extracts text', async () => {
-  const { path, dir } = await makeMinimalDocx();
-  const imageDir = join(process.cwd(), 'src/content/prompts/images/test-slug');
+  const { path, dir, imgBytes } = await makeMinimalDocx();
+  const imageDir = join(process.cwd(), 'public/content/prompts/images/test-slug');
   try {
     const result = await parseDocx(path, 'test-slug');
     assert.ok(typeof result.markdown === 'string');
@@ -98,7 +97,36 @@ test('parseDocx extracts text', async () => {
     assert.ok(result.markdown.includes('测试段落二'));
     assert.equal(result.images.length, 1);
     assert.match(result.images[0].path, /test-slug[\\/]+images[\\/]+/);
-    assert.ok(result.images[0].src.startsWith('/prompt/content/prompts/images/'), `expected base-prefixed path, got: ${result.images[0].src}`);
+
+    // Image filename must be content-hashed (deterministic) — same bytes → same name
+    const expectedHash = createHash('sha256').update(imgBytes).digest('hex').slice(0, 16);
+    assert.ok(
+      result.images[0].path.endsWith(`${expectedHash}.png`),
+      `filename should end with ${expectedHash}.png, got: ${result.images[0].path}`
+    );
+
+    // src must include base prefix from astro.config.mjs
+    assert.ok(result.images[0].src.startsWith('/prompt/'), `expected base-prefixed src, got: ${result.images[0].src}`);
+    assert.ok(result.images[0].src.includes(expectedHash), 'src should include content hash');
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+    await rm(imageDir, { recursive: true, force: true });
+  }
+});
+
+test('parseDocx is deterministic — same docx produces same filenames', async () => {
+  const { path, dir, imgBytes } = await makeMinimalDocx();
+  const imageDir = join(process.cwd(), 'public/content/prompts/images/det-test');
+  try {
+    const r1 = await parseDocx(path, 'det-test');
+    const r2 = await parseDocx(path, 'det-test');
+    assert.equal(r1.images[0].src, r2.images[0].src, 'src must be identical across runs');
+
+    // File on disk should be the same (re-ingest doesn't accumulate duplicates)
+    const file1 = await readFile(r1.images[0].path);
+    const file2 = await readFile(r2.images[0].path);
+    assert.equal(Buffer.compare(file1, file2), 0);
+    assert.equal(Buffer.compare(file1, imgBytes), 0);
   } finally {
     await rm(dir, { recursive: true, force: true });
     await rm(imageDir, { recursive: true, force: true });

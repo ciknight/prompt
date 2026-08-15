@@ -1,7 +1,7 @@
 ---
 title: "实战 / 角色微表情提示词"
 category: 角色与IP
-tags: []
+tags: ["人物", "微表情", "写实"]
 slug: juese-wei-biaoqing
 source: txt
 date: 2026-08-14

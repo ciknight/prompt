@@ -1,7 +1,7 @@
 ---
 title: "改文提示词"
 category: 剧本分镜
-tags: []
+tags: ["漫剧", "分镜", "写实"]
 slug: gaiwen-tici
 source: txt
 date: 2026-07-08

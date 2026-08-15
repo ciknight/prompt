@@ -1,7 +1,7 @@
 ---
 title: "实战 / AI直出全套IP设计｜完整提示词"
 category: 角色与IP
-tags: []
+tags: ["IP", "写实", "人物"]
 slug: ai-zhichu-quantao-ip
 source: docx
 date: 2026-08-14
@@ -12,7 +12,7 @@ __AI直出全套IP设计｜完整提示词__
 
 （AI生成仅供参考）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/11e6fdbe-7395-4453-8da4-e27696af1a5e.png)
+![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/e641fd03c5147c6f.png)
 
  
 
@@ -26,7 +26,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 <a id="heading_5"></a>__1\.生成角色四视图（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/d95fa230-845d-4c4d-8812-9fc7b76e4247.png)
+![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/fcce58f976c6dc94.png)
 
 __提示词：__
 
@@ -34,7 +34,7 @@ __提示词：__
 
 <a id="heading_6"></a>__2\.角色换装（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/387ec428-ec47-4a87-a925-9790408ae253.png)
+![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/0b5494fdeaa3bb74.png)
 
 __提示词：__
 
@@ -42,7 +42,7 @@ __提示词：__
 
 <a id="heading_7"></a>__3\.生成角色表情包（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/dbd19c4c-2dcd-4cde-a6d4-ade22f520f53.png)
+![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/8f7c3979ff3428f2.png)
 
 __提示词：__
 
@@ -104,11 +104,11 @@ __提示词：__
 
 详情请看飞书链接：[别让你的IP【呆板】的站着｜完整提示词](https://acn237ogtxz5.feishu.cn/wiki/XHkdwIZOKiVoLzkifhvccx5SnbL) 密码：5\#T28453
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/b94cf95f-a24a-4edc-9105-e31eed614f9a.png)
+![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/c44f83b049fc2ffc.png)
 
 <a id="heading_9"></a>__5\.生成角色周边（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/1f924b82-343d-4486-ae8c-ac9070ff3be8.png)
+![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/4afc172f22eb8d8a.png)
 
 __提示词：__
 
@@ -116,7 +116,7 @@ __提示词：__
 
 <a id="heading_10"></a>__6\.生成周边展台效果（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/16400335-47f7-4805-918f-cf8b716d6a4a.png)
+![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/8e071738ee946ba7.png)
 
 __提示词：__
 

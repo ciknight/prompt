@@ -1,7 +1,7 @@
 ---
 title: "实战 / 《ai无人机航拍》提示词和操作流程"
 category: 品牌与商业
-tags: []
+tags: ["运镜", "电影感", "特效"]
 slug: ai-wurenji-hangpai
 source: docx
 date: 2026-08-14
@@ -14,7 +14,7 @@ __《ai无人机航拍》提示词和操作流程__
 
 <a id="heading_4"></a>__《ai无人机航拍》提示词（黄色部分改成你的飞行轨迹内容）__
 
-![](/prompt/content/prompts/images/ai-wurenji-hangpai/images/7f40e479-7e03-450a-8264-3d3f366e315f.png)
+![](/prompt/content/prompts/images/ai-wurenji-hangpai/images/2613e6c48cffc34d.png)
 
 移除所有航拍路红色线线条、箭头、光点、辅助标记和UI元素。参考路径仅作为相机运动轨迹指引，不得在最终画面中出现。创建一个第一人称一镜到底FPV无人机航拍镜头，电影级叙事运镜，速度节奏为“快—慢—快”，严格按照参考航线连续飞行，不得跳跃镜头、不得缩短路径、不得简化运动轨迹。空间衔接真实自然，保持超高空航拍尺度与建筑空间逻辑一致。
 

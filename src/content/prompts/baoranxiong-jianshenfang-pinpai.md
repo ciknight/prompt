@@ -1,7 +1,7 @@
 ---
 title: "实战 / 《暴燃熊健身房》可编辑psd品牌全案提示词和教程"
 category: 品牌与商业
-tags: []
+tags: ["IP", "UI", "人物"]
 slug: baoranxiong-jianshenfang-pinpai
 source: docx
 date: 2026-08-14
@@ -12,20 +12,20 @@ __《暴燃熊健身房》可编辑psd品牌全案提示词和教程__
 
 <a id="heading_2"></a>__lovart（作图工具）：https://www\.lovart\.ai/__
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/e1b7b70a-d576-43b5-89c0-af52ed8e06eb.png)
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
 
 <a id="heading_3"></a>__codex：https://chatgpt\.com/__
 
 <a id="heading_7"></a>__转3d提示词（nano banana pro模型）：__
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/3136c08c-f18c-4551-960d-ac9781c9a39e.png)
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/0460864ed08d9c64.png)
 
   
 
 
 转3d前
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/b2278d38-00d7-4dfd-a6fd-3dcc4664b029.png)
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
 
 转3d后
 
@@ -211,7 +211,7 @@ __《暴燃熊健身房》可编辑psd品牌全案提示词和教程__
 
 <a id="heading_10"></a>__（上传IP）__
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/97c78746-1334-4491-a449-0d762fc68c0f.png)
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
 
 <a id="heading_11"></a>__ 完整生图提示词__
 
@@ -279,7 +279,7 @@ __《暴燃熊健身房》可编辑psd品牌全案提示词和教程__
 
 开练，就现在
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/d888d8f1-8252-4ae7-846b-68c6941d7835.png)
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
 
 <a id="heading_12"></a>__codex转换psd提示词：__
 

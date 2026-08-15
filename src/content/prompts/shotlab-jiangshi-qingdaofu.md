@@ -1,7 +1,7 @@
 ---
 title: "实战 / shotlab丧尸清道夫图片资产拆解"
 category: 角色与IP
-tags: []
+tags: ["IP", "场景", "人物"]
 slug: shotlab-jiangshi-qingdaofu
 source: docx
 date: 2026-08-14
@@ -12,31 +12,31 @@ __shotlab丧尸清道夫图片资产拆解__<a id="heading_4"></a>__人物角色
 
 生成身型修长的未来人形机器人，展示全身部位，主体乳白色机甲外壳\+黑色机械关节结构，全身外露精密机械零件，简约机械头颅，面部有纯黑色LED显示屏，显示屏代替五官，显示出马赛克风格的微笑表情。机械结构关节处有轻微污渍和灰尘，金属表面带有轻微划痕，机械感与科幻感强烈。影棚纯灰色背景，科幻电影质感，超高精度材质纹理，超写实渲染，细节拉满，真实相机实景拍摄。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/54ab8a91-804f-4270-9193-5b94e7ce299a.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/e7aadd8bd502893b.png)
 
 <a id="heading_6"></a>__机器人面部表情生图提示词（模型：image2，比例：16:9）：__
 
 （上传机器人图）将面部LED显示屏的马赛克表情生成不同版本，分别为红色的愤怒、白色的思考、绿色微笑、蓝色的冷酷、粉红色的花痴、黄色的害怕。按照6宫格生成面部位置的特写。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/ee7b5cc6-9b3a-472f-827d-09caac0ce659.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/d142fa20d66848c4.png)
 
 <a id="heading_7"></a>__机器人衣服生图提示词（模型：image2，比例：9:16）：__
 
 （上传机器人图）为机器人设计并戴上美式西部牛仔复古风格的深棕色牛仔帽，穿上黑色哑光高腰设计皮衣夹克、黑色哑光皮手套、牛仔腰带和枪套、手持左轮手枪，颈部佩戴红色印花牛仔方巾，同时熄灭面部显示屏的马赛克表情。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/37430802-4987-4dab-878d-f9322be9a7a1.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/b5be715a931d4fc5.png)
 
 <a id="heading_8"></a>__机器人手枪武器生图提示词（模型：image2，比例：16:9）：__
 
 为我生成一款原子朋克风格的左轮手枪，1960年代复古未来科技的感觉。全金属设计，表面抛光打磨有细微划痕，机械结构的缝隙关节处有少量磨损和污渍灰尘。影棚纯灰色背景，科幻电影质感，超高精度材质纹理，超写实渲染，细节拉满，真实相机实景拍摄。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/9bc5aab1-fd72-4136-bb3a-f8b6f3db1041.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/7a3be55e717d76ea.png)
 
 <a id="heading_9"></a>__机器人左轮手枪放到枪套内提示词（模型：image2，比例：9:16）：__
 
 将（上传穿外套机器人图）机器人手中的左轮手枪移除，并将（上传左轮手枪图）左轮手枪装入枪套内。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/d9504c19-e468-458b-b9aa-caa82144a1b1.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/027127eea2ca8e72.png)
 
 <a id="heading_10"></a>__机器人人物设定版提示词（模型：image2，比例：16:9）：__
 
@@ -48,7 +48,7 @@ __shotlab丧尸清道夫图片资产拆解__<a id="heading_4"></a>__人物角色
 
 右下：6张局部细节特写（上衣面料、左轮手枪、颈部方巾、牛仔帽、腰带、下身机械关节）。细节纹理真实，与原图保持一致。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/a68c3d82-9be0-4cbd-aaaa-3b977c59de8c.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/93fe5b6af7158e8c.png)
 
 <a id="heading_11"></a>__假人模特提示词（模型：image2，比例：9:16）：__
 
@@ -59,11 +59,11 @@ __第一版提示词：__
 
 （上传第一版假人模特）移除橱窗等环境，仅保留假人模特，并将背景替换为影棚纯灰色背景，添加红色发箍，红色高跟鞋，戴上白色复古墨镜，同时将服装改为红底白波点连衣裙。姿势改为单手叉腰，不改变发型以及头发颜色。维持用于展示服装的塑料假人模特的属性。在塑料假人模特的肩膀、手肘、手腕、手指、膝盖、脚踝、脖子等关节部位添加用于改变姿势的拼接缝隙。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/3ea8881c-64ee-40d5-a5ae-5b2e845025f3.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/3493fc2ba5afb90a.png)
 
 第一版假人模特
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/84327e22-bc2b-42dd-aaf6-ecc5952bb58a.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/2c9f1692ca4a5850.png)
 
 第二版假人模特
 
@@ -81,25 +81,25 @@ __第一版提示词：__
 
 生成不同样式的四宫格图片。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/5e44b5be-380f-43ad-a14c-e02ffeff9e92.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/1a5a37375f0b4e33.png)
 
 <a id="heading_14"></a>__场景切分：__
 
 将4宫格场景进行单独切分
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/8618bba4-5e38-42f7-a08c-e038df903a9e.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/241c35f647b42dbc.png)
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/335b7b93-f227-4e14-ab00-a9f9e62ee02a.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/51a6013484ecaabb.png)
 
 <a id="heading_15"></a>__场景草图修改（模型：image2，比例：16:9）：__
 
 帮我把这张图片转化为黑白手绘简笔画手稿，用于当作场景建模的设计草图，画面中不需要文字。
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/525c1c47-f72c-4964-9eac-3e0545325fd9.jpg)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/731428a70dcc5df7.jpg)
 
 通过图片标记来进行精准修改
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/ee79429a-8ebc-4afe-936e-c483b71c92b6.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/f38cbee3acb0ebad.png)
 
-![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/4e0bc129-a886-4ef4-b20d-e0819b664549.png)
+![](/prompt/content/prompts/images/shotlab-jiangshi-qingdaofu/images/1b2e22c7a0a2acaf.png)
 
