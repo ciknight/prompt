@@ -71,9 +71,11 @@ export async function parseXlsx(srcPath) {
     let body = b;
     if (c && c !== b) body += '\n\n' + c;
 
-    // Title: use first line of B, trimmed to a readable length.
+    // Title: first line of B, capped at 40 chars + ellipsis so very
+    // long single-line rows don't flood category listings.
     const firstLine = b.split(/\r?\n/, 1)[0].trim();
-    const title = `实战表格 · ${firstLine}`;
+    const titleText = firstLine.length > 40 ? firstLine.slice(0, 40) + '…' : firstLine;
+    const title = `实战表格 · ${titleText}`;
 
     prompts.push({
       title,
