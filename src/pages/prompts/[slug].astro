@@ -26,7 +26,7 @@ const { Content } = await render(prompt);
         )}
         {prompt.data.source && <span class="source">来源：{prompt.data.source}</span>}
         {prompt.data.source_url && (
-          <a class="source-link" href={prompt.data.source_url} target="_blank" rel="noopener">
+          <a class="source-link" href={prompt.data.source_url} target="_blank" rel="noopener noreferrer">
             查看原文 →
           </a>
         )}
