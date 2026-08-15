@@ -6,6 +6,11 @@ node_modules/
 dist/
 .astro/
 
+# ingest output: regenerate via `npm run ingest`
+# (markdown is committed; archive and old-image location are not)
+archive/
+src/content/prompts/images/
+
 # logs
 npm-debug.log*
 *.log
