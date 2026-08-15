@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 export async function writePrompt({ slug, title, category, tags, source, date, markdown, outDir = 'src/content/prompts' }) {
+  await fs.mkdir(outDir, { recursive: true });
   const fm = [
     '---',
     `title: ${JSON.stringify(title)}`,
