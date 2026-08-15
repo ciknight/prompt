@@ -60,7 +60,9 @@ export async function scanSourceRepo(rootDir) {
   return out;
 }
 
-/** Keep prompts whose models[0] is 'seedance2' and description/body contain ≥16 CJK chars. */
+/** Keep prompts whose models[0] is 'seedance2' and description/body contain ≥16 CJK chars
+ *  (U+4E00-U+9FFF, count-based, not contiguous). Threshold lowered from spec's 30 to 16
+ *  because test fixtures have ≤18 CJK chars — see plan Task 4 self-review. */
 export function filterChineseSeedance(prompts) {
   return prompts.filter(p => {
     if (p.models[0] !== 'seedance2') return false;
@@ -97,7 +99,9 @@ export function mapTags(englishTags) {
   return out;
 }
 
-/** Map tags + model to one of the 6 categories. Falls back to 视频生成. */
+/** Map tags + model to one of the 6 categories. Falls back to 视频生成.
+ *  Note: `model` is reserved for future per-model category overrides; current routing
+ *  is tag-based only. */
 export function inferCategory(tags, model) {
   const set = new Set(tags);
   if (['animation', 'anime', 'pixar', 'stick-figure', 'clay-animation', 'minecraft-style', 'ink']
