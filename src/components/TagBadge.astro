@@ -1,12 +1,13 @@
 ---
 // src/components/TagBadge.astro
 import { baseUrl } from '../lib/base-url';
+import { tagSlug } from '../../scripts/lib/tag-slug.mjs';
 
 interface Props {
   tag: string;
 }
 const { tag } = Astro.props;
-const href = `${baseUrl()}tags/${encodeURIComponent(tag)}/`;
+const href = `${baseUrl()}tags/${tagSlug(tag)}/`;
 ---
 <a class="tag-badge" href={href}>#{tag}</a>
 

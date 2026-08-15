@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 const { prompt } = Astro.props;
 const { Content } = await render(prompt);
 ---
-<BaseLayout title={`${prompt.data.title} · Prompt 作品集`}>
+<BaseLayout title={`${prompt.data.title} · AI 提示词收藏`}>
   <article>
     <header class="prompt-header">
       <h1>{prompt.data.title}</h1>

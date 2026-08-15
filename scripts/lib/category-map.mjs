@@ -1,4 +1,6 @@
 // scripts/lib/category-map.mjs
+
+// Display names (Chinese, what users see)
 export const CATEGORIES = [
   '剧本分镜',
   '角色与IP',
@@ -7,6 +9,21 @@ export const CATEGORIES = [
   '品牌与商业',
   '动画短片',
 ];
+
+// URL slugs (pinyin, what URLs use — no Chinese characters)
+export const CATEGORY_SLUGS = {
+  '剧本分镜': 'juben-fenjing',
+  '角色与IP': 'juese-yu-ip',
+  '场景视觉': 'changjing-shijue',
+  '视频生成': 'shipin-shengcheng',
+  '品牌与商业': 'pinpai-yu-shangye',
+  '动画短片': 'donghua-duanpian',
+};
+
+// Reverse lookup: slug → display name
+export const SLUG_TO_CATEGORY = Object.fromEntries(
+  Object.entries(CATEGORY_SLUGS).map(([name, slug]) => [slug, name])
+);
 
 export const CATEGORY_MAP = {
   // 剧本分镜
@@ -73,4 +90,16 @@ export function resolveCategory(filename) {
   const cat = CATEGORY_MAP[filename];
   if (!cat) throw new Error(`no category for: ${filename}`);
   return cat;
+}
+
+export function categorySlug(name) {
+  const slug = CATEGORY_SLUGS[name];
+  if (!slug) throw new Error(`no slug for category: ${name}`);
+  return slug;
+}
+
+export function categoryFromSlug(slug) {
+  const name = SLUG_TO_CATEGORY[slug];
+  if (!name) throw new Error(`unknown category slug: ${slug}`);
+  return name;
 }

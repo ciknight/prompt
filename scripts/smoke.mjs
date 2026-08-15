@@ -29,9 +29,10 @@ async function waitForServer(url, timeoutMs = 30_000) {
 }
 
 const checks = [
-  { url: '/', expectTitle: 'Prompt 作品集', expectCategoryCount: 6 },
+  { url: '/', expectTitle: 'AI 提示词收藏', expectCategoryCount: 6 },
   { url: '/about/', expectH1: '关于' },
-  { url: '/category/视频生成/', expectH1: '视频生成' },
+  { url: '/category/shipin-shengcheng/', expectH1: '视频生成' },
+  { url: '/category/juese-yu-ip/', expectH1: '角色与IP' },
   { url: '/prompts/manju-fenjing-jiehe-10s/', expectH1NotEmpty: true },
   { url: '/prompts/hongbei-ziti-caizhi-2/', expectImageSrcPrefix: '/prompt/content/prompts/images/' },
 ];

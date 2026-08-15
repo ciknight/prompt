@@ -1,6 +1,7 @@
 ---
 // src/components/CategoryCard.astro
 import { baseUrl } from '../lib/base-url';
+import { categorySlug } from '../../scripts/lib/category-map.mjs';
 
 interface Props {
   name: string;
@@ -8,7 +9,7 @@ interface Props {
   count: number;
 }
 const { name, description, count } = Astro.props;
-const href = `${baseUrl()}category/${encodeURIComponent(name)}/`;
+const href = `${baseUrl()}category/${categorySlug(name)}/`;
 ---
 <a class="category-card" href={href}>
   <h3>{name} <span class="count">({count})</span></h3>

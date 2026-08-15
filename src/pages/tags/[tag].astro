@@ -3,22 +3,24 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PromptCard from '../../components/PromptCard.astro';
+import { tagSlug, tagFromSlug } from '../../../scripts/lib/tag-slug.mjs';
 
 export async function getStaticPaths() {
   const prompts = await getCollection('prompts');
   const tagSet = new Set<string>();
   for (const p of prompts) for (const t of p.data.tags) tagSet.add(t);
-  return [...tagSet].map(tag => ({ params: { tag } }));
+  return [...tagSet].map(tag => ({ params: { tag: tagSlug(tag) } }));
 }
 
-const { tag } = Astro.params;
-if (!tag) return Astro.redirect('/');
+const { tag: slug } = Astro.params;
+if (!slug) return Astro.redirect('/');
+const tag = tagFromSlug(slug);
 
 const prompts = (await getCollection('prompts'))
   .filter(p => p.data.tags.includes(tag))
   .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0));
 ---
-<BaseLayout title={`#${tag} · Prompt 作品集`}>
+<BaseLayout title={`#${tag} · AI 提示词收藏`}>
   <h1># {tag}</h1>
   <p>{prompts.length} 个 prompt</p>
   {prompts.map(p => (

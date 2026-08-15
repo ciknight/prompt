@@ -9,7 +9,7 @@ const sorted = prompts.sort((a, b) =>
   (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0)
 );
 ---
-<BaseLayout title="全部 Prompts · Prompt 作品集">
+<BaseLayout title="全部 Prompts · AI 提示词收藏">
   <h1>全部 Prompts</h1>
   <p>{sorted.length} 个</p>
   {sorted.map(p => (

@@ -3,18 +3,28 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PromptCard from '../../components/PromptCard.astro';
-import { CATEGORIES } from '../../../scripts/lib/category-map.mjs';
+import { CATEGORIES, categoryFromSlug } from '../../../scripts/lib/category-map.mjs';
 
 export async function getStaticPaths() {
-  return CATEGORIES.map(category => ({ params: { category } }));
+  return CATEGORIES.map(name => ({
+    params: { category: name === '剧本分镜' ? 'juben-fenjing'
+                          : name === '角色与IP' ? 'juese-yu-ip'
+                          : name === '场景视觉' ? 'changjing-shijue'
+                          : name === '视频生成' ? 'shipin-shengcheng'
+                          : name === '品牌与商业' ? 'pinpai-yu-shangye'
+                          : 'donghua-duanpian' },
+  }));
 }
 
-const { category } = Astro.params;
+const { category: slug } = Astro.params;
+if (!slug) return Astro.redirect('/');
+const category = categoryFromSlug(slug);
+
 const prompts = (await getCollection('prompts'))
   .filter(p => p.data.category === category)
   .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0));
 ---
-<BaseLayout title={`${category} · Prompt 作品集`}>
+<BaseLayout title={`${category} · AI 提示词收藏`}>
   <h1>{category}</h1>
   <p>{prompts.length} 个 prompt</p>
   {prompts.map(p => (
