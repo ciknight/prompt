@@ -123,3 +123,27 @@ test('runImport resolves slug collision with -2 suffix', async () => {
     await fs.rm(tmpRoot, { recursive: true, force: true });
   }
 });
+
+
+test('runImport rejects unsafe slug or month (path traversal)', async () => {
+  const tmpRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'avp-import-'));
+  const candidatesPath = path.join(tmpRoot, 'cand.json');
+  await fs.writeFile(candidatesPath, JSON.stringify([
+    { slug: '../../etc/passwd', month: '2026-04', title: 'A', tags_zh: ['电影感'], category: '视频生成', model: 'seedance2', author: 'A', source_url: 'https://x.com/A/1', description: 'desc', filePath: '/x' },
+    { slug: 'ok-slug', month: '../2026', title: 'B', tags_zh: ['电影感'], category: '视频生成', model: 'seedance2', author: 'B', source_url: 'https://x.com/B/1', description: 'desc', filePath: '/x' },
+  ]));
+  try {
+    const result = await runImport({
+      candidatesPath,
+      sourceRoot: FIXTURES,
+      promptsDir: path.join(tmpRoot, 'src/content/prompts'),
+      imagesDir: path.join(tmpRoot, 'public/content/prompts/images'),
+    });
+    assert.equal(result.imported, 0);
+    assert.equal(result.skipped, 2);
+  } finally {
+    await fs.rm(tmpRoot, { recursive: true, force: true });
+  }
+});
+
+

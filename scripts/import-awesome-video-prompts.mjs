@@ -31,6 +31,21 @@ export async function runImport({
 
   for (const c of candidates) {
     const baseSlug = c.slug;
+    // Defensive validation: reject any slug/month with characters outside the safe set
+    // to prevent path traversal (e.g., "../../etc"). Skip + WARN on mismatch.
+    const SLUG_RE = /^[a-z0-9][a-z0-9-]*$/;
+    const MONTH_RE = /^\d{4}-\d{2}$/;
+    if (!SLUG_RE.test(baseSlug)) {
+      log.push(`✗ ${baseSlug} (unsafe slug)`);
+      skipped++;
+      continue;
+    }
+    if (!MONTH_RE.test(c.month)) {
+      log.push(`✗ ${baseSlug} (unsafe month: ${c.month})`);
+      skipped++;
+      continue;
+    }
+
     let finalSlug = baseSlug;
     let i = 2;
     while (usedSlugs.has(finalSlug)) {
@@ -50,12 +65,20 @@ export async function runImport({
     const dateStr = c.date ?? new Date().toISOString().slice(0, 10);
     const md = renderMarkdown({ ...c, slug: finalSlug, date: dateStr });
     const mdPath = path.join(promptsDir, `${finalSlug}.md`);
-    await fs.mkdir(path.dirname(mdPath), { recursive: true });
-    await fs.writeFile(mdPath, md, 'utf8');
+    try {
+      await fs.mkdir(path.dirname(mdPath), { recursive: true });
+      await fs.writeFile(mdPath, md, 'utf8');
 
-    const coverDst = path.join(imagesDir, finalSlug, 'images', 'cover.jpg');
-    await fs.mkdir(path.dirname(coverDst), { recursive: true });
-    await fs.copyFile(srcCover, coverDst);
+      const coverDst = path.join(imagesDir, finalSlug, 'images', 'cover.jpg');
+      await fs.mkdir(path.dirname(coverDst), { recursive: true });
+      await fs.copyFile(srcCover, coverDst);
+    } catch (e) {
+      // Best-effort rollback of the markdown we just wrote.
+      try { await fs.unlink(mdPath); } catch {}
+      log.push(`✗ ${baseSlug} (copy failed: ${e.message})`);
+      skipped++;
+      continue;
+    }
 
     imported++;
     log.push(`✓ ${baseSlug} → ${finalSlug}.md`);
@@ -96,3 +119,4 @@ if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
     console.log(`\n[import] Done: ${r.imported} imported / ${r.skipped} skipped`);
   }).catch(e => { console.error(e); process.exit(1); });
 }
+
