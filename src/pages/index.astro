@@ -11,6 +11,7 @@ const CATEGORY_DESCRIPTIONS = {
   '视频生成': '镜头语言、运镜、打斗、特效',
   '品牌与商业': '品牌手册、UI、PPT、广告设计',
   '动画短片': '完整动画案例（剧本+分镜+视觉）',
+  '技能': '可复用的提示词工作流与创作方法',
 };
 
 const prompts = await getCollection('prompts');
@@ -19,7 +20,7 @@ for (const p of prompts) {
   counts[p.data.category] = (counts[p.data.category] || 0) + 1;
 }
 
-const CATEGORIES = ['剧本分镜', '角色与IP', '场景视觉', '视频生成', '品牌与商业', '动画短片'];
+const CATEGORIES = ['剧本分镜', '角色与IP', '场景视觉', '视频生成', '品牌与商业', '动画短片', '技能'];
 
 // Latest 5 prompts
 const recent = prompts
@@ -31,7 +32,7 @@ const base = baseUrl();
 ---
 <BaseLayout title="AI 提示词收藏">
   <h1>AI 提示词收藏</h1>
-  <p class="lede">{prompts.length} 个 AI 提示词 · 6 个分类 · 全文搜索</p>
+  <p class="lede">{prompts.length} 个 AI 提示词 · 7 个分类 · 全文搜索</p>
 
   <h2>分类</h2>
   <div class="category-grid">
