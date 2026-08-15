@@ -6,13 +6,12 @@ slug: xuejie-baozongzi-donghua
 source: docx
 date: 2026-08-14
 ---
-**《学姐包粽子动画短片》提示词和操作流程**
 
-**AI使用工具：**
+AI使用工具：
 
 libtv：https://www\.liblib\.tv/
 
-**《草图故事板》提示词（红色不要修改）**
+《草图故事板》提示词（红色不要修改）
 
 （上传角色）
 
@@ -24,7 +23,7 @@ libtv：https://www\.liblib\.tv/
 
 
 
-**seedance2.0视频提示词：**
+seedance2.0视频提示词：
 
 使用 （故事板）作为广告故事板进行指导拍摄，禁止将故事板作为单张图像生成视频，将
 

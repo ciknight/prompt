@@ -50,6 +50,13 @@ function clean(md) {
     )
     // Demote any leftover ####+ not matched above
     .replace(/^####+ /gm, '**')
+    // Strip the first bold line immediately after frontmatter (the
+    // document title repeats the H1 we already render in the page header)
+    .replace(/^---\n[\s\S]*?\n---\n\*\*([^*\n]+)\*\*\n/, (m) => m.replace(/\*\*[^*\n]+\*\*\n/, ''))
+    // Strip bold from lines that have no numeric prefix and aren't
+    // meaningful as headings (e.g. `**视频教程：**`, `**提示词：**`,
+    // `**小红书链接：**`). They become plain paragraphs.
+    .replace(/^[ \t]*\*\*([^*\n]+)\*\*[ \t]*$/gm, '$1')
     // UTF-8 replacement char (mammoth decode failure marker)
     .replaceAll(REPLACEMENT_CHAR, '');
 }
