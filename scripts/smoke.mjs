@@ -34,7 +34,7 @@ const checks = [
   { url: '/category/shipin-shengcheng/', expectH1: '视频生成' },
   { url: '/category/juese-yu-ip/', expectH1: '角色与IP' },
   { url: '/prompts/manju-fenjing-jiehe-10s/', expectH1NotEmpty: true },
-  { url: '/prompts/hongbei-ziti-caizhi-2/', expectNoImageSrc: true },
+  { url: '/prompts/ai-zhichu-quantao-ip/', expectImageSrc: true },
 ];
 
 async function run() {
@@ -82,10 +82,11 @@ async function run() {
             throw new Error(`only ${matches.length} category links, want ≥${c.expectCategoryCount}`);
           }
         }
-        if (c.expectNoImageSrc) {
-          // Page should NOT contain any image src (images stripped for copyright).
-          if (/<img\s+[^>]*src=/i.test(html)) {
-            throw new Error(`page contains <img> tag; images should be stripped`);
+        if (c.expectImageSrc) {
+          // Page should contain at least one image (image references are
+          // restored from the original docx files).
+          if (!/<img\s+[^>]*src=/i.test(html)) {
+            throw new Error(`page contains no <img> tag; expected rendered images`);
           }
         }
         console.log(`✓ ${c.url}`);
