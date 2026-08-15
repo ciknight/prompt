@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+.astro/
+
+# ingest output (generated, regenerable)
+src/content/prompts/
+src/content/prompts/images/
+archive/
+
+# logs
+npm-debug.log*
+*.log
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
