@@ -1,0 +1,26 @@
+---
+// src/components/CategoryBadge.astro
+interface Props {
+  category: string;
+}
+const { category } = Astro.props;
+const href = `/category/${encodeURIComponent(category)}`;
+---
+<a class="category-badge" href={href}>{category}</a>
+
+<style>
+  .category-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.85rem;
+    background: var(--sl-color-accent-low);
+    color: var(--sl-color-accent-high);
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .category-badge:hover {
+    background: var(--sl-color-accent);
+    color: var(--sl-color-white);
+  }
+</style>
