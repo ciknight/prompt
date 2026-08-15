@@ -14,33 +14,33 @@ model: "seedance2"
 
 {
 "effect_analysis": {
-  "theme": "Dimensional Slash and Space Shattering",
-  "primary_colors": ["Vibrant Red", "Deep Black", "Bright White", "Pale Cyan (Character)"],
+  "theme": "次元斩与空间碎裂",
+  "primary_colors": ["鲜红色", "深黑色", "亮白色", "浅青色（角色）"],
   "visual_elements": [
-    "Sharp curved energy trails",
-    "Radial glass-shattering lines",
-    "Debris and floating rock fragments",
-    "Nebula-like cosmic background",
-    "Intense lens flare and glow"
+    "锐利的弧形能量轨迹",
+    "放射状玻璃碎裂纹路",
+    "碎片与漂浮的岩石碎块",
+    "星云般的宇宙背景",
+    "强烈的镜头光晕与辉光"
   ]
 },
 "reproduction_prompts": {
   "character_action": {
-    "description": "キャラクターの攻撃モーション用",
+    "description": "用于角色的攻击动作",
     "prompt": "Dynamic action shot, anime style girl with light blue hair, wielding a glowing sword, performing a wide horizontal slash, vibrant red energy arc trail, sparks and light particles, white grid floor, cinematic lighting."
   },
   "impact_shatter": {
-    "description": "空間が割れる瞬間の演出用",
+    "description": "用于空间破碎瞬间的演出",
     "prompt": "Screen-breaking effect, radial cracks spreading from the center, red and black high contrast lines, shattered glass fragments flying towards the camera, intense white light explosion in the center, high energy, sharp edges."
   },
   "cosmic_explosion": {
-    "description": "後半の空間崩壊・宇宙背景用",
+    "description": "用于后半段空间崩塌与宇宙背景",
     "prompt": "Cosmic explosion aftermath, floating dark rock debris, glowing red nebula background, stars and stardust, cinematic depth of field, high resolution, dramatic impact, red light rays piercing through darkness."
   }
 },
 "technical_parameters": {
-  "rendering_style": "High-fidelity anime/game VFX",
-  "motion_keywords": ["Fast transition", "Radial blur", "Screen shake", "Time dilation (slow motion)"],
+  "rendering_style": "高保真动漫/游戏VFX",
+  "motion_keywords": ["快速转场", "放射状模糊", "屏幕震动", "时间膨胀（慢动作）"],
   "aspect_ratio": "16:9"
 }
 }

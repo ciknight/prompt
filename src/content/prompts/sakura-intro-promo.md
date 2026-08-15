@@ -12,15 +12,13 @@ model: "seedance2"
 
 ![](/prompt/content/prompts/images/sakura-intro-promo/images/cover.jpg)
 
-SAKURA: kawaii cyberpunk samurai per 
-@Image1
-. Locks: platinum-WHITE streak in raven-black bob; red goggles UP on head; pink headphones AROUND neck; pink mask; pink-bladed primary katana; second katana at left hip. Setting: cyberpunk neon void — black-to-magenta gradient, cyan grid floor, drifting sakura petals, floating kanji glyphs (桜/刃/舞), vertical pink light-rain. Format: 16:9, 15s, painterly stylized 3D cel-shaded, kawaii cyberpunk Tokyo-neon, hot-pink-cyan-black palette. 
-——— SHOT SCRIPT ——— 
-[00:00–00:02] Beat 1 — Wide Reveal + Snap Punch-In Sakura stands center-right, pink katana lowered. Vertical pink kanji UI "桜/刃/舞/散" descends along the right edge. At 1.5s, snap zoom punch-in to MCU; pink eyes lock to lens; RGB chromatic flicker. 
-[00:02–00:05] Beat 2 — Petal-Form Teleport + Iaido Reform She dissolves into a petal cloud streaking right-to-left at impossible speed with arcing pink trail. Cloud condenses center; she reforms in a low iaido crouch, hand on katana tsuba. 
-[00:05–00:07.5] Beat 3 — Bullet-Time Freeze + Iaido Slash Time freezes. Camera bullet-time orbits 180° counter-clockwise around her frozen pose; petals hang as lens flares. Time SHATTERS back; she erupts up in a fluid iaido draw — pink blade unsheathes invisibly fast leaving a horizontal magenta light streak, snaps back into saya clean. 
-[00:07.5–00:10] Beat 4 — Petal-Banner + Typography Stamp-In Petals SHATTER and converge into a massive vertical pink kanji "桜" on the right half of frame. Camera pulls back; Sakura stands center-left, katana resheathed. Vertical cyan mono caps stamp in top-to-bottom: "UNIT 桜-09 / SAKURA / 桜の刃 / BLOSSOM BLADE / 一刀両断" with thin cyan underlines. 
-[00:10–00:12] Beat 5 — Slow Dolly-In to Hero Hold Slow dolly-in toward her masked face; "桜" banner softens out of focus; pink eyes meet the lens; a single petal drifts past her cheek; chromatic pulse. 
+SAKURA：可爱赛博朋克武士，依据 @Image1。发型：齐耳短发，乌黑发色中挑染一缕铂金白色；红色护目镜推至头顶；粉色耳机挂脖；粉色面罩；主武器为粉色刀刃的武士刀；左腰另配一把武士刀。场景设定：赛博朋克霓虹虚空——黑到品红的渐变、青色网格地面、飘落的樱花瓣、漂浮的汉字字形（桜/刃/舞）、垂直的粉色光雨。格式：16:9，15秒，painterly风格化的3D cel-shaded、可爱赛博朋克东京霓虹、热粉-青-黑配色。
+——— 镜头脚本 ———
+[00:00–00:02] Beat 1 — 宽景揭示 + 急速推入 樱花位于画面中右，粉色武士刀垂下。右侧沿屏幕边缘降下垂直的粉色汉字UI「桜/刃/舞/散」。在1.5秒时急速snap zoom推入至中近景；粉色双眼锁定镜头；RGB色差闪烁。
+[00:02–00:05] Beat 2 — 花瓣形态瞬移 + 居合重构 她化作花瓣云团以不可能的速度自右向左掠过，留下弧形粉色轨迹。花瓣云在画面中央凝聚，她在低姿居合蹲姿中重现，手按在武士刀的镡上。
+[00:05–00:07.5] Beat 3 — 子弹时间冻结 + 居合斩 时间冻结。镜头以子弹时间绕她冻结的姿态逆时针环绕180°；花瓣悬停化作镜头光晕。时间轰然碎裂回放；她以流畅的居合拔刀术向上爆发——粉色刀刃以肉眼不可见的速度出鞘，留下一道水平洋红色光迹，再干净地收刀入鞘。
+[00:07.5–00:10] Beat 4 — 花瓣横幅 + 文字stamp推入 花瓣碎裂并汇聚成巨大的垂直粉色汉字「桜」，居于画面右半部。镜头拉远；樱花立于画面中左，武士刀已归鞘。顶部至底部逐次stamp入垂直青色大写字体："UNIT 桜-09 / SAKURA / 桜の刃 / BLOSSOM BLADE / 一刀両断"，下方配细青色下划线。
+[00:10–00:12] Beat 5 — 慢速推镜头至英雄定格 慢速推镜头至她戴面罩的脸部；「桜」横幅柔化为焦外；粉色双眼与镜头对视；一片花瓣从她脸颊旁飘过；色差脉动。
 
-——— AUDIO ——— 
-SE: UI chime + kawaii bell on punch-in; sub-bass whoosh + petal flutter on teleport; bass drop on freeze; katana SING + saya click on iaido cut; stamp clicks on typography
+——— 音频 ———
+音效：推入时加入UI提示音 + 可爱铃声；瞬移时加入次低音呼啸 + 花瓣飘动声；冻结时加入bass drop；居合斩时加入武士刀嗡鸣 + 入鞘咔哒声；文字stamp时加入stamp click声
