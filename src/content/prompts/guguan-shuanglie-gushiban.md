@@ -7,7 +7,7 @@ source: docx
 date: 2026-08-14
 ---
 
-AI使用工具
+AI使用工具：
 
 gpt（作图工具）：https://chatgpt\.com/  
 即梦（视频工具）：https://jimeng\.jianying\.com/ai\-tool/home/
@@ -34,7 +34,9 @@ image2故事板视频提示词：（标红字体的改成你们自己的故事�
 
  
 
-seedance2.0视频提示词
+![](/prompt/content/prompts/images/guguan-shuanglie-gushiban/images/4b1a975024b997b8.png)
+
+seedance2.0视频提示词：
 
 第一段视频提示词
 

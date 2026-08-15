@@ -11,11 +11,15 @@ AI使用工具：lovart（需梯子）
 
 lovart（作图工具）：https://www\.lovart\.ai/
 
-教程
+![](/prompt/content/prompts/images/huang-genlab-pinpai/images/aba52e31746bc18f.png)
+
+教程：
 
 提示词：【建议先生成封面，封面没问题了（上传封面）再往下生成其他的延展】
 
-参考图logo
+### 参考图logo
+
+![](/prompt/content/prompts/images/huang-genlab-pinpai/images/4e901c75db75fdb7.png)
 
 先生成第一张图，图形logo是（参考logo）
 
@@ -122,4 +126,6 @@ lovart（作图工具）：https://www\.lovart\.ai/
 左上角放置Huang GenLab logo组合，副标题为 **“AI创意实验室 / 智能视觉系统”**。左侧大标题为 **Summary / 总结**。中部放置总结文案：**“Huang GenLab 通过统一的标志系统、色彩语言、视觉材质与数字表达方式，构建了一个兼具未来感、实验性与品牌识别度的AI创意品牌系统。”** 下方列出4个关键词：**Brand Identity、Visual System、Digital Expression、Future Experience**。底部加入结束语：**Create the Future with Huang GenLab\.**
 
 右侧使用完整但克制的3D品牌装置作为收尾视觉：蓝色圆润H形logo主体，右上角小圆点完整保留；搭配透明玻璃模块、亚克力卡片、蓝色科技球体、荧光绿几何体、橙色软胶模块、粉色玻璃片、毛绒球体、点阵面板、蓝色网格底座。整体构图稳重、干净、完整，有结束封面的感觉。右上角加入 **13 / 24**，底部加入 **Brand Visual Manual / 2026 Edition**。高清4K，文字清晰不乱码，不要水印，不要噪点。
+
+![](/prompt/content/prompts/images/huang-genlab-pinpai/images/aba52e31746bc18f.png)
 

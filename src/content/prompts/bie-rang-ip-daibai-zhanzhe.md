@@ -13,17 +13,21 @@ date: 2026-08-14
 
  
 
+![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/638da0395a70cf7c.png)
+
 ## 3.AI使用工具：lovart、Ai studio
 
 lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 1.lovart工具使用教程
 
-## 4.教程部分
+## 4.教程部分：
 
 ## 1.插画角色转3d（使用工具：lovart）
 
-（直接复制粘贴即可）提示词
+![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/5d7cd06c3eca4e7a.png)
+
+（直接复制粘贴即可）提示词：
 
 （上传你的插画IP人物）白底，4k
 
@@ -35,7 +39,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 保持原始角色的整体造型结构与设计语言。角色需具备清晰的体块关系、真实的空间体积感与稳定的结构逻辑。
 
-自动检测并修复人物结构错误，包括但不限于
+自动检测并修复人物结构错误，包括但不限于：
 
 六指或多指问题
 
@@ -49,7 +53,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 3、比例
 
-角色比例需保持稳定与合理
+### 角色比例需保持稳定与合理
 
 符合自然人体比例或设计比例逻辑
 
@@ -65,7 +69,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 使用 干净且写实的几何造型构建角色与场景。
 
-关键区域需具备 高多边形细节表现
+关键区域需具备 高多边形细节表现：
 
 面部结构
 
@@ -75,7 +79,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 关键装饰元素
 
-避免
+### 避免
 
 低模建模
 
@@ -89,7 +93,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 使用 PBR（Physically Based Rendering）材质系统。
 
-材质需具备
+### 材质需具备
 
 真实表面粗糙度（Roughness）
 
@@ -99,7 +103,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 自然反射与折射效果
 
-特殊材质需呈现真实物理属性
+### 特殊材质需呈现真实物理属性
 
 半透明材质（Subsurface Scattering）
 
@@ -109,7 +113,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 真实表面磨损或纹理变化
 
-避免
+### 避免
 
 平涂材质
 
@@ -119,7 +123,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 6、渲染
 
-采用 超精细3D渲染与物理真实光照系统
+采用 超精细3D渲染与物理真实光照系统：
 
 基于物理的渲染（PBR Rendering）
 
@@ -129,7 +133,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 高动态范围光照（HDR Lighting）
 
-阴影表现需
+### 阴影表现需
 
 干净自然
 
@@ -141,7 +145,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 7、灯光
 
-使用 电影级布光逻辑
+### 使用 电影级布光逻辑
 
 柔和定向主光（Key Light）
 
@@ -149,7 +153,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 精细轮廓光 / 边缘光（Rim Light）
 
-强调
+### 强调
 
 物体体积感
 
@@ -157,7 +161,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 视觉焦点
 
-可使用
+### 可使用
 
 写实景深（Depth of Field）
 
@@ -165,7 +169,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 层次叠加的空间关系
 
-避免
+### 避免
 
 均匀化布光
 
@@ -175,7 +179,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 整体风格为 高品质超现实3D视觉风格。
 
-画面需具备
+### 画面需具备
 
 强烈空间层次
 
@@ -183,7 +187,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 超现实视觉张力
 
-超现实元素要求
+### 超现实元素要求
 
 悬浮元素保持真实悬浮状态
 
@@ -191,7 +195,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 保持物理实体感
 
-避免
+### 避免
 
 插画风格表现
 
@@ -203,13 +207,17 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ## 2.生成角色四视图（使用工具：lovart）
 
-提示词
+![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/83c29b11f74d1fbd.png)
+
+提示词：
 
 （上传参考图）分别生成侧面、4/3视角、背面视图，一共分别生成三张图
 
 ## 3.生成角色大透视视角（使用工具：lovart）
 
-提示词
+![](/prompt/content/prompts/images/bie-rang-ip-daibai-zhanzhe/images/431ad5ffd5eacee9.png)
+
+提示词：
 
 （上传四视图）是我的角色四视图，保持角色一致性,保持主体形象不变，背景色不变。角色做不同JOJO立的浮夸动作,如果是某个部位伸向镜头的请使用大透视，特写该部位。拍摄角色的不同角度，比如侧身,45度侧身,背对镜头等。用各种低角度仰拍、高角度俯拍、虫眼视角、大透视等非常规拍摄角度,人物看向镜头或不看，一共4张。
 

@@ -11,13 +11,19 @@ AI使用工具：lovart（需梯子）
 
 lovart（作图工具）：https://www.lovart.ai/
 
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
+
 codex：https://chatgpt.com/
 
 转3d提示词（nano banana pro模型）：
 
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/0460864ed08d9c64.png)
+
   
 
 转3d前
+
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
 
 转3d后
 
@@ -31,7 +37,7 @@ codex：https://chatgpt.com/
 
   保持原始角色的整体造型结构与设计语言。角色需具备清晰的体块关系、真实的空间体积感与稳定的结构逻辑。
 
-自动检测并修复人物结构错误，包括但不限于
+  自动检测并修复人物结构错误，包括但不限于：
 
   六指或多指问题
 
@@ -45,7 +51,7 @@ codex：https://chatgpt.com/
 
   3、比例
 
-角色比例需保持稳定与合理
+### 角色比例需保持稳定与合理
 
   符合自然人体比例或设计比例逻辑
 
@@ -61,7 +67,7 @@ codex：https://chatgpt.com/
 
   使用 干净且写实的几何造型构建角色与场景。
 
-关键区域需具备 高多边形细节表现
+  关键区域需具备 高多边形细节表现：
 
   面部结构
 
@@ -71,7 +77,7 @@ codex：https://chatgpt.com/
 
   关键装饰元素
 
-避免
+### 避免
 
   低模建模
 
@@ -85,7 +91,7 @@ codex：https://chatgpt.com/
 
   使用 PBR（Physically Based Rendering）材质系统。
 
-材质需具备
+### 材质需具备
 
   真实表面粗糙度（Roughness）
 
@@ -95,7 +101,7 @@ codex：https://chatgpt.com/
 
   自然反射与折射效果
 
-特殊材质需呈现真实物理属性
+### 特殊材质需呈现真实物理属性
 
   半透明材质（Subsurface Scattering）
 
@@ -105,7 +111,7 @@ codex：https://chatgpt.com/
 
   真实表面磨损或纹理变化
 
-避免
+### 避免
 
   平涂材质
 
@@ -115,7 +121,7 @@ codex：https://chatgpt.com/
 
   6、渲染
 
-采用 超精细3D渲染与物理真实光照系统
+  采用 超精细3D渲染与物理真实光照系统：
 
   基于物理的渲染（PBR Rendering）
 
@@ -125,7 +131,7 @@ codex：https://chatgpt.com/
 
   高动态范围光照（HDR Lighting）
 
-阴影表现需
+### 阴影表现需
 
   干净自然
 
@@ -137,7 +143,7 @@ codex：https://chatgpt.com/
 
   7、灯光
 
-使用 电影级布光逻辑
+### 使用 电影级布光逻辑
 
   柔和定向主光（Key Light）
 
@@ -145,7 +151,7 @@ codex：https://chatgpt.com/
 
   精细轮廓光 / 边缘光（Rim Light）
 
-强调
+### 强调
 
   物体体积感
 
@@ -153,7 +159,7 @@ codex：https://chatgpt.com/
 
   视觉焦点
 
-可使用
+### 可使用
 
   写实景深（Depth of Field）
 
@@ -161,7 +167,7 @@ codex：https://chatgpt.com/
 
   层次叠加的空间关系
 
-避免
+### 避免
 
   均匀化布光
 
@@ -171,7 +177,7 @@ codex：https://chatgpt.com/
 
   整体风格为 高品质超现实3D视觉风格。
 
-画面需具备
+### 画面需具备
 
   强烈空间层次
 
@@ -179,7 +185,7 @@ codex：https://chatgpt.com/
 
   超现实视觉张力
 
-超现实元素要求
+### 超现实元素要求
 
   悬浮元素保持真实悬浮状态
 
@@ -187,7 +193,7 @@ codex：https://chatgpt.com/
 
   保持物理实体感
 
-避免
+### 避免
 
   插画风格表现
 
@@ -197,19 +203,21 @@ codex：https://chatgpt.com/
 
   图形化平涂色彩
 
-品牌全案提示词（image2模型）
+品牌全案提示词（image2模型）：
 
 【建议先生成封面，封面没问题了（上传封面）再往下生成其他的】
 
 （上传IP）
 
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
+
 __ 完整生图提示词__
 
-统一风格词
+### 统一风格词
 
 中文健身房品牌视觉手册，暴燃熊健身房 Burn Bear Fitness，棕色毛绒拳击小熊IP，黑黄主色，金属黑，运动灰，少量白色留白，闪电符号，拳击拳套，沙袋，哑铃，跳绳，汗珠，冲击线，训练计时器，健身房空间，热血高级，可爱但有战斗力，中文标题为主，英文小字为辅，16:9，高端3D渲染，商业作品集版式
 
-统一负面词
+### 统一负面词
 
 引力场，Gravitas Field，GF，太空，宇航员，透明球舱，星球，星星装饰，荧光绿粉配色，宇宙背景，原图同款版式，英文大标题为主，杂乱排版，低质量，模糊，畸形，多余肢体，真实野熊，血腥，水印，乱码文字
 
@@ -265,11 +273,13 @@ __ 完整生图提示词__
 
 “暴燃熊健身房”数字界面设计与项目收尾页，16:9。展示健身房小程序或App UI界面mockup：课程预约、训练打卡、会员排行榜、电子会员卡、IP徽章系统。界面以中文为主，黑白黄品牌色，使用暴燃熊头像、闪电图标、训练数据卡片、课程标签。旁边放置小熊3D角色拿着手机做打卡姿势。底部展示13张作品集缩略图矩阵，形成完整项目总结页。高级中文品牌作品集收尾页。
 
-另外中文口号可以贯穿全套
+### 另外中文口号可以贯穿全套
 
 开练，就现在
 
-codex转换psd提示词
+![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
+
+codex转换psd提示词：
 
 （上传你想转可编辑psd的图片）  
 请将我上传的图片重建为一个可在 Photoshop 打开的分层 PSD。最终交付1个 PSD 文件。
@@ -303,7 +313,7 @@ codex转换psd提示词
 
 背景、主体、前景、Logo（内部不再拆分）、图标（对称/规律/阵列当成一个整体）、徽章、边框、光效等。
 
-注
+注：
 
 - Logo、商标、字标属图像元素，必须留在本阶段，禁止交给 OCR。
 - 只要有独立移动价值的元素就应尽量单独生成，勿为减图层而合并。
@@ -313,7 +323,7 @@ codex转换psd提示词
 - 背景层：生成一张保持原画布尺寸、光影与构图的完整背景层（不含可编辑文字）。
 - 白底元素图：对可独立移动的非文字元素，必须使用内置 image gen / Images 2\.0 执行原位隔离编辑。
 
-目标不是重新创作一个相似元素，而是
+目标不是重新创作一个相似元素，而是：
 
 - 以原图作为唯一几何基准；
 - 尽量原位保留目标元素的版面位置、外接占位范围、视觉中心、关键锚点、大小比例、透视方向和朝向；
@@ -338,7 +348,7 @@ codex转换psd提示词
 
 对阶段 1 的白底图只做本地透明化、尺寸校验、辅助处理与 PSD 合成；不得把本地处理当作元素分层来源。
 
-白色主体保护规则
+### 白色主体保护规则
 
 - 不得简单按“接近白色就删除”。
 - 只移除与画布边缘连通的纯白背景区域。
@@ -346,7 +356,7 @@ codex转换psd提示词
 - 稀疏元素层透明化后，画布大部分必须真的变成 alpha=0
 - 若透明化导致主体被掏空、发灰、出现错误透明洞、白边或边缘污染，必须先修正，再继续合成。
 
-## 二、文字重建与 manifest\.json
+## 二、文字重建与 manifest.json
 
 对原图文字进行 OCR（不包含 logo 内文字）。
 
@@ -366,7 +376,7 @@ codex转换psd提示词
 
 最终自检
 
-交付前确认
+### 交付前确认
 
 - PSD 尺寸与原图一致；
 - 包含背景层、多个非文字元素层、每行独立的可编辑文字层；
