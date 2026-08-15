@@ -12,6 +12,7 @@ export const SLUG_MAP = {
   '漫剧剧本分镜衔接指令(10秒).txt': 'manju-fenjing-jiehe-10s',
   '漫剧剧本分镜衔接指令(15秒).txt': 'manju-fenjing-jiehe-15s',
   '豆包大模型训练词.txt': 'doubao-damo-xunlianci',
+  '角色pv教程和提示词2.docx': 'dongman-juese-pv-2',
 
   // 仿真人提示词/ (6)
   '仿真人提示词/GPT故事制作.txt': 'gpt-gushi-zhizuo',

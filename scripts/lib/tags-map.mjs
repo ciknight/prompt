@@ -61,6 +61,7 @@ export const TAGS_MAP = {
   '实战/角色微表情提示词.txt': ['人物', '微表情', '写实'],
   '实战/角色微表情提示词3.txt': ['人物', '微表情', '写实'],
   '实战/（烘焙）字体材质2提示词和教程.docx': ['字体', '材质', '3D'],
+  '角色pv教程和提示词2.docx': ['人物', 'IP', '分镜'],
 };
 
 export function resolveTags(filename) {
