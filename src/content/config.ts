@@ -1,4 +1,6 @@
 // src/content/config.ts
+// NOTE: CATEGORIES list must match `scripts/lib/category-map.mjs` CATEGORIES.
+// The lib/category-sync.test.mjs test verifies the two stay in sync.
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
