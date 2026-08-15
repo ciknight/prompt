@@ -1,0 +1,26 @@
+---
+title: "Sakura Intro Promo Character Sheet"
+category: 动画短片
+tags: ["IP"]
+slug: sakura-intro-promo
+source: awesome-video-prompts
+date: 2026-08-15
+author: "Glitter Gal"
+source_url: "https://x.com/GlitterPixely/status/2060749704476971477"
+model: "seedance2"
+---
+
+![](/prompt/content/prompts/images/sakura-intro-promo/images/cover.jpg)
+
+SAKURA: kawaii cyberpunk samurai per 
+@Image1
+. Locks: platinum-WHITE streak in raven-black bob; red goggles UP on head; pink headphones AROUND neck; pink mask; pink-bladed primary katana; second katana at left hip. Setting: cyberpunk neon void — black-to-magenta gradient, cyan grid floor, drifting sakura petals, floating kanji glyphs (桜/刃/舞), vertical pink light-rain. Format: 16:9, 15s, painterly stylized 3D cel-shaded, kawaii cyberpunk Tokyo-neon, hot-pink-cyan-black palette. 
+——— SHOT SCRIPT ——— 
+[00:00–00:02] Beat 1 — Wide Reveal + Snap Punch-In Sakura stands center-right, pink katana lowered. Vertical pink kanji UI "桜/刃/舞/散" descends along the right edge. At 1.5s, snap zoom punch-in to MCU; pink eyes lock to lens; RGB chromatic flicker. 
+[00:02–00:05] Beat 2 — Petal-Form Teleport + Iaido Reform She dissolves into a petal cloud streaking right-to-left at impossible speed with arcing pink trail. Cloud condenses center; she reforms in a low iaido crouch, hand on katana tsuba. 
+[00:05–00:07.5] Beat 3 — Bullet-Time Freeze + Iaido Slash Time freezes. Camera bullet-time orbits 180° counter-clockwise around her frozen pose; petals hang as lens flares. Time SHATTERS back; she erupts up in a fluid iaido draw — pink blade unsheathes invisibly fast leaving a horizontal magenta light streak, snaps back into saya clean. 
+[00:07.5–00:10] Beat 4 — Petal-Banner + Typography Stamp-In Petals SHATTER and converge into a massive vertical pink kanji "桜" on the right half of frame. Camera pulls back; Sakura stands center-left, katana resheathed. Vertical cyan mono caps stamp in top-to-bottom: "UNIT 桜-09 / SAKURA / 桜の刃 / BLOSSOM BLADE / 一刀両断" with thin cyan underlines. 
+[00:10–00:12] Beat 5 — Slow Dolly-In to Hero Hold Slow dolly-in toward her masked face; "桜" banner softens out of focus; pink eyes meet the lens; a single petal drifts past her cheek; chromatic pulse. 
+
+——— AUDIO ——— 
+SE: UI chime + kawaii bell on punch-in; sub-bass whoosh + petal flutter on teleport; bass drop on freeze; katana SING + saya click on iaido cut; stamp clicks on typography
