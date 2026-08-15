@@ -35,6 +35,7 @@ const checks = [
   { url: '/category/juese-yu-ip/', expectH1: '角色与IP' },
   { url: '/prompts/manju-fenjing-jiehe-10s/', expectH1NotEmpty: true },
   { url: '/prompts/ai-zhichu-quantao-ip/', expectImageSrc: true },
+  { url: '/prompts/manju-fenjing-jiehe-10s/', expectNoSourceLink: true },
 ];
 
 async function run() {
@@ -87,6 +88,12 @@ async function run() {
           // restored from the original docx files).
           if (!/<img\s+[^>]*src=/i.test(html)) {
             throw new Error(`page contains no <img> tag; expected rendered images`);
+          }
+        }
+        if (c.expectNoSourceLink) {
+          // Existing 56 prompts have no source_url; verify the link is NOT rendered.
+          if (/<a class="source-link"/.test(html)) {
+            throw new Error(`unexpected source-link on prompt without source_url`);
           }
         }
         console.log(`✓ ${c.url}`);

@@ -25,6 +25,11 @@ const { Content } = await render(prompt);
           </time>
         )}
         {prompt.data.source && <span class="source">来源：{prompt.data.source}</span>}
+        {prompt.data.source_url && (
+          <a class="source-link" href={prompt.data.source_url} target="_blank" rel="noopener">
+            查看原文 →
+          </a>
+        )}
       </div>
       {prompt.data.tags.length > 0 && (
         <div class="tags">
@@ -55,4 +60,10 @@ const { Content } = await render(prompt);
     font-size: 0.8rem;
     color: var(--sl-color-gray-3);
   }
+  .source-link {
+    font-size: 0.9rem;
+    color: var(--sl-color-accent);
+    text-decoration: none;
+  }
+  .source-link:hover { text-decoration: underline; }
 </style>
