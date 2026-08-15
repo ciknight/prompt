@@ -1,0 +1,68 @@
+---
+// src/pages/prompts/[slug].astro
+import { getCollection, render } from 'astro:content';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import CategoryBadge from '../../components/CategoryBadge.astro';
+import TagBadge from '../../components/TagBadge.astro';
+
+export async function getStaticPaths() {
+  const prompts = await getCollection('prompts');
+  return prompts.map(p => ({ params: { slug: p.data.slug }, props: { prompt: p } }));
+}
+
+const { prompt } = Astro.props;
+const { Content } = await render(prompt);
+---
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>{prompt.data.title} · Prompt 作品集</title>
+</head>
+<body>
+  <SiteHeader />
+  <main>
+    <article>
+      <header class="prompt-header">
+        <h1>{prompt.data.title}</h1>
+        <div class="meta">
+          <CategoryBadge category={prompt.data.category} />
+          {prompt.data.date && (
+            <time datetime={prompt.data.date.toISOString()}>
+              {prompt.data.date.toISOString().slice(0, 10)}
+            </time>
+          )}
+          <span class="source">来源：{prompt.data.source}</span>
+        </div>
+        <div class="tags">
+          {prompt.data.tags.map(t => <TagBadge tag={t} />)}
+        </div>
+      </header>
+
+      <Content />
+    </article>
+  </main>
+  <SiteFooter />
+</body>
+</html>
+
+<style>
+  main { max-width: 72ch; margin: 0 auto; padding: 0 1rem; }
+  .prompt-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--sl-color-gray-5);
+  }
+  .prompt-header h1 { margin: 0 0 0.75rem; }
+  .meta {
+    display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--sl-color-gray-3);
+  }
+  .tags { margin-top: 0.5rem; }
+  .source {
+    font-size: 0.8rem;
+    color: var(--sl-color-gray-3);
+  }
+</style>
