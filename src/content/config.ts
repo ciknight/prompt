@@ -18,8 +18,12 @@ const prompts = defineCollection({
     ]),
     tags: z.array(z.string()),
     slug: z.string(),
-    source: z.enum(['txt', 'docx', 'xlsx']).optional(),
+    source: z.enum(['txt', 'docx', 'xlsx', 'awesome-video-prompts']).optional(),
     date: z.date().optional(),
+    // Optional attribution fields (used by awesome-video-prompts imports):
+    author: z.string().optional(),
+    source_url: z.string().url().optional(),
+    model: z.string().optional(),
   }),
 });
 
