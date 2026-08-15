@@ -3,7 +3,7 @@ title: "中国拳手对决"
 category: 剧本分镜
 tags: ["电影感","分镜"]
 slug: boxing-match-seedance
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "MrLarus"
 source_url: "https://x.com/MrLarus/status/2050872313810198741"

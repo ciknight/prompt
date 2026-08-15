@@ -3,7 +3,7 @@ title: "古风武侠剑影"
 category: 视频生成
 tags: ["电影感"]
 slug: eastern-classical-wuxia-aesthetics
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2020370929755283887"

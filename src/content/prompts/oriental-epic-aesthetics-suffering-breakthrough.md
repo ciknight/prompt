@@ -3,7 +3,7 @@ title: "踏雪破境封神"
 category: 视频生成
 tags: ["电影感"]
 slug: oriental-epic-aesthetics-suffering-breakthrough
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2023039043227763096"

@@ -3,7 +3,7 @@ title: "降龙对虚掌"
 category: 视频生成
 tags: ["电影感"]
 slug: eastern-fantasy-wuxia-epic
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2022969093784023087"

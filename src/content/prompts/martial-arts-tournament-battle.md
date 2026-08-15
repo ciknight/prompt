@@ -3,7 +3,7 @@ title: "世界武术对决"
 category: 视频生成
 tags: ["电影感"]
 slug: martial-arts-tournament-battle
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "露西的百宝箱"
 source_url: "https://x.com/Lucy_love_AI/status/2021037206585192749"

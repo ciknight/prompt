@@ -3,7 +3,7 @@ title: "水漫金山法海"
 category: 视频生成
 tags: ["电影感"]
 slug: hollywood-level-eastern-magic-action-epic
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2025860395886379391"

@@ -3,7 +3,7 @@ title: "黄金炒饭分镜"
 category: 动画短片
 tags: ["电影感"]
 slug: anime-cooking-with-seedance
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "オズ"
 source_url: "https://x.com/ozuozuai99/status/2058882174011777139"

@@ -3,7 +3,7 @@ title: "小巷撩妹反杀"
 category: 视频生成
 tags: ["电影感"]
 slug: where-are-you-running-to
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "硅予"
 source_url: "https://x.com/Leslieyu0/status/2028273063180243288"

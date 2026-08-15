@@ -3,7 +3,7 @@ title: "白衣仙人字阵"
 category: 动画短片
 tags: ["电影感"]
 slug: seedance-chinese-immortal-calligraphy
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2035341530827825477"

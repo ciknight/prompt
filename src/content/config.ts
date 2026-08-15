@@ -18,7 +18,7 @@ const prompts = defineCollection({
     ]),
     tags: z.array(z.string()),
     slug: z.string(),
-    source: z.enum(['txt', 'docx', 'xlsx', 'awesome-video-prompts']).optional(),
+    source: z.enum(['txt', 'docx', 'xlsx', 'awesome-video-prompts', 'X']).optional(),
     date: z.date().optional(),
     // Optional attribution fields (used by awesome-video-prompts imports):
     author: z.string().optional(),

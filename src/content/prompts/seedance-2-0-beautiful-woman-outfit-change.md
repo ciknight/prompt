@@ -3,7 +3,7 @@ title: "古风九套变装"
 category: 视频生成
 tags: ["写实","电影感"]
 slug: seedance-2-0-beautiful-woman-outfit-change
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "李岳"
 source_url: "https://x.com/liyue_ai/status/2025766696532004876"

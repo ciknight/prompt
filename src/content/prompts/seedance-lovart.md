@@ -3,7 +3,7 @@ title: "扑克牌飞行术"
 category: 视频生成
 tags: ["电影感","特效"]
 slug: seedance-lovart
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "MapleShaw"
 source_url: "https://x.com/msjiaozhu/status/2040738604188623155"

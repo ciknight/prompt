@@ -3,7 +3,7 @@ title: "街头篮球被盖帽"
 category: 视频生成
 tags: ["电影感"]
 slug: embarrassed-slam-dunk-blocked
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "松果先森"
 source_url: "https://x.com/songguoxiansen/status/2022324867425878479"

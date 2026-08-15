@@ -3,7 +3,7 @@ title: "西域舞娘风姿"
 category: 视频生成
 tags: ["电影感","写实"]
 slug: seedance2-0-prompt-technique-concretize-elements
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "Adam也叫吉米"
 source_url: "https://x.com/Adam38363368936/status/2025907674286788667"

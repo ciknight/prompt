@@ -3,7 +3,7 @@ title: "课桌椅女格斗"
 category: 视频生成
 tags: ["电影感"]
 slug: school-fight-sequence
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2059620330499412415"

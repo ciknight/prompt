@@ -3,7 +3,7 @@ title: "黑装辣妹现代舞"
 category: 视频生成
 tags: ["写实"]
 slug: seedance2-beauty-dance
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "Adam就叫吉米"
 source_url: "https://x.com/Adam38363368936/status/2023761464037924999"

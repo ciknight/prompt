@@ -3,7 +3,7 @@ title: "台风新闻连播"
 category: 视频生成
 tags: ["电影感"]
 slug: typhoon-info-style
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "Kiki"
 source_url: "https://x.com/Mayz1169/status/2062815239004209244"

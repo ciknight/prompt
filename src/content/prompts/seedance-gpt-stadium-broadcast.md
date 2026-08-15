@@ -3,7 +3,7 @@ title: "球场美女转播"
 category: 视频生成
 tags: ["电影感","写实"]
 slug: seedance-gpt-stadium-broadcast
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "Berryxia.AI"
 source_url: "https://x.com/berryxia/status/2054191679494824373"

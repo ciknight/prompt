@@ -3,7 +3,7 @@ title: "时尚换装快闪"
 category: 视频生成
 tags: ["电影感"]
 slug: high-end-fashion-brand-viral-ad
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2022728085943046407"

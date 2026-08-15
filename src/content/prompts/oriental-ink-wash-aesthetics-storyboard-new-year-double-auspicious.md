@@ -3,7 +3,7 @@ title: "新春瑞马祥羊"
 category: 动画短片
 tags: ["电影感"]
 slug: oriental-ink-wash-aesthetics-storyboard-new-year-double-auspicious
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2025130609111126041"

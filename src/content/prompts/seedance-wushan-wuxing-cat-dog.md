@@ -3,7 +3,7 @@ title: "雾山猫狗大战"
 category: 视频生成
 tags: ["电影感"]
 slug: seedance-wushan-wuxing-cat-dog
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2035295835840524547"

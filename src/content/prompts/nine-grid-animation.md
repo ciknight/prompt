@@ -3,7 +3,7 @@ title: "九宫格女孩戏"
 category: 动画短片
 tags: ["电影感"]
 slug: nine-grid-animation
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "msjiaozhu"
 source_url: "https://x.com/msjiaozhu/status/2024700816251297831"

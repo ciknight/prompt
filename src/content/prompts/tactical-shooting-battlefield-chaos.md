@@ -3,7 +3,7 @@ title: "战场战术射击"
 category: 视频生成
 tags: ["电影感","写实"]
 slug: tactical-shooting-battlefield-chaos
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/john87445528/status/2021077986020045203"

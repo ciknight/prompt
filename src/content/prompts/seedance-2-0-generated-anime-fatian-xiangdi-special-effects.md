@@ -3,7 +3,7 @@ title: "法天相地元神"
 category: 动画短片
 tags: ["电影感"]
 slug: seedance-2-0-generated-anime-fatian-xiangdi-special-effects
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "李岳"
 source_url: "https://x.com/liyue_ai/status/2025408381016834408"

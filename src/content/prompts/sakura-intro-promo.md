@@ -3,7 +3,7 @@ title: "樱花赛博武士"
 category: 动画短片
 tags: ["IP"]
 slug: sakura-intro-promo
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "Glitter Gal"
 source_url: "https://x.com/GlitterPixely/status/2060749704476971477"

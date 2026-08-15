@@ -3,7 +3,7 @@ title: "竹林武侠功夫"
 category: 视频生成
 tags: ["电影感"]
 slug: wuxia-bamboo-forest-martial-arts
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2020336711381795058"

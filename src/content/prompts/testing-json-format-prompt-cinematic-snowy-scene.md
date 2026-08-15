@@ -3,7 +3,7 @@ title: "雪原骑手灰狼"
 category: 视频生成
 tags: ["电影感"]
 slug: testing-json-format-prompt-cinematic-snowy-scene
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2025579362934767637"

@@ -3,7 +3,7 @@ title: "九零兽人奇幻战"
 category: 视频生成
 tags: ["电影感"]
 slug: 90s-fantasy-orc-battle
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "Riccardo Wolf"
 source_url: "https://x.com/WolfRiccardo/status/2043108674118332783"

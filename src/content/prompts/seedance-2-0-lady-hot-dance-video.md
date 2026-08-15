@@ -3,7 +3,7 @@ title: "粉衣辣妹热舞"
 category: 视频生成
 tags: ["电影感"]
 slug: seedance-2-0-lady-hot-dance-video
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "Adam也叫吉米"
 source_url: "https://x.com/Adam38363368936/status/2024865420189241718"

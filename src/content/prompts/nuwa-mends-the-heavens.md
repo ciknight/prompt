@@ -3,7 +3,7 @@ title: "女娲补天"
 category: 视频生成
 tags: ["电影感"]
 slug: nuwa-mends-the-heavens
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "松果先森"
 source_url: "https://x.com/songguoxiansen/status/2026861824386515357"

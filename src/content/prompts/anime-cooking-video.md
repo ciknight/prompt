@@ -3,7 +3,7 @@ title: "黄金炒饭工作流"
 category: 动画短片
 tags: ["电影感"]
 slug: anime-cooking-video
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "オズ"
 source_url: "https://x.com/ozuozuai99/status/2059515110591500639"

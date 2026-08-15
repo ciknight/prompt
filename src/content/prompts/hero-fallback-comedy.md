@@ -3,7 +3,7 @@ title: "英雄陨落骷髅围"
 category: 视频生成
 tags: ["电影感"]
 slug: hero-fallback-comedy
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "RION WU"
 source_url: "https://x.com/rionaifantasy/status/2034249765215777003"

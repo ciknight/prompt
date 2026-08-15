@@ -3,7 +3,7 @@ title: "三花猫投篮"
 category: 视频生成
 tags: ["电影感"]
 slug: calico-cat-basketball-shot
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2029851048899178676"

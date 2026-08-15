@@ -3,7 +3,7 @@ title: "港股崩盘港剧风"
 category: 视频生成
 tags: ["电影感"]
 slug: 90s-hk-tv-drama-style-vintage-film-grain
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2021919778667999639"

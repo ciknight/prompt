@@ -3,7 +3,7 @@ title: "银链女煮意面"
 category: 视频生成
 tags: ["电影感"]
 slug: iphone-handheld-night-cooking
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/john87445528/status/2063236007751725565"

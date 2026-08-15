@@ -3,7 +3,7 @@ title: "青花瓷水墨裙"
 category: 视频生成
 tags: ["写实","电影感"]
 slug: hollywood-haute-couture-fantasy
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2025849650654122348"

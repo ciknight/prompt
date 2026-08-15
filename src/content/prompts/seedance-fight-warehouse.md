@@ -3,7 +3,7 @@ title: "仓库女格斗"
 category: 视频生成
 tags: ["电影感","写实"]
 slug: seedance-fight-warehouse
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "johnAGI168"
 source_url: "https://x.com/johnAGI168/status/2060008130688196617"

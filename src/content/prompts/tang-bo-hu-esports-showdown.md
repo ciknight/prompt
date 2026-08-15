@@ -3,7 +3,7 @@ title: "唐伯虎电竞"
 category: 视频生成
 tags: ["电影感"]
 slug: tang-bo-hu-esports-showdown
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2020329496847569111"

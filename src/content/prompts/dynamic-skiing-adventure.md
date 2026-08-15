@@ -3,7 +3,7 @@ title: "雪山极速滑行"
 category: 视频生成
 tags: ["电影感"]
 slug: dynamic-skiing-adventure
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "Michelle"
 source_url: "https://x.com/Michell81147285/status/2020298394175172870"

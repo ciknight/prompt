@@ -3,7 +3,7 @@ title: "动漫料理制作"
 category: 动画短片
 tags: ["分镜"]
 slug: anime-cooking-seedance
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "オズ"
 source_url: "https://x.com/ozuozuai99/status/2065679162124509465"

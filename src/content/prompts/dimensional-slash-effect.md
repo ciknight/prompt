@@ -3,7 +3,7 @@ title: "次元斩空间碎"
 category: 动画短片
 tags: ["特效"]
 slug: dimensional-slash-effect
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "テックトークナビゲーター@AIコンテンツクリエイター"
 source_url: "https://x.com/TechTalkNAVI/status/2040740135860617499"

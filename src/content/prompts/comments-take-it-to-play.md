@@ -3,7 +3,7 @@ title: "美女卧室随拍"
 category: 视频生成
 tags: ["电影感"]
 slug: comments-take-it-to-play
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "CuiMao"
 source_url: "https://x.com/CuiMao/status/2025593128577794052"

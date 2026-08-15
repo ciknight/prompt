@@ -3,7 +3,7 @@ title: "学院女格斗"
 category: 视频生成
 tags: ["电影感"]
 slug: agent-fight-video-quality
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2059921438530773073"

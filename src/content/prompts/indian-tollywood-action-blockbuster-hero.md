@@ -3,7 +3,7 @@ title: "印度神片英雄"
 category: 视频生成
 tags: ["电影感"]
 slug: indian-tollywood-action-blockbuster-hero
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "John"
 source_url: "https://x.com/johnAGI168/status/2021472044295070168"

@@ -3,7 +3,7 @@ title: "大桥变形金刚"
 category: 视频生成
 tags: ["电影感"]
 slug: transformers-car
-source: awesome-video-prompts
+source: X
 date: 2026-08-15
 author: "QingQ77"
 source_url: "https://x.com/QingQ77/status/2024745334052966858"
