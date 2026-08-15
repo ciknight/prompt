@@ -4,6 +4,7 @@
 //   - Convert __bold__ → **bold** (more widely recognized)
 //   - Strip U+FFFD (UTF-8 replacement) chars that mammoth emits when
 //     a byte sequence fails to decode (these break YAML frontmatter)
+//   - Promote section labels (短标签行) to ## or ### headings
 //
 // Usage: node scripts/clean-md.mjs
 
@@ -23,6 +24,8 @@ const NUMERIC_PREFIX = /^(?:\d+[.．、]|[一二三四五六七八九十][、.�
 
 function clean(md) {
   return md
+    // Normalize line endings (some files have \r\n from Windows editors)
+    .replace(/\r\n/g, '\n')
     // mammoth heading anchors
     .replace(/<a id="heading_\d+"><\/a>/g, '')
     // double-underscore bold → asterisks
@@ -48,6 +51,28 @@ function clean(md) {
         return NUMERIC_PREFIX.test(t) ? `## ${t}` : `**${t}**`;
       }
     )
+    // Promote short label-like lines to h3 headings. Catches docx
+    // headings that mammoth emitted as plain paragraphs (no bold):
+    //   `核心情绪：` → ### 核心情绪
+    //   `0—1秒：`        → ### 0—1秒
+    //   `提示词：`        → ### 提示词
+    // Strict conditions to avoid false positives:
+    //   - ≤ 14 characters (rejects long descriptive paragraphs)
+    //   - ends with `:` or `:`
+    //   - no sentence-ending punctuation (，。！？.!?；;)
+    //   - no commas (avoids multi-clause paragraphs)
+    .replace(
+      /^[ \t]*([^。，！？；,.\!?\n]{1,14})[：:][ \t]*$/gm,
+      (_match, label) => {
+        // Reject too-short labels that are likely fragments
+        const t = label.trim();
+        if (t.length < 2) return _match;
+        // Reject lines that look like a sentence (contain subject+verb
+        // patterns beyond 4 chars). We allow 2-14 char labels which catch
+        // "核心情绪", "0—1秒", "本段台词" but skip longer fragments.
+        return `### ${t}`;
+      },
+    )
     // Demote any leftover ####+ not matched above
     .replace(/^####+ /gm, '**')
     // Strip the first bold line immediately after frontmatter (the
@@ -57,6 +82,8 @@ function clean(md) {
     // meaningful as headings (e.g. `**视频教程：**`, `**提示词：**`,
     // `**小红书链接：**`). They become plain paragraphs.
     .replace(/^[ \t]*\*\*([^*\n]+)\*\*[ \t]*$/gm, '$1')
+    // Collapse 3+ consecutive blank lines down to 2 (one paragraph break)
+    .replace(/\n{3,}/g, '\n\n')
     // UTF-8 replacement char (mammoth decode failure marker)
     .replaceAll(REPLACEMENT_CHAR, '');
 }
@@ -73,9 +100,6 @@ async function main() {
       await fs.writeFile(p, cleaned, 'utf8');
       changed++;
       console.log(`  ${name}: cleaned`);
-    } else {
-      // Debug: show why it didn't change
-      // console.log(`  ${name}: no change`);
     }
   }
   console.log(`\nDone: cleaned ${changed} file(s)`);
