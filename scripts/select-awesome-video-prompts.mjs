@@ -17,6 +17,7 @@ const DEFAULT_LIMIT = 50;
 export async function runSelect({ rootDir, outPath = DEFAULT_OUT, limit = DEFAULT_LIMIT } = {}) {
   if (!rootDir) throw new Error('rootDir is required');
   const all = await scanSourceRepo(rootDir);
+  if (all.length === 0) console.warn();
   const kept = filterChineseSeedance(all);
 
   const candidates = [];
@@ -24,8 +25,9 @@ export async function runSelect({ rootDir, outPath = DEFAULT_OUT, limit = DEFAUL
     const tags_zh = mapTags(p.tags);
     if (tags_zh.length === 0) continue; // dropped entirely if no mapped tags
     const score = scoreLandscape(p);
+    const m = p.slug.match(/^\d+/);
     candidates.push({
-      id: p.slug.match(/^\d+/) ? p.slug.match(/^\d+/)[0] : p.slug,
+      id: m ? m[0] : p.slug,
       slug: p.slug.replace(/^\d+-/, ''),
       month: p.month,
       title: p.title,
@@ -48,7 +50,9 @@ export async function runSelect({ rootDir, outPath = DEFAULT_OUT, limit = DEFAUL
   });
 
   const top = candidates.slice(0, limit);
-  await fs.writeFile(outPath, JSON.stringify(top, null, 2) + '\n', 'utf8');
+  const tmp = outPath + ".tmp";
+  await fs.writeFile(tmp, JSON.stringify(top, null, 2) + '\n', 'utf8');
+  await fs.rename(tmp, outPath);
   return { count: top.length, total: candidates.length, outPath };
 }
 

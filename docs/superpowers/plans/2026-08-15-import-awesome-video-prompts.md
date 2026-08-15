@@ -581,6 +581,8 @@ test('runSelect filters, maps tags, scores, sorts, limits, and writes JSON', asy
 Run: `npm test -- scripts/select-awesome-video-prompts.test.mjs`
 Expected: FAIL — module not found.
 
+**Deviation note (recorded 2026-08-15 during execution):** The spec\u2019s 3-tier sort (`landscape > no-aspect > vertical`) collapses to 2-tier in practice because line 25 drops candidates with `tags_zh.length === 0` before sort, so the comparator\u2019s `tags_zh.length > 0 ? 1 : 0` ternary always evaluates to `1`. Effective sort is `landscape_bonus=true (rank 2) | everything else (rank 1)`. The vertical/no-aspect distinction is recoverable via manual review of `selected-prompts.json` in Task 8.
+
 - [ ] **Step 3: Implement `runSelect`**
 
 Create `scripts/select-awesome-video-prompts.mjs`:
