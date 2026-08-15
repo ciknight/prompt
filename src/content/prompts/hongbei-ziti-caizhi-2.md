@@ -16,57 +16,57 @@ __（烘焙）字体材质2提示词和教程__
 
 <a id="heading_7"></a>__8种面包材质提示词（image2模型）：__
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/b6d37aea-50f4-40e2-9b47-f58e303f3958.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/11db4406-cbf5-46f4-80e3-db99a0a5d6af.png)
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/f050a573-bdc6-4b11-b42f-07d9467435a1.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/4d838a00-8fc0-44e9-a650-e25732a6fde2.png)
 
 <a id="heading_8"></a>__松软甜面包版本__
 
 3D写实logo设计，内容为参考图中的“Material”文字和星星图案。主体是一整块不规则的松软甜面包底板，整体像刚出炉的牛奶甜面包，表面呈浅金黄色与奶油金色，带细腻柔软的面包纹理、自然烘烤渐变、轻微油润光泽和蓬松厚实的体积感。参考图中的文字和星星图案以凹陷压印效果呈现在面包表面，像被食品模具轻轻压入面包中，文字向内下陷形成清晰凹槽，边缘圆润自然，凹陷内部带柔和阴影与略深烘烤色，保持文字清楚可读。主体表面与凹陷文字形成明显高低层次，但整体仍保持真实松软甜面包质感。纯白背景，平视高清展示，无透视畸变，正面柔和全光，整体为3D超写实食品质感，比例3:2。
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/71b61761-5393-4ca5-988e-deabe3fb8e71.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/d235cdb8-21ea-4a78-a662-a367e60bce65.png)
 
 <a id="heading_9"></a>__曲奇饼干版本__
 
 3D写实logo设计，内容为参考图中的“Material”文字和星星图案。主体是一整块不规则的厚曲奇饼干底板，整体像一大片黄油曲奇，表面呈浅金黄色到淡焦糖色，带酥松颗粒纹理、少量烘焙斑点和自然微微不规则的手工边缘。参考图中的文字和星星图案以凹陷压印效果呈现在曲奇表面，像被饼干模具压出浅槽，文字整体向内凹陷，轮廓清楚，边缘略带酥脆感，凹陷内部带柔和阴影与轻微加深的烘烤色，使文字与主体形成明确层次。整体效果像高品质手工压模曲奇，文字清晰可读，不要做成立体凸起字。纯白背景，平视高清展示，无透视畸变，正面柔和全光，整体为3D超写实食品质感，比例3:2。
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/b545f89a-0d94-4a82-8f48-f35566287e66.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/9518ff2a-83d5-40d5-ba61-3b761d65a106.png)
 
 <a id="heading_10"></a>__吐司面包版本__
 
 3D写实logo设计，内容为参考图中的“Material”文字和星星图案。主体是一片不规则的厚切吐司底板，整体像一大片牛奶吐司，表面有细腻面包组织、浅金黄色烘烤纹理与边缘均匀微焦的吐司边，中心偏浅奶白金色，质感柔软蓬松。参考图中的文字和星星图案以凹陷压印效果呈现在吐司表面，像被模具轻轻压入并带有轻微烙印感，文字向内形成清晰凹槽，边缘圆润，内部有柔和阴影和略深的烘烤色，增强识别度。整体保持吐司主体完整柔软，文字与主体通过内凹层次自然区分，不要做成凸起贴附效果。纯白背景，平视高清展示，无透视畸变，正面柔和全光，整体为3D超写实食品质感，比例3:2。
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/557ae0b7-e36e-4232-84f8-4e73ef9cab30.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/c596acc7-da4d-4328-ad73-3f1bd8993de1.png)
 
 <a id="heading_11"></a>__苏打饼干版本__
 
 3D写实logo设计，内容为参考图中的“Material”文字和星星图案。主体是一整块不规则的苏打饼干底板，整体像一大片厚实的苏打饼干，表面呈浅米黄色到浅金黄色，带规则细小气孔、轻微盐粒颗粒和干爽酥脆的饼干质感，边缘有自然烘烤色。参考图中的文字和星星图案以凹陷压印效果呈现在苏打饼干表面，像被模具切压出清晰凹槽，文字整体向内下陷，边缘利落但不过于锋利，内部带柔和阴影与略深烤色，形成明显的内凹结构。主体表面保持干爽平整，文字通过凹槽层次自然区分，不要做成凸字。纯白背景，平视高清展示，无透视畸变，正面柔和全光，整体为3D超写实食品质感，比例3:2。
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/f39eb2c7-823a-4643-8859-0b1f9fb90965.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/9a900667-719a-4e5f-be0e-099edabeb66c.png)
 
 <a id="heading_12"></a>__贝果面包版本__
 
 3D写实logo设计，内容为参考图中的“Material”文字和星星图案。主体是一整块不规则的贝果面包底板，整体像压平成型的贝果大面包片，表面呈浅金黄色到柔和蜂蜜色，带轻微油润光泽、细腻紧实的面包纹理和少量芝麻点缀，边缘圆润厚实。参考图中的文字和星星图案以凹陷压印效果呈现在贝果表面，像被模具压入较有韧性的面团中，文字向内形成饱满圆润的凹槽结构，边缘自然顺滑，内部带柔和阴影与略深烤色，整体清晰可读。主体保留贝果特有的紧实饱满质感，文字通过内凹高低差与主体明显区分。纯白背景，平视高清展示，无透视畸变，正面柔和全光，整体为3D超写实食品质感，比例3:2。
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/63664186-57e1-4ea8-9378-4f305f4416e9.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/b9c6b9fe-4d51-44d7-8483-61240feed8f2.png)
 
 <a id="heading_13"></a>__蛋挞酥皮版本__
 
 3D写实logo设计，内容为参考图中的“Material”文字和星星图案。主体是一整块不规则的蛋挞酥皮底板，整体像放大后的酥皮点心底座，表面带丰富清晰的层层酥皮纹理、奶油金黄到浅焦糖色的自然烘烤渐变，边缘微微卷起，具有酥松细腻的层次感。参考图中的文字和星星图案以凹陷压印效果呈现在酥皮表面，像被模具压入酥皮层中，文字向内凹陷形成清晰纹路，边缘可见酥皮层次被压低后的断面感，内部带柔和阴影与略深烘烤色。主体和文字通过明显的凹凸层次区分，整体呈现精致烘焙甜点感，不要做成立体凸字。纯白背景，平视高清展示，无透视畸变，正面柔和全光，整体为3D超写实食品质感，比例3:2。
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/d0194698-43f3-4b79-aef3-d4bc7b1370f2.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/a1a70b0e-c77a-45d3-908e-09c2b433a62f.png)
 
 <a id="heading_14"></a>__法式软欧包版本__
 
 3D写实logo设计，内容为参考图中的“Material”文字和星星图案。主体是一整块不规则的法式软欧包底板，整体像切开的软欧包大面包片，表面带浅麦黄色到柔和金棕色的烘烤纹理，局部有自然撒粉、轻微裂纹、朴实手工感和蓬松有韧性的面包组织，边缘略微酥脆。参考图中的文字和星星图案以凹陷压印效果呈现在软欧包表面，像被烘焙模具压入面包中，文字整体向内凹陷，边缘自然，内部有柔和阴影、略深烤色和轻微手工感裂纹，使文字层次清楚但不生硬。主体保持粗朴自然的大面包质感，文字通过内凹结构与表面明显区分。纯白背景，平视高清展示，无透视畸变，正面柔和全光，整体为3D超写实食品质感，比例3:2。
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/5e592c98-b9f9-4e8f-a4bb-493f674e3227.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/5e131b60-1acf-4d5c-bc60-3d691b9586b0.png)
 
 <a id="heading_15"></a>__可颂面包版本__
 
 3D写实logo设计，内容为参考图中的“Material”文字和星星图案。主体是一整块不规则的可颂面包底板，整体像压展开的黄油可颂底板，表面带丰富的层层卷叠酥皮、黄油烘烤纹理与浅金黄色到柔和焦糖色的自然渐变，边缘略微酥脆卷起，具有明显的可颂层次感。参考图中的文字和星星图案以凹陷压印效果呈现在可颂底板表面，像被模具压入层层酥皮中，文字向内形成清晰的内凹结构，边缘有被压低的酥皮层次，内部带柔和阴影与略深烤色，增强可读性。主体保持大面积酥皮底板的丰富层次，文字通过凹陷高低差与主体自然区分，不要做成凸起字。纯白背景，平视高清展示，无透视畸变，正面柔和全光，整体为3D超写实食品质感，比例3:2。
 
-![](/content/prompts/images/hongbei-ziti-caizhi-2/images/84c410dc-649d-4552-bf09-6a315838f0fb.png)
+![](/prompt/content/prompts/images/hongbei-ziti-caizhi-2/images/da34c94d-e6a9-46b7-a267-0c46cabdd9cd.png)
 
 <a id="heading_16"></a>__8个字母不同材质版本__
 

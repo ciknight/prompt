@@ -14,7 +14,7 @@ __布料拼接字体材质4提示词和教程__
 
 <a id="heading_6"></a>__材质提示词（image2模型）：__
 
-![](/content/prompts/images/buliao-pinjie-ziti-4/images/19b53fb7-508c-42b8-8e66-a12206bcefb3.png)
+![](/prompt/content/prompts/images/buliao-pinjie-ziti-4/images/c1345919-6d4b-4c21-a709-0fa0c7754608.png)
 
 <a id="heading_7"></a>__方案1｜复古针线盒布料字__
 
@@ -27,7 +27,7 @@ __提示词：__
 最后一个“O”由珍珠串围成字形，内侧穿插粉色毛线和小蝴蝶结，珍珠柔和反光但不刺眼。  
 整体色彩为薄荷绿、粉色、棕色、米白和银色融合，材质轻微立体但不过厚，呈现温暖复古的手工布艺字体设计，细节真实，布料纹理清晰。
 
-![](/content/prompts/images/buliao-pinjie-ziti-4/images/4137244c-7034-447f-ae5c-ef1ac6bd2463.png)
+![](/prompt/content/prompts/images/buliao-pinjie-ziti-4/images/13c7d37a-f408-47d2-b624-3df2174c065c.png)
 
 <a id="heading_8"></a>__方案2｜甜美布艺拼贴风__
 
@@ -40,7 +40,7 @@ __提示词：__
  最后一个“O”采用珍珠串、粉色棉绳和米白蕾丝组合成型，局部有小蝴蝶结、心形吊坠和卷尺装饰。  
  整体像手工布艺拼贴作品，每个字母材质明显不同，但色彩统一在粉色、薄荷绿、米白、棕色之间，温柔、甜美、复古，布料边缘自然毛边，不规则剪裁，真实针线质感。
 
-![](/content/prompts/images/buliao-pinjie-ziti-4/images/a3a06ec7-dc1e-4af9-b965-1f2901444777.png)
+![](/prompt/content/prompts/images/buliao-pinjie-ziti-4/images/0926f4a4-db03-4a63-8880-820dbd6a4008.png)
 
 <a id="heading_9"></a>__方案3｜高级复古裁缝铺风__
 
@@ -53,7 +53,7 @@ __提示词：__
 最后“O”使用小珍珠串与粉色卷尺围合而成，边缘缠绕细麻绳，点缀小剪刀吊坠和心形针脚。  
 整体偏复古手作、裁缝铺、布料样本拼贴感，颜色低饱和但明亮，材质区分明显，避免统一材质，字母之间风格不同但色彩和谐。
 
-![](/content/prompts/images/buliao-pinjie-ziti-4/images/78791a5d-0a50-4893-9328-ff637f201d62.png)
+![](/prompt/content/prompts/images/buliao-pinjie-ziti-4/images/7df07780-fb88-40a4-8158-91ad368b7413.png)
 
 <a id="heading_10"></a>__方案4｜少女手账布料字__
 
@@ -66,7 +66,7 @@ __提示词：__
 “O”用珍珠串、粉色蝴蝶结、银色星星和小卷尺组合成字母结构，带轻微悬挂装饰感。  
 整体颜色以粉色、浅绿、米白、银色为主，明亮柔和，像手账拼贴、针线盒、少女布艺饰品混合风格，细节丰富但不杂乱。
 
-![](/content/prompts/images/buliao-pinjie-ziti-4/images/661c7624-3d2e-4e63-99a3-e38564941cea.png)
+![](/prompt/content/prompts/images/buliao-pinjie-ziti-4/images/1db8baad-0d01-4487-a399-1bfa415f1ef3.png)
 
 <a id="heading_11"></a>__方案5｜拼布娃娃风__
 
@@ -79,7 +79,7 @@ __提示词：__
 “O”使用粉色粗毛线盘绕成型，局部穿插珍珠串、小蝴蝶结、心形吊坠和卷尺片段。  
 整体像复古手工娃娃、拼布玩具、布艺饰品结合的字体设计，材质柔软，边缘自然，手工痕迹明显，色彩甜美但不幼稚。
 
-![](/content/prompts/images/buliao-pinjie-ziti-4/images/c43a84ce-2b05-439c-b404-0562365eba74.png)
+![](/prompt/content/prompts/images/buliao-pinjie-ziti-4/images/d58b76a1-596d-499c-88a0-597ca6505d5b.png)
 
 <a id="heading_12"></a>__方案6｜布料珠宝混搭风__
 
@@ -92,7 +92,7 @@ __提示词：__
 最后“O”由珍珠串、银色珠链和粉色毛线共同组成，局部有蝴蝶结和别针装饰。  
 整体呈现布料与饰品结合的手工高级感，颜色柔和统一，粉绿棕白银互相呼应，材质层次丰富，每个字母都明显不同。
 
-![](/content/prompts/images/buliao-pinjie-ziti-4/images/a4a26a36-992c-4b3a-bc9e-38b6ae5706f3.png)
+![](/prompt/content/prompts/images/buliao-pinjie-ziti-4/images/65796834-9ced-4f33-ad58-83d4b81ab746.png)
 
 <a id="heading_13"></a>__方案7｜童趣手工课风__
 
@@ -105,7 +105,7 @@ __提示词：__
 “O”使用珍珠、粉色卷尺、蝴蝶结和细绳组成字形，末端有小线团和别针。  
 整体活泼、有手工课的可爱感，但材质要真实，布料纹理清晰，颜色明亮，避免塑料感，保持字母结构清楚。
 
-![](/content/prompts/images/buliao-pinjie-ziti-4/images/eed0415d-c2e7-4125-89f8-97bdb2845d03.png)
+![](/prompt/content/prompts/images/buliao-pinjie-ziti-4/images/380bb7f1-4e42-47cf-aad0-54fbd74a2c57.png)
 
 <a id="heading_14"></a>__方案8｜精致复古手作杂志风__
 

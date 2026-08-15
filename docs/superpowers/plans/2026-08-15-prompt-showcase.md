@@ -215,7 +215,7 @@ export default defineConfig({
       title: 'Prompt 作品集',
       description: 'AI 提示词合集：漫剧、视频、IP、字体、品牌设计',
       customCss: ['./src/styles/custom.css'],
-      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/example/prompt' }],
+      social: { github: 'https://github.com/example/prompt' },
       sidebar: [],
     }),
   ],

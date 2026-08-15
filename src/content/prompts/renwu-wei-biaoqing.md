@@ -14,7 +14,7 @@ libtv（作图工具）：https://www\.liblib\.tv/
 
 <a id="heading_4"></a>__《人物微表情》提示词__
 
-![](/content/prompts/images/renwu-wei-biaoqing/images/7be1f753-e696-4112-a836-f496d228bc59.png)
+![](/prompt/content/prompts/images/renwu-wei-biaoqing/images/76619309-93c2-4999-b03a-88e54d2bf367.png)
 
 （上传人物）
 

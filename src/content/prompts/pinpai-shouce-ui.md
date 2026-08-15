@@ -43,7 +43,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌视觉识别手册封面页，品牌名为“MOMIT”。整体为高端潮流IP品牌VI提案风格，白色与高饱和品牌蓝为主视觉，画面简洁有冲击力，具有明显的品牌封面感。左侧大面积纯蓝色主视觉区域，居中放置白色“MOMIT”品牌标志，字形圆润、粗壮、可爱，其中某个字母可以 subtly 融入眼睛或小怪兽特征。下方排版英文标题“BRAND VISUAL IDENTITY MANUAL”和中文标题“品牌视觉识别手册”，字体干净现代。画面右下角可探出一只可爱的白色IP小怪兽角色 MITI，增加亲和感和记忆点。底部或角落加入年份“2026”作为辅助信息。整体构图简洁、专业、年轻、童趣、商业化，像完整品牌项目的开篇封面，高清，文字清晰，排版高级。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/fd542cd3-3f9c-46a3-80c0-73b04bd1f871.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/c0c90c9c-7bdf-47d8-a041-ba6afcb58fd3.png)
 
 02｜LOGO设计页 / LOGO DESIGN
 
@@ -51,7 +51,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册内页，主题为“02 标志设计 / LOGO DESIGN”，品牌名为“MOMIT”。整体采用白色背景、蓝色编号标签、黑色标题字体、模块化版式。中间大面积展示主LOGO“MOMIT”，字形为圆润可爱的粗体无衬线风格，具备潮流IP品牌气质，字符可融入小怪兽视觉元素，例如小眼睛、能量符号、角、表情符号等，但整体仍然简洁、专业、可识别。下方展示品牌口号：中文“探索新鲜，点亮日常。”，英文“Explore Newness, Illuminate Daily Life\.”。页面排版像专业品牌手册，留白舒适，文字说明简洁，整体高级、清晰、现代、有设计感。所有文字清晰正确，不乱码。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/ee26da82-fd62-4486-bccd-f37fa0886a60.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/6a9aacc6-ad2f-441e-b910-89c0df325d56.png)
 
 03｜LOGO释义与组合页 / LOGO MEANING & VARIATIONS
 
@@ -59,7 +59,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册展示页，主题为“03 标志释义与组合 / LOGO MEANING & VARIATIONS”，品牌名为“MOMIT”。页面为白底、网格化布局、专业品牌手册风格。左侧展示品牌logo的设计逻辑拆解，例如由“Explore / Energy / Joy / Connection”四个关键词构成品牌精神，可用简洁的小图标和箭头图解呈现。右侧展示多种LOGO组合方式：标准彩色版、黑白版、反白版、图形符号版、竖版组合、横版组合、社交头像圆形图标版等。品牌配色以品牌蓝、阳光黄、活力红、薄荷绿、黑白为主。整体风格可爱而商业，排版有条理，像成熟品牌识别系统中的规范页。所有小字清晰，不乱码。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/5db4524a-2d13-4a52-9708-d620f36d7a0c.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/a287ec77-c49a-474b-80eb-d67b04991e35.png)
 
 04｜字体系统页 / TYPOGRAPHY
 
@@ -67,7 +67,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册展示页，主题为“04 字体系统 / TYPOGRAPHY”，品牌名为“MOMIT”。页面采用白色背景、蓝色编号标签、简洁现代的网格布局。左侧展示大号排版示例“Aa”，风格醒目。中间和右侧展示品牌字体系统，包括标题字体、正文字体、数字、英文字符、中文排版示例。标题字体风格应圆润、粗壮、年轻，有品牌亲和力；正文字体风格清晰、理性、现代。可加入品牌字体命名，例如“MOMIT Display”和“MOMIT Grotesk”。版式要像专业品牌手册，说明不同字体的适用场景，如标题、正文、按钮、社交媒体文案等。整体视觉统一、干净、高级、清晰，所有字母和文字正确不乱码。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/61772a9a-7684-48ef-b9af-d971f02171f6.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/151f3227-6a20-4101-8e86-f08eba188ae9.png)
 
 05｜色彩系统页 / COLOR SYSTEM
 
@@ -75,7 +75,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册展示页，主题为“05 色彩系统 / COLOR SYSTEM”，品牌名为“MOMIT”。整体为白色背景、整洁模块化排版。页面展示完整品牌色板，主色包括：MOMIT Blue、Joy Red、Sunny Yellow、Mint Green、Vivid Black；辅助色包括 Soft Cream、Cloud Gray、Deep Navy、Lilac、Coral。每个颜色用圆润色块或怪兽头像色块展示，并配有英文名称和色值标注。可以让不同颜色的小怪兽角色 MITI 以统一造型出现，增强可爱感和品牌识别。整体页面要鲜艳、治愈、年轻、活泼，但依然保持专业品牌手册气质。色彩搭配和排版整齐，视觉清晰，文字准确。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/1706b0db-5ffb-49e4-bdff-cc72d91d59e5.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/a2a861b6-6baa-4faa-9a11-91eedd838795.png)
 
 06｜艺术指导页 / ART DIRECTION
 
@@ -83,7 +83,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册展示页，主题为“06 艺术指导 / ART DIRECTION”，品牌名为“MOMIT”。页面以白底网格排版呈现，展示品牌视觉风格方向。中心放置一张较大的主视觉插画，内容为 MITI 小怪兽生活在一个温暖、明亮、有趣的日常场景中，例如房间、街角、工作台、玩具空间或轻松社交空间。周围搭配数张小图，展示品牌艺术方向关键词，例如：Colorful & Friendly、Playful Characters、Real\-life Scenes、Bold Typography。风格要求为扁平插画结合轻微3D潮玩质感，颜色高饱和，角色表情可爱，画面治愈、有活力、有故事感。整体像品牌风格提案页，清晰高级，适合作品集展示。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/3279b03b-8889-4957-85ba-46a21bff40d2.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/5b24c0d8-634b-4321-80ee-0617ed8da500.png)
 
 07｜官网视觉方向页 / WEBSITE DIRECTION
 
@@ -91,7 +91,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册展示页，主题为“07 网站视觉方向 / WEBSITE DIRECTION”，品牌名为“MOMIT”。画面展示一个完整的品牌官网首页视觉稿，整体仍置于品牌手册页面中。页面左上保留编号与标题，主体区域展示网页首页界面：顶部有品牌logo“MOMIT”和简洁导航栏，如 Home、Products、About、Stories、Contact。页面主视觉大标题为“Explore Newness, Illuminate Daily Life\.”，中文副标题“探索新鲜，点亮日常。”。右侧或中间展示品牌IP角色 MITI、购物袋、包装盒、玩具、贴纸等品牌物料。网页风格现代、亲切、童趣、清爽，带有圆角按钮、品牌色块和整洁的信息层次。整体要像专业UI设计提案展示，排版高级、画面精致、商业感强。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/ba6b087e-bc4c-4a04-bda5-ac91d22f65f3.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/791a7005-2985-46d9-8346-03d1b86df08e.png)
 
 08｜社交媒体模板页 / SOCIAL MEDIA TEMPLATES
 
@@ -99,7 +99,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册展示页，主题为“08 社交媒体模板 / SOCIAL MEDIA TEMPLATES”，品牌名为“MOMIT”。页面以白底网格排版展示三张竖版社交媒体海报模板，像品牌社媒规范与示例页。三张模板内容分别可为：新品发布、快乐日常、用户共创活动。每张海报中都要出现 MITI 小怪兽IP形象，配以醒目的大标题，例如“NEW ARRIVAL”、“Good Things Happen\!”、“Create Your Own Joy\.”。配色使用品牌蓝、黄、奶油白、红、绿等，文字排版大胆有节奏，构图活泼但整洁。整体呈现出高端品牌社交媒体视觉系统效果，年轻、可爱、有传播感，清晰、专业、不杂乱。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/50bd40e8-545e-4996-9c3a-bac9fd975046.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/3fc6de9d-18f9-4a2d-b75a-a392c7b3da45.png)
 
 09｜周边产品概念页 / MERCHANDISE CONCEPTS
 
@@ -107,7 +107,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册展示页，主题为“09 周边产品概念 / MERCHANDISE CONCEPTS”，品牌名为“MOMIT”。页面采用白色背景和专业排版，主体展示一整套品牌周边产品效果图，包括：帆布袋、托特包、保温杯、钥匙扣、笔记本、贴纸、胶带、T恤、鸭舌帽、收纳包、盲盒包装、纸盒包装、小玩偶等。所有产品上统一应用 MOMIT 品牌logo和 MITI 小怪兽图形，整体配色鲜艳统一，以蓝、黄、红、绿、白为主。产品应有轻微真实质感或电商级展示质感，但仍保持品牌手册页风格，画面整洁、丰富、有完整商业项目感。注意产品种类丰富，构图均衡，像成熟文创IP品牌周边方案展示页，高清清晰。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/7f97872d-ba5f-421b-afec-6d992d830856.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/c447a731-526c-42fd-9d1a-c6dfdba65540.png)
 
 10｜品牌图形语言页 / BRAND GRAPHIC LANGUAGE
 
@@ -115,7 +115,7 @@ codex：https://chatgpt\.com/
 
 生成一张横版16:9的品牌VI手册展示页，主题为“10 品牌图形语言 / BRAND GRAPHIC LANGUAGE”，品牌名为“MOMIT”。页面展示品牌辅助图形系统，包括抽象几何色块、流动形状、小怪兽表情符号、图案纹理、贴纸元素、品牌icon系统、场景延展小插画等。可将页面分成几个模块：GRAPHIC ELEMENTS、ICON SYSTEM、SCENE EXTENSION、PATTERNS & TEXTURES。图形风格需与品牌IP一致，圆润、可爱、年轻、有趣，兼具商业性与设计感。底部可加入品牌页脚，例如左侧品牌logo“MOMIT”，中间品牌口号“Explore Newness, Illuminate Daily Life\.”，右侧版权信息。整体像完整品牌识别系统的收尾页，排版清楚，视觉统一，色彩明快，适合作品集收束页面。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/b0177e92-153f-450c-a9ef-5e84add2ac88.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/0ab49816-b545-463a-b6d1-024dc7463cfa.png)
 
 11｜手机 APP 设计页 / MOBILE APP DESIGN
 
@@ -143,7 +143,7 @@ APP视觉要求：采用圆角卡片、清晰图标、柔和但高饱和的配�
 
 整体画面必须像高质量作品集中的APP设计展示页，兼具品牌系统感与UI设计感，排版高级，逻辑清晰，画面精致丰富但不杂乱。所有文字清晰正确，不乱码，不裁切，高清。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/3c691124-2260-4301-994d-e12aa55dd8ca.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/3cf1a963-fcee-4f61-bdb6-b634c9d8f2dd.png)
 
 12｜美陈设计页 / VISUAL MERCHANDISING DESIGN
 
@@ -179,7 +179,7 @@ IP互动打卡空间
 
 设计风格要求：扁平插画结合轻微3D潮玩装置感，空间造型圆润、有亲和力、可爱但不幼稚，具有商业活动落地感。美陈空间需要有丰富层次感，既有整体大场景，也有局部细节图，像专业品牌活动提案页。整张页面要体现“品牌IP \+ 空间视觉 \+ 商业展示”的完整设计能力，画面高清，文字清晰，不乱码，不裁切，不杂乱。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/d4569e10-21f3-4aec-8e79-4780e05a8a6d.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/61cd5f82-9b6e-4a2e-ba2a-63e4986d9b87.png)
 
 13｜落地门店页 / OFFLINE STORE DESIGN
 
@@ -209,45 +209,45 @@ IP互动打卡空间
 
 整张页面要像专业品牌空间提案展示页，有主效果图，也有局部细节和功能分区图，排版清楚，视觉统一，画面丰富但不凌乱，高清，文字清晰正确，不乱码，不裁切。
 
-![](/content/prompts/images/pinpai-shouce-ui/images/7a67f42f-2da5-4b4d-b3c4-f0aaf52c5887.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/7f04bd5b-bcc9-4590-b458-06070627d6f0.png)
 
 最后组合在一起就会得到
 
-![](/content/prompts/images/pinpai-shouce-ui/images/6499becf-53b2-4a74-a58b-788889cf5511.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/b4f308fb-cc46-4185-bd8e-1ab03090cb70.png)
 
 <a id="heading_6"></a>__ui界面提示词：（使用工具lovart）__
 
 （上传品牌全案图）根据这个IP做一套移动端K12教培UI界面，风格参考（上传界面风格参考图），每个页面底部tab需保持一致，最多四个，包含首页、课程、圈子、我的，产品名：闪芽，产品定位：「在闪芽，让成长闪闪发光。」"尺寸375\*812，先生成首页我看看
 
-![](/content/prompts/images/pinpai-shouce-ui/images/38ecf0ea-1df0-4dae-a90b-7066670d5196.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/7fd72066-fd66-4563-8357-b0e8bf334964.png)
 
-![](/content/prompts/images/pinpai-shouce-ui/images/f2a151fb-2c78-4098-a641-c2f7e92c904e.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/4f5c383d-7cbd-43c5-888f-196d39469906.png)
 
-![](/content/prompts/images/pinpai-shouce-ui/images/62e4538d-1e5d-4b4e-9f86-77adaa535229.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/fb23a65e-3a12-4a2e-97ef-34a13d238659.png)
 
-![](/content/prompts/images/pinpai-shouce-ui/images/8fc57cbd-89ce-442c-8841-6be499fc3cf2.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/70968e73-13e2-441e-b767-06e1a19f3d29.png)
 
 <a id="heading_7"></a>__ui界面延展提示词：（使用工具lovart）__
 
 （上传刚刚生成的ui界面图）延续这个风格继续生成课程、圈子、我的界面， IP、卡片半径、图标风格、tab保持统一
 
-![](/content/prompts/images/pinpai-shouce-ui/images/1e91bfd3-38fd-4f73-a771-c13a7e27a3e5.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/444d7a69-c708-4f75-8740-f0dd119651dd.png)
 
-![](/content/prompts/images/pinpai-shouce-ui/images/7c2833f0-04b0-423e-a7d6-4e57bbcc3510.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/76772172-d636-4e1a-9307-559d1af7c549.png)
 
-![](/content/prompts/images/pinpai-shouce-ui/images/267e990d-3922-41cf-ae47-5021510eb396.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/022bbf01-7f4f-4ba9-8cdd-3318e924af59.png)
 
-![](/content/prompts/images/pinpai-shouce-ui/images/e9ab39aa-72fd-4a6f-bc30-a279f5b774cf.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/d2a7bf3e-4932-4dbd-9e80-141a7fe06ddd.png)
 
 <a id="heading_8"></a>__可交互界面提示词：（使用工具codex）__
 
 （上传刚生好的8张界面）请根据我上传的这8个设计图，1:1还原成移动端页面，用REACT\+TAIWIND完整还原页面UI，并且给8个页面的加上交互功能。像素级还原，做好交互跳转，要求样式与交互与组件保持一致，同时保证每个组件都具有可交互性，底部TAB图标的选中和未选中效果一定要准确
 
-![](/content/prompts/images/pinpai-shouce-ui/images/80a9a05f-7fce-4f80-b8a7-e7742dbdb2b1.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/c1f82869-2c9c-40a3-b519-8162af8090e3.png)
 
 <a id="heading_9"></a>__可编辑figma界面提示词：（使用工具codex）__
 
 （上传你需要可编辑的界面）把这这个界面1:1还原进FIGMA里，除IP和插画为PNG，其余按钮、图标、文字、卡片全矢量可编辑，并都有自动布局
 
-![](/content/prompts/images/pinpai-shouce-ui/images/a5f84fb4-3cb0-480f-9ee1-f66132225a7d.png)
+![](/prompt/content/prompts/images/pinpai-shouce-ui/images/6696587a-a7f0-475b-9c83-99ad58950961.png)
 
