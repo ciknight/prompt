@@ -24,7 +24,7 @@ const category = categoryFromSlug(slug);
 // Strip markdown syntax so the excerpt on category cards reads as plain
 // prose instead of leaking `## headings`, `![image](url)`, `[link](url)`
 // into the listing page. Keeps Chinese text, punctuation, and whitespace.
-function plainExcerpt(md) {
+function plainExcerpt(md: string): string {
   return md
     // Image syntax: drop entirely
     .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
