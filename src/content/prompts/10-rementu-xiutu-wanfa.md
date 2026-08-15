@@ -1,5 +1,5 @@
 ---
-title: "实战 / 10种热门AI修图玩法教程和提示词"
+title: "10种热门AI修图玩法教程和提示词"
 category: 动画短片
 tags: ["IP", "写实", "特效"]
 slug: 10-rementu-xiutu-wanfa

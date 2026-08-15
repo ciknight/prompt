@@ -1,5 +1,5 @@
 ---
-title: "实战 / 布料拼接字体材质4提示词和教程"
+title: "布料拼接字体材质4提示词和教程"
 category: 场景视觉
 tags: ["字体", "材质", "3D"]
 slug: buliao-pinjie-ziti-4

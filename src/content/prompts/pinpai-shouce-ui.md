@@ -1,5 +1,5 @@
 ---
-title: "实战 / 品牌手册+UI可编辑设计稿提示词"
+title: "品牌手册+UI可编辑设计稿提示词"
 category: 品牌与商业
 tags: ["UI", "IP", "写实"]
 slug: pinpai-shouce-ui

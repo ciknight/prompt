@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《手柄TVC产品广告》提示词和操作流程"
+title: "《手柄TVC产品广告》提示词和操作流程"
 category: 品牌与商业
 tags: ["特效", "电影感", "写实"]
 slug: shoubing-tvc-guanggao

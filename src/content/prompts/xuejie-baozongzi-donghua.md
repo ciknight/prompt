@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《学姐包粽子动画短片》提示词和操作流程"
+title: "《学姐包粽子动画短片》提示词和操作流程"
 category: 动画短片
 tags: ["人物", "分镜", "写实"]
 slug: xuejie-baozongzi-donghua

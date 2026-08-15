@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《ai无人机航拍》提示词和操作流程"
+title: "《ai无人机航拍》提示词和操作流程"
 category: 品牌与商业
 tags: ["运镜", "电影感", "特效"]
 slug: ai-wurenji-hangpai

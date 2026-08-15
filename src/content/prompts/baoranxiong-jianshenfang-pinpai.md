@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《暴燃熊健身房》可编辑psd品牌全案提示词和教程"
+title: "《暴燃熊健身房》可编辑psd品牌全案提示词和教程"
 category: 品牌与商业
 tags: ["IP", "UI", "人物"]
 slug: baoranxiong-jianshenfang-pinpai

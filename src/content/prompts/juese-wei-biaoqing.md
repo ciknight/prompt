@@ -1,5 +1,5 @@
 ---
-title: "实战 / 角色微表情提示词"
+title: "角色微表情提示词"
 category: 角色与IP
 tags: ["人物", "微表情", "写实"]
 slug: juese-wei-biaoqing

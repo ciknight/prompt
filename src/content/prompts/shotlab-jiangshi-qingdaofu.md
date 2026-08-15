@@ -1,5 +1,5 @@
 ---
-title: "实战 / shotlab丧尸清道夫图片资产拆解"
+title: "shotlab丧尸清道夫图片资产拆解"
 category: 角色与IP
 tags: ["IP", "场景", "人物"]
 slug: shotlab-jiangshi-qingdaofu

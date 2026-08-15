@@ -1,5 +1,5 @@
 ---
-title: "实战 / 古风ai短剧提示词和教程"
+title: "古风ai短剧提示词和教程"
 category: 动画短片
 tags: ["分镜", "漫剧", "电影感"]
 slug: gufeng-ai-duanju

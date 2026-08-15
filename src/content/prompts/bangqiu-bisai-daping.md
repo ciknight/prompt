@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《棒球比赛大屏》提示词和操作流程"
+title: "《棒球比赛大屏》提示词和操作流程"
 category: 品牌与商业
 tags: ["UI", "写实", "特效"]
 slug: bangqiu-bisai-daping

@@ -1,5 +1,5 @@
 ---
-title: "实战 / 动漫角色pv教程和提示词"
+title: "动漫角色pv教程和提示词"
 category: 动画短片
 tags: ["人物", "IP", "漫剧"]
 slug: dongman-juese-pv

@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《Huang GenLab》品牌作品集提示词"
+title: "《Huang GenLab》品牌作品集提示词"
 category: 品牌与商业
 tags: ["UI", "IP", "写实"]
 slug: huang-genlab-pinpai

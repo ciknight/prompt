@@ -1,5 +1,5 @@
 ---
-title: "实战 / 别让你的IP【呆板】的站着｜完整提示词"
+title: "别让你的IP【呆板】的站着｜完整提示词"
 category: 角色与IP
 tags: ["IP", "人物", "写实"]
 slug: bie-rang-ip-daibai-zhanzhe

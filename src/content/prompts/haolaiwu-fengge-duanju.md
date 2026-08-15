@@ -1,5 +1,5 @@
 ---
-title: "实战 / 好莱坞风格短剧提示词和教程"
+title: "好莱坞风格短剧提示词和教程"
 category: 动画短片
 tags: ["电影感", "分镜", "写实"]
 slug: haolaiwu-fengge-duanju

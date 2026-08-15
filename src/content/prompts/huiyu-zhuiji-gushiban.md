@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《灰域追击》故事板提示词和操作流程"
+title: "《灰域追击》故事板提示词和操作流程"
 category: 动画短片
 tags: ["分镜", "特效", "电影感"]
 slug: huiyu-zhuiji-gushiban

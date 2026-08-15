@@ -1,5 +1,5 @@
 ---
-title: "实战 / 字体材质1提示词和教程"
+title: "字体材质1提示词和教程"
 category: 场景视觉
 tags: ["字体", "材质", "3D"]
 slug: ziti-caizhi-1

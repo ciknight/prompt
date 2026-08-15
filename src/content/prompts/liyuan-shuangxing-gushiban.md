@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《梨园双星》故事板seedance2.5"
+title: "《梨园双星》故事板seedance2.5"
 category: 动画短片
 tags: ["分镜", "人物", "电影感"]
 slug: liyuan-shuangxing-gushiban

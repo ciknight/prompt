@@ -1,5 +1,5 @@
 ---
-title: "实战 / 《人物微表情》提示词和操作流程"
+title: "《人物微表情》提示词和操作流程"
 category: 角色与IP
 tags: ["人物", "微表情", "写实"]
 slug: renwu-wei-biaoqing

@@ -1,5 +1,5 @@
 ---
-title: "实战 / （烘焙）字体材质2提示词和教程"
+title: "（烘焙）字体材质2提示词和教程"
 category: 场景视觉
 tags: ["字体", "材质", "3D"]
 slug: hongbei-ziti-caizhi-2

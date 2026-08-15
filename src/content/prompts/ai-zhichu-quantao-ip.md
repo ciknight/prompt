@@ -1,5 +1,5 @@
 ---
-title: "实战 / AI直出全套IP设计｜完整提示词"
+title: "AI直出全套IP设计｜完整提示词"
 category: 角色与IP
 tags: ["IP", "写实", "人物"]
 slug: ai-zhichu-quantao-ip

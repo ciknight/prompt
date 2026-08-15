@@ -1,5 +1,5 @@
 ---
-title: "实战 / 3D字体材质3提示词和教程"
+title: "3D字体材质3提示词和教程"
 category: 场景视觉
 tags: ["字体", "材质", "3D"]
 slug: 3d-ziti-caizhi-3
