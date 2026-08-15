@@ -1,0 +1,25 @@
+---
+// src/components/SiteFooter.astro
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div>
+    <span>© {year} Prompt 作品集</span>
+    <span>·</span>
+    <a href="https://github.com/example/prompt">GitHub</a>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--sl-color-gray-5);
+    margin-top: 4rem;
+    padding: 1.5rem 1rem;
+    color: var(--sl-color-gray-3);
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  .site-footer a { color: var(--sl-color-gray-2); text-decoration: none; }
+  .site-footer a:hover { color: var(--sl-color-accent); }
+  .site-footer div { display: flex; gap: 0.5rem; justify-content: center; align-items: center; }
+</style>

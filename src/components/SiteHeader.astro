@@ -1,0 +1,45 @@
+---
+// src/components/SiteHeader.astro
+import { CATEGORIES } from '../../scripts/lib/category-map.mjs';
+---
+<header class="site-header">
+  <nav>
+    <a href="/" class="brand">Prompt 作品集</a>
+    <div class="links">
+      <a href="/prompts/">全部</a>
+      {CATEGORIES.map(c => (
+        <a href={`/category/${encodeURIComponent(c)}/`}>{c}</a>
+      ))}
+      <a href="/about/">关于</a>
+    </div>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    border-bottom: 1px solid var(--sl-color-gray-5);
+    margin-bottom: 2rem;
+    padding: 0.75rem 0;
+  }
+  nav {
+    display: flex; align-items: center; gap: 1.5rem;
+    max-width: 72ch;
+    margin: 0 auto; padding: 0 1rem;
+    flex-wrap: wrap;
+  }
+  .brand {
+    font-weight: 600;
+    color: var(--sl-color-text);
+    text-decoration: none;
+    font-size: 1.05rem;
+  }
+  .links {
+    display: flex; gap: 1rem; flex-wrap: wrap;
+  }
+  .links a {
+    color: var(--sl-color-gray-2);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .links a:hover { color: var(--sl-color-accent); }
+</style>
