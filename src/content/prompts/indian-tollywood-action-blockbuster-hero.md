@@ -12,7 +12,6 @@ model: "seedance2"
 
 ![](/prompt/content/prompts/images/indian-tollywood-action-blockbuster-hero/images/cover.jpg)
 
-
 【风格】
 印度泰卢固语动作大片(Tollywood Action Blockbuster)，极致夸张的物理特效(Anti-gravity Physics)，慢动作升格与快慢镜切换(Ramp-mo)，尘土飞扬，史诗感BGM氛围，无血腥，重点展示冲击力。
 

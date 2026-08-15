@@ -13,11 +13,11 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 ![](/prompt/content/prompts/images/huang-genlab-pinpai/images/aba52e31746bc18f.png)
 
-教程：
+### 教程
 
 提示词：【建议先生成封面，封面没问题了（上传封面）再往下生成其他的延展】
 
-### 参考图logo
+参考图logo
 
 ![](/prompt/content/prompts/images/huang-genlab-pinpai/images/4e901c75db75fdb7.png)
 

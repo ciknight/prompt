@@ -9,29 +9,11 @@ date: 2026-08-15
 
 前期准备：
 
-梯子（已有梯子的小伙伴可直接忽略这一步）
-
-提示词我是用的gpt写的，gpt需要科学上网才能访问，目前我一直在用的推荐给大家，建议大家买1块钱体验的就行
-
-https://mojie\.app/register?aff=gA1ZGJnr
-
-![](/prompt/content/prompts/images/dongman-juese-pv-2/images/440da214c8c7c017.png)
-
 使用工具：
 
 链接：https://www\.liblib\.tv/
 
 ![](/prompt/content/prompts/images/dongman-juese-pv-2/images/1455e5f5baedc095.png)
-
-视频教程：
-
-小红书链接：
-
-90 【选御姐还是甜妹？用AI生成动画PV教程来啦！ \- 小黄的AI日记 | 小红书 \- 你的生活兴趣社区】 😆 FpJsmq8oKMcK2Vf 😆 https://www\.xiaohongshu\.com/discovery/item/6a7c745b0000000033008324?source=webshare&xhsshare=pc\_web&xsec\_token=ABYa1yP8dNastYxs0oei7svbzq\_\-B5FdToMCWhPHfYJOI=&xsec\_source=pc\_share
-
-抖音链接：
-
-4\.84 09/11 O@k\.Px jcA:/ :2pm 选御姐还是甜妹？ 这是minimax h3实测直出效果，分别做了两个性格相反的角色动漫pv，奉上教程 \# 二次元少女 \# minimax \# minimaxh3 \# 动漫角色 \# 创作者扶持计划  https://v\.douyin\.com/PQoekELGBGc/ 复制此链接，打开Dou音搜索，直接观看视频！  
 
 提示词：
 

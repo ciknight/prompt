@@ -12,29 +12,29 @@ model: "seedance2"
 
 ![](/prompt/content/prompts/images/typhoon-info-style/images/cover.jpg)
 
-REFERENCE:
+### REFERENCE
 Use the provided image as Frame 01. Keep the same reporter design, pink outfit, blonde hair, pink eyes, stormy Kobe waterfront, TV graphics, weather radar, and live-news atmosphere.
 
 ━━━━━━━━━━━━━━━━━━━━
 
 FRAME 01 | 0:00 - 0:03
 
-Camera:
+### Camera
 Medium-wide shot, identical composition to the reference image.
 
-Visual:
+### Visual
 The reporter stands on the rain-soaked waterfront promenade. Massive waves slam into the seawall. Palm trees bend almost horizontally in the wind. Her hair and jacket whip violently.
 
-Action:
+### Action
 She struggles to stay upright while delivering a live report.
 
 Dialogue (Japanese):
 「こちら神戸市沿岸部です！ご覧ください、この猛烈な風です！」
 
-Expression:
+### Expression
 Professional but visibly strained.
 
-SFX:
+### SFX
 Howling wind
 Thunder rumble
 Crashing waves
@@ -43,22 +43,22 @@ Crashing waves
 
 FRAME 02 | 0:03 - 0:06
 
-Camera:
+### Camera
 Slow push-in to medium shot.
 
-Visual:
+### Visual
 Rain intensifies. The microphone shakes in her hand. Water sprays across the lens.
 
-Action:
+### Action
 She braces herself and leans into the wind.
 
 Dialogue (Japanese):
 「立っているだけでも非常に危険な状況です！」
 
-Expression:
+### Expression
 Determined, trying to remain calm.
 
-SFX:
+### SFX
 Wind grows louder
 Metal railings rattling
 
@@ -66,22 +66,22 @@ Metal railings rattling
 
 FRAME 03 | 0:06 - 0:08
 
-Camera:
+### Camera
 Slight handheld shake.
 
-Visual:
+### Visual
 An enormous gust suddenly hits.
 
-Action:
+### Action
 Her feet begin sliding across the wet pavement.
 
 Dialogue (Japanese):
 「えっ！？ちょ、ちょっと待っ――」
 
-Expression:
+### Expression
 Eyes widen in panic.
 
-SFX:
+### SFX
 WHOOSH!!
 Microphone distortion
 
@@ -89,22 +89,22 @@ Microphone distortion
 
 FRAME 04 | 0:08 - 0:10
 
-Camera:
+### Camera
 Wide shot.
 
-Visual:
+### Visual
 She completely loses balance.
 
-Action:
+### Action
 Falls sideways onto the pavement and drops the microphone.
 
 Dialogue (Japanese):
 「きゃああああっ！！」
 
-Expression:
+### Expression
 Shocked and terrified.
 
-SFX:
+### SFX
 THUD
 Splash
 Wind roar
@@ -113,22 +113,22 @@ Wind roar
 
 FRAME 05 | 0:10 - 0:12
 
-Camera:
+### Camera
 Tracking shot following her movement.
 
-Visual:
+### Visual
 The reporter is pushed across the promenade by the wind.
 
-Action:
+### Action
 She rolls several times while desperately trying to grab the railing.
 
 Dialogue (Japanese):
 「うわあああっ！止まらないーー！！」
 
-Expression:
+### Expression
 Chaotic panic.
 
-SFX:
+### SFX
 Rolling impacts
 Wind screaming
 Loose objects flying
@@ -137,22 +137,22 @@ Loose objects flying
 
 FRAME 06 | 0:12 - 0:14
 
-Camera:
+### Camera
 Long shot.
 
-Visual:
+### Visual
 A stronger gust lifts and drags her farther down the waterfront.
 
-Action:
+### Action
 She tumbles rapidly away from camera while the live broadcast continues.
 
 Dialogue (Japanese):
 「誰か助けてくださーーい！！」
 
-Expression:
+### Expression
 Near tears.
 
-SFX:
+### SFX
 Extreme wind
 Broadcast static
 
@@ -160,24 +160,24 @@ Broadcast static
 
 FRAME 07 | 0:14 - 0:15
 
-Camera:
+### Camera
 Extreme wide shot.
 
-Visual:
+### Visual
 The reporter becomes a tiny pink figure rolling into the distance along the coastal road. The camera struggles to follow.
 
-Action:
+### Action
 She disappears behind blowing rain and sea spray.
 
 Dialogue (Japanese):
 「まだ中継中ですーーー！！」
 
-SFX:
+### SFX
 Wind at maximum intensity
 Signal crackling
 
 ON-SCREEN TV GRAPHIC:
 "LIVE"
 
-ENDING:
+### ENDING
 Freeze frame as the reporter vanishes into the storm while the broadcast remains live.
