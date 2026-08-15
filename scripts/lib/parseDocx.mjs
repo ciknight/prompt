@@ -39,6 +39,15 @@ function stripImages(md) {
     .replace(/!\[[^\]]*\]\[[^\]]*\]/g, '');
 }
 
+/**
+ * Strip mammoth's heading anchor artifacts (`<a id="heading_N"></a>`).
+ * These are invisible in rendered HTML but appear as noisy artifacts in the
+ * raw .md source. Keeping them adds nothing for our purposes.
+ */
+function stripHeadingAnchors(md) {
+  return md.replace(/<a id="heading_\d+"><\/a>/g, '');
+}
+
 export async function parseDocx(srcPath, slug, options = {}) {
   const basePrefix = options.basePrefix ?? (await readAstroBase());
 
@@ -47,7 +56,7 @@ export async function parseDocx(srcPath, slug, options = {}) {
   const result = await mammoth.convertToMarkdown({ path: srcPath });
 
   return {
-    markdown: stripImages(result.value),
+    markdown: stripHeadingAnchors(stripImages(result.value)),
     images: [], // always empty; kept for API compatibility
   };
 }

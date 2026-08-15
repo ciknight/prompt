@@ -6,13 +6,13 @@ slug: ai-wurenji-hangpai
 source: docx
 date: 2026-08-14
 ---
-__《ai无人机航拍》提示词和操作流程__
+**《ai无人机航拍》提示词和操作流程**
 
-<a id="heading_0"></a>__AI使用工具：__
+**AI使用工具：**
 
 即梦：https://jimeng\.jianying\.com/ai\-tool/home
 
-<a id="heading_4"></a>__《ai无人机航拍》提示词（黄色部分改成你的飞行轨迹内容）__
+**《ai无人机航拍》提示词（黄色部分改成你的飞行轨迹内容）**
 
 
 

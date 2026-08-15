@@ -6,13 +6,13 @@ slug: renwu-wei-biaoqing
 source: docx
 date: 2026-08-14
 ---
-__《人物微表情》提示词和操作流程__
+**《人物微表情》提示词和操作流程**
 
-<a id="heading_0"></a>__AI使用工具：__
+**AI使用工具：**
 
 libtv（作图工具）：https://www\.liblib\.tv/
 
-<a id="heading_4"></a>__《人物微表情》提示词__
+**《人物微表情》提示词**
 
 
 

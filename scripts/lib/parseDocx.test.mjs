@@ -78,7 +78,6 @@ async function makeMinimalDocx() {
        </w:body>
      </w:document>`);
 
-  // 1x1 transparent PNG
   zip.addFile('word/media/image1.png',
     Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64'));
 
@@ -99,7 +98,7 @@ test('parseDocx extracts text', async () => {
   }
 });
 
-test('parseDocx does NOT extract images (returns empty array)', async () => {
+test('parseDocx returns empty images array', async () => {
   const { path, dir } = await makeMinimalDocx();
   try {
     const result = await parseDocx(path, 'test-slug');
@@ -113,25 +112,32 @@ test('parseDocx strips image references from markdown', async () => {
   const { path, dir } = await makeMinimalDocx();
   try {
     const result = await parseDocx(path, 'test-slug');
-    // No image markdown syntax should remain
-    assert.equal(result.markdown.includes('!['), false,
-      `markdown should not contain ![image] syntax. Got: ${result.markdown.slice(0, 200)}`);
+    assert.equal(result.markdown.includes('!['), false);
   } finally {
     await rm(dir, { recursive: true, force: true });
   }
 });
 
-test('parseDocx does NOT write any files to public/content', async () => {
+test('parseDocx strips mammoth heading anchors', async () => {
   const { path, dir } = await makeMinimalDocx();
-  // Use a slug that would have a unique public dir if images were extracted
+  try {
+    const result = await parseDocx(path, 'test-slug');
+    assert.equal(result.markdown.includes('<a id="heading_'), false,
+      `markdown should not contain mammoth's heading anchors`);
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
+test('parseDocx writes no files to public/content', async () => {
+  const { path, dir } = await makeMinimalDocx();
   const slug = 'no-image-extraction-test';
   const publicDir = join(process.cwd(), 'public/content/prompts/images', slug);
   try {
     await parseDocx(path, slug);
-    // The directory should NOT exist (no images extracted)
     await access(publicDir).then(
       () => { throw new Error(`directory ${publicDir} should not exist`); },
-      () => { /* expected: dir does not exist */ }
+      () => { /* expected */ }
     );
   } finally {
     await rm(dir, { recursive: true, force: true });
