@@ -35,7 +35,7 @@ gpt（作图工具）：https://chatgpt\.com/
 
  
 
-![](/prompt/content/prompts/images/guguan-shuanglie-gushiban/images/4b1a975024b997b8.png)
+
 
 <a id="heading_6"></a>__seedance2\.0视频提示词：__
 

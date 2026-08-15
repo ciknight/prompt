@@ -9,7 +9,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/postbuild.mjs",
+    "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
     "ingest": "node scripts/ingest.mjs",

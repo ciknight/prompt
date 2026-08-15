@@ -16,67 +16,67 @@ __3D字体材质3提示词和教程__
 
 <a id="heading_7"></a>__材质提示词（image2模型）：__
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/5b10a65904370403.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/6c96fbb5eee88333.png)
+
+
 
 <a id="heading_8"></a>__海绵质感__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/18d57dec0e400faa.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/e9ea71d94b48d0f9.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/2bd4e65bf1b9b44e.png)
+
+
+
 
 <a id="heading_9"></a>__木头质感__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/3a76febba63b282b.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/db643220173cf15f.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/defca471a7962539.png)
+
+
+
 
 <a id="heading_10"></a>__布质拼接__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/cb8e56fe5585f588.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/5870c8146a48ba22.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/2cd7fc5d9d3585bc.png)
+
+
+
 
 <a id="heading_11"></a>__毛绒质感__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/b83d62640565d2ac.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/ef93af5cadcc1de2.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/c4d360c5c6c43555.png)
+
+
+
 
 <a id="heading_12"></a>__纸箱拼接__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/9c5acd106af93511.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/70fa156c54c736a6.jpg)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/2345c0d6f0132690.png)
+
+
+
 
 <a id="heading_13"></a>__毛绒渐变__
 
 将这个材质迁移到这个字体上，保持这个3d字体不变
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/5b0efd7baabbb98a.png)
 
-![](/prompt/content/prompts/images/3d-ziti-caizhi-3/images/6ae3f8cb3cf6304d.png)
+
+
 
 <a id="heading_14"></a>__文字生长效果提示词（sd2模型）：__
 

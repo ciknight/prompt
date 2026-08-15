@@ -22,7 +22,7 @@ libtv：https://www\.liblib\.tv/
 
 \(景别在大特写与近景之间反复切换，禁止连续生成相同的景结合荷兰角倾斜构图，大广角透视旧摄\)草图不要上色，但是需要明确标注镜头号，以及人物运动，运镜的轨迹;禁止生成字幕，禁止生成水印，禁止生成logo
 
-![](/prompt/content/prompts/images/xuejie-baozongzi-donghua/images/faf927f7e905f42c.png)
+
 
 <a id="heading_5"></a>__seedance2\.0视频提示词：__
 

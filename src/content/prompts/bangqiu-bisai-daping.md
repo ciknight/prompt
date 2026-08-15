@@ -13,7 +13,7 @@ __《棒球比赛大屏》提示词和操作流程__
 gpt（作图工具）：https://chatgpt\.com/  
 即梦（视频工具）：https://jimeng\.jianying\.com/ai\-tool/home/
 
-![](/prompt/content/prompts/images/bangqiu-bisai-daping/images/5444dda66f318240.png)
+
 
 <a id="heading_5"></a>__《棒球比赛大屏》提示词__
 
@@ -59,7 +59,7 @@ NO magazine photoshoot,
 
 NO Al beauty look\.
 
-![](/prompt/content/prompts/images/bangqiu-bisai-daping/images/a45ebcb303e21270.png)
+
 
 <a id="heading_6"></a>__seedance2\.0视频提示词：__
 

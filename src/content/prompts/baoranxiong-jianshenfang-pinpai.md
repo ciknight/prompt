@@ -12,20 +12,20 @@ __《暴燃熊健身房》可编辑psd品牌全案提示词和教程__
 
 <a id="heading_2"></a>__lovart（作图工具）：https://www\.lovart\.ai/__
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
+
 
 <a id="heading_3"></a>__codex：https://chatgpt\.com/__
 
 <a id="heading_7"></a>__转3d提示词（nano banana pro模型）：__
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/0460864ed08d9c64.png)
+
 
   
 
 
 转3d前
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
+
 
 转3d后
 
@@ -211,7 +211,7 @@ __《暴燃熊健身房》可编辑psd品牌全案提示词和教程__
 
 <a id="heading_10"></a>__（上传IP）__
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/dd6a6c2d9d071cb7.png)
+
 
 <a id="heading_11"></a>__ 完整生图提示词__
 
@@ -279,7 +279,7 @@ __《暴燃熊健身房》可编辑psd品牌全案提示词和教程__
 
 开练，就现在
 
-![](/prompt/content/prompts/images/baoranxiong-jianshenfang-pinpai/images/8440f37b6c6af1c6.png)
+
 
 <a id="heading_12"></a>__codex转换psd提示词：__
 

@@ -57,6 +57,7 @@ src/
 
 scripts/
 ├── ingest.mjs     # 主入口
+├── strip-images.mjs  # 一次性清理：从 .md 移除图片引用
 ├── smoke.mjs      # HTTP smoke 测试
 └── lib/           # 解析器、映射表
 ```

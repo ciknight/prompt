@@ -3,10 +3,9 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { parseDocx } from './parseDocx.mjs';
 import AdmZip from 'adm-zip';
-import { mkdtemp, writeFile, rm, readFile } from 'node:fs/promises';
+import { mkdtemp, writeFile, rm, readFile, access } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { createHash } from 'node:crypto';
 
 async function makeMinimalDocx() {
   const dir = await mkdtemp(join(tmpdir(), 'docx-'));
@@ -79,56 +78,63 @@ async function makeMinimalDocx() {
        </w:body>
      </w:document>`);
 
-  const imgBytes = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64');
-  zip.addFile('word/media/image1.png', imgBytes);
+  // 1x1 transparent PNG
+  zip.addFile('word/media/image1.png',
+    Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64'));
 
   const path = join(dir, 'test.docx');
   zip.writeZip(path);
-  return { path, dir, imgBytes };
+  return { path, dir };
 }
 
 test('parseDocx extracts text', async () => {
-  const { path, dir, imgBytes } = await makeMinimalDocx();
-  const imageDir = join(process.cwd(), 'public/content/prompts/images/test-slug');
+  const { path, dir } = await makeMinimalDocx();
   try {
     const result = await parseDocx(path, 'test-slug');
     assert.ok(typeof result.markdown === 'string');
     assert.ok(result.markdown.includes('测试段落一'));
     assert.ok(result.markdown.includes('测试段落二'));
-    assert.equal(result.images.length, 1);
-    assert.match(result.images[0].path, /test-slug[\\/]+images[\\/]+/);
-
-    // Image filename must be content-hashed (deterministic) — same bytes → same name
-    const expectedHash = createHash('sha256').update(imgBytes).digest('hex').slice(0, 16);
-    assert.ok(
-      result.images[0].path.endsWith(`${expectedHash}.png`),
-      `filename should end with ${expectedHash}.png, got: ${result.images[0].path}`
-    );
-
-    // src must include base prefix from astro.config.mjs
-    assert.ok(result.images[0].src.startsWith('/prompt/'), `expected base-prefixed src, got: ${result.images[0].src}`);
-    assert.ok(result.images[0].src.includes(expectedHash), 'src should include content hash');
   } finally {
     await rm(dir, { recursive: true, force: true });
-    await rm(imageDir, { recursive: true, force: true });
   }
 });
 
-test('parseDocx is deterministic — same docx produces same filenames', async () => {
-  const { path, dir, imgBytes } = await makeMinimalDocx();
-  const imageDir = join(process.cwd(), 'public/content/prompts/images/det-test');
+test('parseDocx does NOT extract images (returns empty array)', async () => {
+  const { path, dir } = await makeMinimalDocx();
   try {
-    const r1 = await parseDocx(path, 'det-test');
-    const r2 = await parseDocx(path, 'det-test');
-    assert.equal(r1.images[0].src, r2.images[0].src, 'src must be identical across runs');
-
-    // File on disk should be the same (re-ingest doesn't accumulate duplicates)
-    const file1 = await readFile(r1.images[0].path);
-    const file2 = await readFile(r2.images[0].path);
-    assert.equal(Buffer.compare(file1, file2), 0);
-    assert.equal(Buffer.compare(file1, imgBytes), 0);
+    const result = await parseDocx(path, 'test-slug');
+    assert.deepEqual(result.images, []);
   } finally {
     await rm(dir, { recursive: true, force: true });
-    await rm(imageDir, { recursive: true, force: true });
+  }
+});
+
+test('parseDocx strips image references from markdown', async () => {
+  const { path, dir } = await makeMinimalDocx();
+  try {
+    const result = await parseDocx(path, 'test-slug');
+    // No image markdown syntax should remain
+    assert.equal(result.markdown.includes('!['), false,
+      `markdown should not contain ![image] syntax. Got: ${result.markdown.slice(0, 200)}`);
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
+test('parseDocx does NOT write any files to public/content', async () => {
+  const { path, dir } = await makeMinimalDocx();
+  // Use a slug that would have a unique public dir if images were extracted
+  const slug = 'no-image-extraction-test';
+  const publicDir = join(process.cwd(), 'public/content/prompts/images', slug);
+  try {
+    await parseDocx(path, slug);
+    // The directory should NOT exist (no images extracted)
+    await access(publicDir).then(
+      () => { throw new Error(`directory ${publicDir} should not exist`); },
+      () => { /* expected: dir does not exist */ }
+    );
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+    await rm(publicDir, { recursive: true, force: true });
   }
 });

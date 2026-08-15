@@ -12,7 +12,7 @@ __AI直出全套IP设计｜完整提示词__
 
 （AI生成仅供参考）
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/e641fd03c5147c6f.png)
+
 
  
 
@@ -26,7 +26,7 @@ lovart（作图工具）：https://www\.lovart\.ai/
 
 <a id="heading_5"></a>__1\.生成角色四视图（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/fcce58f976c6dc94.png)
+
 
 __提示词：__
 
@@ -34,7 +34,7 @@ __提示词：__
 
 <a id="heading_6"></a>__2\.角色换装（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/0b5494fdeaa3bb74.png)
+
 
 __提示词：__
 
@@ -42,7 +42,7 @@ __提示词：__
 
 <a id="heading_7"></a>__3\.生成角色表情包（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/8f7c3979ff3428f2.png)
+
 
 __提示词：__
 
@@ -104,11 +104,11 @@ __提示词：__
 
 详情请看飞书链接：[别让你的IP【呆板】的站着｜完整提示词](https://acn237ogtxz5.feishu.cn/wiki/XHkdwIZOKiVoLzkifhvccx5SnbL) 密码：5\#T28453
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/c44f83b049fc2ffc.png)
+
 
 <a id="heading_9"></a>__5\.生成角色周边（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/4afc172f22eb8d8a.png)
+
 
 __提示词：__
 
@@ -116,7 +116,7 @@ __提示词：__
 
 <a id="heading_10"></a>__6\.生成周边展台效果（使用工具：lovart）__
 
-![](/prompt/content/prompts/images/ai-zhichu-quantao-ip/images/8e071738ee946ba7.png)
+
 
 __提示词：__
 
