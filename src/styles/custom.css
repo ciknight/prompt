@@ -1,0 +1,14 @@
+/* src/styles/custom.css */
+:root {
+  --sl-font: ui-sans-serif, system-ui, -apple-system, "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  --sl-font-mono: ui-monospace, "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+}
+
+main {
+  max-width: 72ch;
+}
+
+/* Reduce visual chrome: tighter headings, generous line-height */
+.sl-markdown-content h2 { margin-top: 2.5rem; }
+.sl-markdown-content p { line-height: 1.75; }
