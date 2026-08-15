@@ -45,7 +45,7 @@ gpt（作图工具）：https://chatgpt\.com/
 
 
 
-**seedance2\.0视频提示词：**
+**seedance2.0视频提示词：**
 
 **第一段视频提示词**
 

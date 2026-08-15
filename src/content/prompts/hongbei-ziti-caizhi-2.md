@@ -10,9 +10,9 @@ date: 2026-08-14
 
 **AI使用工具：lovart（需梯子）**
 
-**lovart（作图工具）：https://www\.lovart\.ai/**
+**lovart（作图工具）：https://www.lovart.ai/**
 
-**codex：https://chatgpt\.com/**
+**codex：https://chatgpt.com/**
 
 **8种面包材质提示词（image2模型）：**
 

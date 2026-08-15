@@ -10,7 +10,7 @@ date: 2026-08-14
 
 **AI使用工具：lovart（需梯子）**
 
-**lovart（作图工具）：https://www\.lovart\.ai/**
+**lovart（作图工具）：https://www.lovart.ai/**
 
 **10种ai玩法提示词（image2模型）：**
 
