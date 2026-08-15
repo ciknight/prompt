@@ -1,10 +1,12 @@
 ---
 // src/components/CategoryBadge.astro
+import { baseUrl } from '../lib/base-url';
+
 interface Props {
   category: string;
 }
 const { category } = Astro.props;
-const href = `/category/${encodeURIComponent(category)}`;
+const href = `${baseUrl()}category/${encodeURIComponent(category)}/`;
 ---
 <a class="category-badge" href={href}>{category}</a>
 

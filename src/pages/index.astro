@@ -25,6 +25,9 @@ const CATEGORIES = ['剧本分镜', '角色与IP', '场景视觉', '视频生成
 const recent = prompts
   .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0))
   .slice(0, 5);
+
+import { baseUrl } from '../lib/base-url';
+const base = baseUrl();
 ---
 <BaseLayout title="Prompt 作品集">
   <h1>Prompt 作品集</h1>
@@ -44,7 +47,7 @@ const recent = prompts
   <h2>最近更新</h2>
   <ul class="recent-list">
     {recent.map(p => (
-      <li><a href={`/prompts/${p.data.slug}/`}>{p.data.title}</a>
+      <li><a href={`${base}prompts/${p.data.slug}/`}>{p.data.title}</a>
         <span class="recent-cat">{p.data.category}</span>
       </li>
     ))}

@@ -1,16 +1,19 @@
 ---
 // src/components/SiteHeader.astro
 import { CATEGORIES } from '../../scripts/lib/category-map.mjs';
+import { baseUrl } from '../lib/base-url';
+
+const base = baseUrl();
 ---
 <header class="site-header">
   <nav>
-    <a href="/" class="brand">Prompt 作品集</a>
+    <a href={base} class="brand">Prompt 作品集</a>
     <div class="links">
-      <a href="/prompts/">全部</a>
+      <a href={`${base}prompts/`}>全部</a>
       {CATEGORIES.map(c => (
-        <a href={`/category/${encodeURIComponent(c)}/`}>{c}</a>
+        <a href={`${base}category/${encodeURIComponent(c)}/`}>{c}</a>
       ))}
-      <a href="/about/">关于</a>
+      <a href={`${base}about/`}>关于</a>
     </div>
   </nav>
 </header>

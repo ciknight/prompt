@@ -1,12 +1,14 @@
 ---
 // src/components/CategoryCard.astro
+import { baseUrl } from '../lib/base-url';
+
 interface Props {
   name: string;
   description: string;
   count: number;
 }
 const { name, description, count } = Astro.props;
-const href = `/category/${encodeURIComponent(name)}`;
+const href = `${baseUrl()}category/${encodeURIComponent(name)}/`;
 ---
 <a class="category-card" href={href}>
   <h3>{name} <span class="count">({count})</span></h3>

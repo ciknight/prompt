@@ -2,6 +2,7 @@
 // src/components/PromptCard.astro
 import TagBadge from './TagBadge.astro';
 import CategoryBadge from './CategoryBadge.astro';
+import { baseUrl } from '../lib/base-url';
 
 interface Props {
   title: string;
@@ -12,9 +13,10 @@ interface Props {
   date?: Date;
 }
 const { title, category, tags, slug, excerpt, date } = Astro.props;
+const base = baseUrl();
 ---
 <article class="prompt-card">
-  <h3><a href={`/prompts/${slug}/`}>{title}</a></h3>
+  <h3><a href={`${base}prompts/${slug}/`}>{title}</a></h3>
   <div class="meta">
     <CategoryBadge category={category} />
     {date && <time datetime={date.toISOString()}>{date.toISOString().slice(0, 10)}</time>}
