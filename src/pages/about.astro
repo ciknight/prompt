@@ -4,10 +4,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="关于 · Prompt 作品集">
   <h1>关于</h1>
-  <p>这是一个 AI 提示词作品集，包含漫剧、视频、IP、字体材质、品牌设计等方向的提示词。</p>
+  <p>这是一个 AI 提示词展示站，涵盖漫剧、视频、IP、字体材质、品牌设计等方向的提示词。</p>
 
-  <h2>内容来源</h2>
-  <p>所有提示词来自个人积累的实战经验，包括从番茄小说、文案分幕、漫剧分镜等场景的提炼。</p>
+  <h2>⚠️ 内容来源与版权声明</h2>
+  <div class="notice">
+    <p><strong>本站所有提示词均收集自互联网公开渠道</strong>（如各大 AI 创作社群、公开教程、社交媒体分享等），并非本站原创作品。</p>
+    <ul>
+      <li>原作者及首发渠道信息在原始文档中可能有标注，但本站在整理过程中已无法追溯全部来源</li>
+      <li>所有提示词的<strong>著作权归原作者所有</strong></li>
+      <li>本站仅作<strong>展示与学习用途</strong>，未用于任何商业目的</li>
+      <li>如有任何提示词的版权问题，请通过 GitHub issue 联系，站主将在核实后立即删除相关内容</li>
+    </ul>
+  </div>
+
+  <h2>原始文件清理</h2>
+  <p>本站建立时，源文件（.txt / .docx / .xlsx）经过解析后已<strong>从仓库中完全删除</strong>（包括 git 历史）。如需重新整理，需要重新获取原始素材。</p>
 
   <h2>技术栈</h2>
   <ul>
@@ -19,5 +30,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   </ul>
 
   <h2>反馈</h2>
-  <p>欢迎在 GitHub 提 issue 或 PR。</p>
+  <p>欢迎在 GitHub 提 issue 或 PR（特别是关于版权问题的反馈）。</p>
 </BaseLayout>
+
+<style>
+  .notice {
+    border-left: 3px solid #d97706;
+    background: var(--sl-color-gray-6, #fef3c7);
+    padding: 1rem 1.25rem;
+    border-radius: 0.25rem;
+    margin: 1rem 0;
+  }
+  .notice p, .notice ul {
+    margin: 0.5rem 0;
+  }
+  .notice ul {
+    padding-left: 1.5rem;
+  }
+</style>

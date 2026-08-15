@@ -1,10 +1,15 @@
 ---
 // src/components/SiteFooter.astro
 const year = new Date().getFullYear();
+const base = (import.meta.env.BASE_URL || '/').endsWith('/')
+  ? import.meta.env.BASE_URL
+  : (import.meta.env.BASE_URL || '/') + '/';
 ---
 <footer class="site-footer">
   <div>
-    <span>© {year} Prompt 作品集</span>
+    <span>© {year} Prompt 展示站 · 内容均收集自互联网，版权归原作者所有</span>
+    <span>·</span>
+    <a href={`${base}about/`}>关于与版权</a>
     <span>·</span>
     <a href="https://github.com/example/prompt">GitHub</a>
   </div>
@@ -21,5 +26,9 @@ const year = new Date().getFullYear();
   }
   .site-footer a { color: var(--sl-color-gray-2); text-decoration: none; }
   .site-footer a:hover { color: var(--sl-color-accent); }
-  .site-footer div { display: flex; gap: 0.5rem; justify-content: center; align-items: center; }
+  .site-footer div {
+    display: flex; gap: 0.5rem;
+    justify-content: center; align-items: center;
+    flex-wrap: wrap;
+  }
 </style>
