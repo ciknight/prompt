@@ -9,6 +9,11 @@ main {
   max-width: 72ch;
 }
 
+/* Constrain prose width without affecting page shells, sidebars, or callouts. */
+.sl-markdown-content {
+  max-width: 72ch;
+}
+
 /* Reduce visual chrome: tighter headings, generous line-height */
 .sl-markdown-content h2 { margin-top: 2.5rem; }
 .sl-markdown-content p { line-height: 1.75; }
