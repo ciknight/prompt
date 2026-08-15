@@ -20,6 +20,24 @@ const { category: slug } = Astro.params;
 if (!slug) return Astro.redirect('/');
 const category = categoryFromSlug(slug);
 
+// Strip markdown syntax so the excerpt on category cards reads as plain
+// prose instead of leaking `## headings`, `![image](url)`, `[link](url)`
+// into the listing page. Keeps Chinese text, punctuation, and whitespace.
+function plainExcerpt(md) {
+  return md
+    // Image syntax: drop entirely
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    // Link syntax: keep label
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    // Heading markers, blockquote, list bullets at line start
+    .replace(/^[ \t]*(#{1,6}|>|\*|-|\d+\.)[ \t]+/gm, '')
+    // Bold/italic markers
+    .replace(/[*_`]+/g, '')
+    // Collapse whitespace runs and strip leading/trailing
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 const prompts = (await getCollection('prompts'))
   .filter(p => p.data.category === category)
   .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0));
@@ -33,7 +51,7 @@ const prompts = (await getCollection('prompts'))
       category={p.data.category}
       tags={p.data.tags}
       slug={p.data.slug}
-      excerpt={p.body?.slice(0, 120) ?? ''}
+      excerpt={plainExcerpt(p.body ?? '').slice(0, 120)}
       date={p.data.date}
     />
   ))}

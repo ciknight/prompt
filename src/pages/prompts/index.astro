@@ -4,6 +4,19 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PromptCard from '../../components/PromptCard.astro';
 
+// Strip markdown syntax so the excerpt on listing cards reads as plain
+// prose instead of leaking `## headings`, `![image](url)`, `[link](url)`
+// into the listing page. Keeps Chinese text, punctuation, and whitespace.
+function plainExcerpt(md) {
+  return md
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/^[ \t]*(#{1,6}|>|\*|-|\d+\.)[ \t]+/gm, '')
+    .replace(/[*_`]+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 const prompts = await getCollection('prompts');
 const sorted = prompts.sort((a, b) =>
   (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0)
@@ -18,7 +31,7 @@ const sorted = prompts.sort((a, b) =>
       category={p.data.category}
       tags={p.data.tags}
       slug={p.data.slug}
-      excerpt={p.body?.slice(0, 120) ?? ''}
+      excerpt={plainExcerpt(p.body ?? '').slice(0, 120)}
       date={p.data.date}
     />
   ))}
