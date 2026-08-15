@@ -1,5 +1,5 @@
 ---
-title: "High-End Fashion Brand Viral Ad"
+title: "时尚换装快闪"
 category: 视频生成
 tags: ["电影感"]
 slug: high-end-fashion-brand-viral-ad

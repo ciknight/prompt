@@ -1,5 +1,5 @@
 ---
-title: "Tactical Shooting in Battlefield Chaos"
+title: "战场战术射击"
 category: 视频生成
 tags: ["电影感","写实"]
 slug: tactical-shooting-battlefield-chaos

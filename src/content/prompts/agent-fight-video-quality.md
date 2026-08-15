@@ -1,5 +1,5 @@
 ---
-title: "Agent vs Manual Prompt Fight Video Quality"
+title: "学院女格斗"
 category: 视频生成
 tags: ["电影感"]
 slug: agent-fight-video-quality

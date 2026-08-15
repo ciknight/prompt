@@ -1,5 +1,5 @@
 ---
-title: "Sakura Intro Promo Character Sheet"
+title: "樱花赛博武士"
 category: 动画短片
 tags: ["IP"]
 slug: sakura-intro-promo

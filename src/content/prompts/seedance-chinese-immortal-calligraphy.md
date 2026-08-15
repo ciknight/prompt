@@ -1,5 +1,5 @@
 ---
-title: "Chinese Immortal Calligraphy Destruction"
+title: "白衣仙人字阵"
 category: 动画短片
 tags: ["电影感"]
 slug: seedance-chinese-immortal-calligraphy

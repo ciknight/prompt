@@ -1,5 +1,5 @@
 ---
-title: "Testing JSON Format Prompt Cinematic Snowy Scene"
+title: "雪原骑手灰狼"
 category: 视频生成
 tags: ["电影感"]
 slug: testing-json-format-prompt-cinematic-snowy-scene

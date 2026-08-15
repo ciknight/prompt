@@ -1,5 +1,5 @@
 ---
-title: "Live-Action Demon Slayer Effects"
+title: "鬼灭真人特效"
 category: 视频生成
 tags: ["电影感"]
 slug: live-action-demon-slayer-effects

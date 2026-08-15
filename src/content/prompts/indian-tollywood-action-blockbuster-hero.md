@@ -1,5 +1,5 @@
 ---
-title: "Indian Tollywood Action Blockbuster Hero"
+title: "印度神片英雄"
 category: 视频生成
 tags: ["电影感"]
 slug: indian-tollywood-action-blockbuster-hero

@@ -1,5 +1,5 @@
 ---
-title: "Oriental Epic Aesthetics Suffering Breakthrough"
+title: "踏雪破境封神"
 category: 视频生成
 tags: ["电影感"]
 slug: oriental-epic-aesthetics-suffering-breakthrough

@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Skiing Adventure"
+title: "雪山极速滑行"
 category: 视频生成
 tags: ["电影感"]
 slug: dynamic-skiing-adventure

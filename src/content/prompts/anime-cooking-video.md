@@ -1,5 +1,5 @@
 ---
-title: "Anime Cooking Video Workflow"
+title: "黄金炒饭工作流"
 category: 动画短片
 tags: ["电影感"]
 slug: anime-cooking-video

@@ -1,5 +1,5 @@
 ---
-title: "Calico Cat Basketball Shot"
+title: "三花猫投篮"
 category: 视频生成
 tags: ["电影感"]
 slug: calico-cat-basketball-shot

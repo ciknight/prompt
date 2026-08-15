@@ -1,5 +1,5 @@
 ---
-title: "90s Fantasy Orc Battle"
+title: "九零兽人奇幻战"
 category: 视频生成
 tags: ["电影感"]
 slug: 90s-fantasy-orc-battle

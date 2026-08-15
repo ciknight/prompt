@@ -1,5 +1,5 @@
 ---
-title: "Korean Schoolyard Brawl"
+title: "课桌椅女格斗"
 category: 视频生成
 tags: ["电影感"]
 slug: school-fight-sequence

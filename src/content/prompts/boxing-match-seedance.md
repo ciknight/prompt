@@ -1,5 +1,5 @@
 ---
-title: "Chinese Boxing Match AI Generated"
+title: "中国拳手对决"
 category: 剧本分镜
 tags: ["电影感","分镜"]
 slug: boxing-match-seedance

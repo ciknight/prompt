@@ -1,5 +1,5 @@
 ---
-title: "Wuxia Bamboo Forest Martial Arts"
+title: "竹林武侠功夫"
 category: 视频生成
 tags: ["电影感"]
 slug: wuxia-bamboo-forest-martial-arts

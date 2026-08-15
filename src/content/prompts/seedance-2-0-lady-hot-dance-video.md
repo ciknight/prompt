@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Lady Hot Dance Video"
+title: "粉衣辣妹热舞"
 category: 视频生成
 tags: ["电影感"]
 slug: seedance-2-0-lady-hot-dance-video

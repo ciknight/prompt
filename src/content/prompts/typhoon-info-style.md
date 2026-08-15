@@ -1,5 +1,5 @@
 ---
-title: "Typhoon Info Style"
+title: "台风新闻连播"
 category: 视频生成
 tags: ["电影感"]
 slug: typhoon-info-style

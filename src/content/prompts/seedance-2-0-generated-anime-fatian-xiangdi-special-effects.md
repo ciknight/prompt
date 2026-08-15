@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Generated Anime Fatian Xiangdi Special Effects"
+title: "法天相地元神"
 category: 动画短片
 tags: ["电影感"]
 slug: seedance-2-0-generated-anime-fatian-xiangdi-special-effects

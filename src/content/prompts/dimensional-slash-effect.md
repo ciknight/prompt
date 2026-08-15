@@ -1,5 +1,5 @@
 ---
-title: "Dimensional Slash VFX"
+title: "次元斩空间碎"
 category: 动画短片
 tags: ["特效"]
 slug: dimensional-slash-effect

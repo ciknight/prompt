@@ -1,5 +1,5 @@
 ---
-title: "Beautiful Woman Outfit Change"
+title: "古风九套变装"
 category: 视频生成
 tags: ["写实","电影感"]
 slug: seedance-2-0-beautiful-woman-outfit-change

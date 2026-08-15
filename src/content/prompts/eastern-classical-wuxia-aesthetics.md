@@ -1,5 +1,5 @@
 ---
-title: "Eastern Classical Wuxia Aesthetics"
+title: "古风武侠剑影"
 category: 视频生成
 tags: ["电影感"]
 slug: eastern-classical-wuxia-aesthetics

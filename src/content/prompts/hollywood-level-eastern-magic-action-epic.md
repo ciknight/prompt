@@ -1,5 +1,5 @@
 ---
-title: "Fa Hai vs Bai Niangzi Battle"
+title: "水漫金山法海"
 category: 视频生成
 tags: ["电影感"]
 slug: hollywood-level-eastern-magic-action-epic

@@ -1,5 +1,5 @@
 ---
-title: "Awakening Future Cyberpunk Warrior"
+title: "盐湖少女觉醒"
 category: 视频生成
 tags: ["电影感"]
 slug: seedance-2-0-awakening-future-cyberpunk-warrior

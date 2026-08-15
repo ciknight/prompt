@@ -1,5 +1,5 @@
 ---
-title: "Seedance GPT Stadium Broadcast"
+title: "球场美女转播"
 category: 视频生成
 tags: ["电影感","写实"]
 slug: seedance-gpt-stadium-broadcast

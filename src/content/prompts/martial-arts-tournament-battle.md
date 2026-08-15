@@ -1,5 +1,5 @@
 ---
-title: "Martial Arts Tournament Battle"
+title: "世界武术对决"
 category: 视频生成
 tags: ["电影感"]
 slug: martial-arts-tournament-battle

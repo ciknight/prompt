@@ -1,5 +1,5 @@
 ---
-title: "Oriental Ink Wash Aesthetics Storyboard New Year Double Auspicious"
+title: "新春瑞马祥羊"
 category: 动画短片
 tags: ["电影感"]
 slug: oriental-ink-wash-aesthetics-storyboard-new-year-double-auspicious

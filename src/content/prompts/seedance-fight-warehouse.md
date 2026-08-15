@@ -1,5 +1,5 @@
 ---
-title: "Warehouse Fight Scene"
+title: "仓库女格斗"
 category: 视频生成
 tags: ["电影感","写实"]
 slug: seedance-fight-warehouse

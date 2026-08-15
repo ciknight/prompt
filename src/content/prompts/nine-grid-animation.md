@@ -1,5 +1,5 @@
 ---
-title: "Nine Grid Animation"
+title: "九宫格女孩戏"
 category: 动画短片
 tags: ["电影感"]
 slug: nine-grid-animation

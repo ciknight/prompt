@@ -1,5 +1,5 @@
 ---
-title: "Anime Cooking Seedance"
+title: "动漫料理制作"
 category: 动画短片
 tags: ["分镜"]
 slug: anime-cooking-seedance

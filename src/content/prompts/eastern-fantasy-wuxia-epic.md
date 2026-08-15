@@ -1,5 +1,5 @@
 ---
-title: "Eastern Fantasy Wuxia Epic"
+title: "降龙对虚掌"
 category: 视频生成
 tags: ["电影感"]
 slug: eastern-fantasy-wuxia-epic

@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 美女跳舞"
+title: "黑装辣妹现代舞"
 category: 视频生成
 tags: ["写实"]
 slug: seedance2-beauty-dance

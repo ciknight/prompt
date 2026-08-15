@@ -1,5 +1,5 @@
 ---
-title: "雾山五行猫狗大决战"
+title: "雾山猫狗大战"
 category: 视频生成
 tags: ["电影感"]
 slug: seedance-wushan-wuxing-cat-dog

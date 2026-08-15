@@ -1,5 +1,5 @@
 ---
-title: "Tang Bo Hu Esports Showdown"
+title: "唐伯虎电竞"
 category: 视频生成
 tags: ["电影感"]
 slug: tang-bo-hu-esports-showdown

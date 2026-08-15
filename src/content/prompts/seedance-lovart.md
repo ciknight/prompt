@@ -1,5 +1,5 @@
 ---
-title: "Casino Card Magic Flight"
+title: "扑克牌飞行术"
 category: 视频生成
 tags: ["电影感","特效"]
 slug: seedance-lovart

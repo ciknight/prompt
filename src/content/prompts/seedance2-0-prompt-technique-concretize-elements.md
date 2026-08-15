@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Prompt Technique"
+title: "西域舞娘风姿"
 category: 视频生成
 tags: ["电影感","写实"]
 slug: seedance2-0-prompt-technique-concretize-elements

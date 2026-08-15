@@ -1,5 +1,5 @@
 ---
-title: "Anime Cooking Scene Video Creation"
+title: "黄金炒饭分镜"
 category: 动画短片
 tags: ["电影感"]
 slug: anime-cooking-with-seedance
