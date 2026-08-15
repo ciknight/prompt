@@ -15,6 +15,7 @@ const prompts = defineCollection({
       '视频生成',
       '品牌与商业',
       '动画短片',
+      '技能',
     ]),
     tags: z.array(z.string()),
     slug: z.string(),

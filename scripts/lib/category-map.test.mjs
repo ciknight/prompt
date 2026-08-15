@@ -3,14 +3,15 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { CATEGORY_MAP, resolveCategory, CATEGORIES } from './category-map.mjs';
 
-test('CATEGORIES has exactly 6 entries', () => {
-  assert.equal(CATEGORIES.length, 6);
+test('CATEGORIES has exactly 7 entries', () => {
+  assert.equal(CATEGORIES.length, 7);
   assert.ok(CATEGORIES.includes('剧本分镜'));
   assert.ok(CATEGORIES.includes('角色与IP'));
   assert.ok(CATEGORIES.includes('场景视觉'));
   assert.ok(CATEGORIES.includes('视频生成'));
   assert.ok(CATEGORIES.includes('品牌与商业'));
   assert.ok(CATEGORIES.includes('动画短片'));
+  assert.ok(CATEGORIES.includes('技能'));
 });
 
 test('resolveCategory returns correct category', () => {

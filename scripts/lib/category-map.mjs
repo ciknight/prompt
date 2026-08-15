@@ -8,6 +8,7 @@ export const CATEGORIES = [
   '视频生成',
   '品牌与商业',
   '动画短片',
+  '技能',
 ];
 
 // URL slugs (pinyin, what URLs use — no Chinese characters)
@@ -18,6 +19,7 @@ export const CATEGORY_SLUGS = {
   '视频生成': 'shipin-shengcheng',
   '品牌与商业': 'pinpai-yu-shangye',
   '动画短片': 'donghua-duanpian',
+  '技能': 'jineng',
 };
 
 // Reverse lookup: slug → display name
